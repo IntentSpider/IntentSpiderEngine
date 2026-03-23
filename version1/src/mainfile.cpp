@@ -21,3 +21,10 @@ using namespace std;
 using ll = long long;
 using ss = string;
 
+#include "main.h"
+
+
+#include "diff.h"
+
+namespace intentspider {
+
