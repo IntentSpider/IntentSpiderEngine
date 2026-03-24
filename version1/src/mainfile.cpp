@@ -34,3 +34,7 @@ const int k = std::min(cfg.seedk, n);
 std::vector<uint32_t> ctx;
 for (int i = 0; i < k; ++i) ctx.push_back(sent[n - 1 - i]);
 
+return ctx;
+}
+
+void engine::tick(double now) {
