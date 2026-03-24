@@ -30,3 +30,7 @@ namespace intentspider {
 
 std::vector<uint32_t> engine::recentcontext() const {
 const int n = staticcast<int>(sent.size());
+const int k = std::min(cfg.seedk, n);
+std::vector<uint32_t> ctx;
+for (int i = 0; i < k; ++i) ctx.push_back(sent[n - 1 - i]);
+

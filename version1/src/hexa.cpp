@@ -4,3 +4,5 @@
 #include <cmath>
 
 namespace intentspider {
+
+void arousaltracker::onkey(double now) {
