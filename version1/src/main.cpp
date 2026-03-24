@@ -27,3 +27,4 @@ using ss = string;
 #include "main.h"
 #include "spidershellont.h"
 
+using namespace intentspider;

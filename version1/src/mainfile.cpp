@@ -42,3 +42,11 @@ void engine::tick(double now) {
 
 
 
+if (lastpreyactivity < 0.0 || now - lastpreyactivity <= cfg.tgrace)
+return;
+const bool confirmed = lastselval > 0.0;
+if (!confirmed) {
+
+
+
+
