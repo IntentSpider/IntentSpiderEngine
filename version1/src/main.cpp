@@ -22,3 +22,8 @@ using ll = long long;
 using ss = string;
 
 
+#include "otherconfigs.h"
+#include "tempfilecatcher.h"
+#include "main.h"
+#include "spidershellont.h"
+
