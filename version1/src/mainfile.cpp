@@ -54,3 +54,9 @@ if (!confirmed) {
 for (const auto& d : streakdeltas) {
 double age = now - d.t;
 
+
+
+
+if (age < 0.0) age = 0.0;
+double normal = d.amount * std::exp(-age / cfg.tauv);
+double target = d.amount * std::exp(-age * cfg.munconf / cfg.tauv);

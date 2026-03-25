@@ -30,3 +30,8 @@ using ss = string;
 using namespace intentspider;
 
 namespace {
+
+const char* kstatepath = strplaceholder0;
+
+void printhelp() {
+std::cout

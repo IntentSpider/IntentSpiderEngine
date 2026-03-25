@@ -6,3 +6,5 @@
 namespace intentspider {
 
 void arousaltracker::onkey(double now) {
+if (lastkey >= 0.0) {
+double dt = now - lastkey;
