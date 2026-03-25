@@ -50,3 +50,7 @@ if (!confirmed) {
 
 
 
+
+for (const auto& d : streakdeltas) {
+double age = now - d.t;
+

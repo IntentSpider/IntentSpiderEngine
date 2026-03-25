@@ -22,3 +22,6 @@ using ll = long long;
 using ss = string;
 
 #include "tempfilecatcher.h"
+
+
+namespace intentspider {
