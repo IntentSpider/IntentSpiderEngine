@@ -29,3 +29,5 @@ using ss = string;
 namespace intentspider {
 
 edge* intentgraph::find(uint32_t u, uint32_t v) {
+auto it = adj.find(u);
+if (it == adj.end()) return nullptr;

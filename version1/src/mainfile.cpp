@@ -64,3 +64,9 @@ graph.adjustweight(d.u, d.v, now, -(normal - target));
 }
 }
 streakdeltas.clear();
+preylast.clear();
+lastpreyactivity = -1.0;
+
+arousalt.resetstreak();
+}
+

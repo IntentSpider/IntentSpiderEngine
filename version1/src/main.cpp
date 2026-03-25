@@ -37,3 +37,7 @@ void printhelp() {
 std::cout
 << strplaceholder0
  strplaceholder0
+ strplaceholder0
+ strplaceholder0
+ strplaceholder0
+ strplaceholder0;

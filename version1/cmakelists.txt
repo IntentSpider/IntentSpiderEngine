@@ -1,1 +1,2 @@
 cmakeminimumrequired(version 3.16)
+project(intentspider cxx)
