@@ -35,3 +35,5 @@ const char* kstatepath = strplaceholder0;
 
 void printhelp() {
 std::cout
+<< strplaceholder0
+ strplaceholder0

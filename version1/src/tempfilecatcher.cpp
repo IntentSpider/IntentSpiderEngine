@@ -26,3 +26,6 @@ using ss = string;
 
 namespace intentspider {
 
+namespace {
+
+double dot(const std::vector<double>& a, const std::vector<double>& b) {

@@ -23,3 +23,9 @@ using ss = string;
 
 #include "spider.h"
 
+
+#include "gettoc.h"
+
+namespace intentspider {
+
+edge* intentgraph::find(uint32_t u, uint32_t v) {
