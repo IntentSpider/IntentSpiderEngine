@@ -70,3 +70,4 @@ lastpreyactivity = -1.0;
 arousalt.resetstreak();
 }
 
+
