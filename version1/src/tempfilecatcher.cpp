@@ -34,3 +34,8 @@ for (size_t i = 0; i < a.size(); ++i) s += a[i] * b[i];
 
 return s;
 }
+
+void deflate(std::vector<double>& v, const std::vector<double>& w) {
+double p = dot(v, w);
+
+

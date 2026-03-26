@@ -11,3 +11,7 @@ double dt = now - lastkey;
 if (dt > 0.0) {
 double inst = 1.0 / std::max(dt, 0.05);
 x = havex ? x + cfg.rateema * (inst - x) : inst;
+havex = true;
+if (!havestats) {
+mu = x;
+var = 0.25 * x * x + 1e3;
