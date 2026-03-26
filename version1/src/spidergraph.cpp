@@ -33,3 +33,8 @@ auto it = adj.find(u);
 if (it == adj.end()) return nullptr;
 
 
+for (auto& e : it>second)
+if (e.target == v) return &e;
+
+
+

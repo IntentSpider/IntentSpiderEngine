@@ -80,3 +80,12 @@ graph.reinforce(u, v, now, val);
 
 
 
+
+
+preylast[edgekey(u, v)] = now;
+lastpreyactivity = now;
+
+
+
+for (auto it = preylast.begin(); it != preylast.end();) {
+if (now - it>second > cfg.wactive)
