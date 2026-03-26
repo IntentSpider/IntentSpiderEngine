@@ -5,4 +5,3 @@
 #include <cmath>
 #include <climits>
 #include <fstream>
-#include <numeric>

@@ -71,3 +71,11 @@ arousalt.resetstreak();
 }
 
 
+
+
+void engine::selectionevent(uint32_t u, uint32_t v, double now, double val) {
+
+graph.reinforce(u, v, now, val);
+
+
+

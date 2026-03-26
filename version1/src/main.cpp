@@ -42,3 +42,8 @@ std::cout
  strplaceholder0
  strplaceholder0;
 
+}
+
+void printprompt(const engine& eng) {
+std::cout << strplaceholder0 << eng.sentencetext();
+if (!eng.sentence().empty()) std::cout << strplaceholder0;

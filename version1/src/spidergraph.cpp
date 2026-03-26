@@ -31,3 +31,7 @@ namespace intentspider {
 edge* intentgraph::find(uint32_t u, uint32_t v) {
 auto it = adj.find(u);
 if (it == adj.end()) return nullptr;
+
+
+for (auto& e : it>second)
+if (e.target == v) return &e;
