@@ -97,3 +97,7 @@ else
 if (preylast.size() > 1) {
 
 double b = std::min(
+cfg.etacluster * std::pow(1.0 + cfg.deltacomp,
+staticcast<double>(preylast.size() - 1)),
+cfg.bmax);
+double denom = 0.0;
