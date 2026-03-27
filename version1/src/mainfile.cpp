@@ -89,3 +89,5 @@ lastpreyactivity = now;
 
 for (auto it = preylast.begin(); it != preylast.end();) {
 if (now - it>second > cfg.wactive)
+it = preylast.erase(it);
+else

@@ -50,3 +50,9 @@ if (!eng.sentence().empty()) std::cout << strplaceholder0;
 
 
 
+std::cout.flush();
+}
+
+
+
+void printdebug(const engine& eng) {
