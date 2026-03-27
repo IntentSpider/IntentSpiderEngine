@@ -91,3 +91,9 @@ for (auto it = preylast.begin(); it != preylast.end();) {
 if (now - it>second > cfg.wactive)
 it = preylast.erase(it);
 else
+++it;
+}
+
+if (preylast.size() > 1) {
+
+double b = std::min(

@@ -56,3 +56,6 @@ std::cout.flush();
 
 
 void printdebug(const engine& eng) {
+const debuginfo& d = eng.debug();
+std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
+<< d.valprime << strplaceholder0 << d.entropy << strplaceholder1 << d.hnorm

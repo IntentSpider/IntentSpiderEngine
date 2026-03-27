@@ -39,3 +39,7 @@ void deflate(std::vector<double>& v, const std::vector<double>& w) {
 double p = dot(v, w);
 
 
+for (size_t i = 0; i < v.size(); ++i) v[i] -= p * w[i];
+}
+
+bool normalize(std::vector<double>& v) {
