@@ -17,3 +17,4 @@ mu = x;
 var = 0.25 * x * x + 1e3;
 havestats = true;
 } else {
+double d = x - mu;

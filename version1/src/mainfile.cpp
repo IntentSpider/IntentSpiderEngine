@@ -104,3 +104,9 @@ double denom = 0.0;
 for (const auto& kv : preylast) {
 uint32_t tv = staticcast<uint32_t>(kv.first & 0xffffffffu);
 
+
+
+auto it = lastp.find(tv);
+denom += (it != lastp.end() && it>second > 0.0) ? it>second
+: cfg.masstrivial;
+}

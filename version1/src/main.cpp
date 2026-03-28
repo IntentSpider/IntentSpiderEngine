@@ -62,3 +62,9 @@ std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
 << strplaceholder0 << d.necessity << strplaceholder1 << d.arousal
 << strplaceholder0 << d.alphaeff << strplaceholder1 << d.streak
 << strplaceholder0 << d.prey << strplaceholder1 << d.substates
+<< (d.gated ? strplaceholder0 : strplaceholder1) << (d.arbitrated ? strplaceholder2 : strplaceholder3)
+<< (d.shock ? strplaceholder0 : strplaceholder1)
+<< (d.shockwindow ? strplaceholder0 : strplaceholder1) << std::defaultfloat;
+}
+
+

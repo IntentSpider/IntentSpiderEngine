@@ -44,3 +44,7 @@ return nullptr;
 
 
 }
+
+const edge* intentgraph::find(uint32_t u, uint32_t v) const {
+auto it = adj.find(u);
+if (it == adj.end()) return nullptr;
