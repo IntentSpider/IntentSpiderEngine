@@ -68,3 +68,6 @@ std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
 }
 
 
+
+std::vector<std::array<double, 2>> trajectoryfor(
+const engine& eng, const spectralembedding& emb,
