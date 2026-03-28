@@ -60,3 +60,5 @@ const debuginfo& d = eng.debug();
 std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
 << d.valprime << strplaceholder0 << d.entropy << strplaceholder1 << d.hnorm
 << strplaceholder0 << d.necessity << strplaceholder1 << d.arousal
+<< strplaceholder0 << d.alphaeff << strplaceholder1 << d.streak
+<< strplaceholder0 << d.prey << strplaceholder1 << d.substates

@@ -101,3 +101,6 @@ cfg.etacluster * std::pow(1.0 + cfg.deltacomp,
 staticcast<double>(preylast.size() - 1)),
 cfg.bmax);
 double denom = 0.0;
+for (const auto& kv : preylast) {
+uint32_t tv = staticcast<uint32_t>(kv.first & 0xffffffffu);
+

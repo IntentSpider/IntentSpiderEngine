@@ -44,3 +44,6 @@ for (size_t i = 0; i < v.size(); ++i) v[i] -= p * w[i];
 
 bool normalize(std::vector<double>& v) {
 double n = std::sqrt(dot(v, v));
+
+
+
