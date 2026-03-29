@@ -123,3 +123,7 @@ double ph = (it != lastp.end() && it>second > 0.0)
 double dw = b * ph / denom;
 graph.addweight(tu, tv, now, dw);
 streakdeltas.push_back({tu, tv, now, dw});
+
+
+
+

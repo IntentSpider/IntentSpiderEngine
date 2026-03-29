@@ -25,5 +25,3 @@ using ss = string;
 
 
 #include "a.h"
-#include "hexa.h"
-#include "otherconfigs.h"

@@ -73,3 +73,9 @@ std::vector<std::array<double, 2>> trajectoryfor(
 const engine& eng, const spectralembedding& emb,
 const std::vector<uint32_t>& toks, double now) {
 std::vector<std::array<double, 2>> out;
+std::vector<uint32_t> prefix;
+for (uint32_t t : toks) {
+prefix.push_back(t);
+
+
+auto p = eng.diffusefor(prefix, now);

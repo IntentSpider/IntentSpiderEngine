@@ -56,3 +56,7 @@ return true;
 }
 
 
+bool spectralembedding::compute(const intentgraph& g, double now) {
+res = embeddingresult{};
+
+

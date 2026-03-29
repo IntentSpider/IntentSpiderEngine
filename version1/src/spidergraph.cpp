@@ -52,3 +52,9 @@ for (const auto& e : it>second)
 if (e.target == v) return &e;
 return nullptr;
 }
+
+
+double intentgraph::weight(const edge& e, double now) const {
+double dt = now - e.tw;
+if (dt < 0.0) dt = 0.0;
+return e.w * std::exp(-dt / cfg.tauv);
