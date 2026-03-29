@@ -72,3 +72,4 @@ std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
 std::vector<std::array<double, 2>> trajectoryfor(
 const engine& eng, const spectralembedding& emb,
 const std::vector<uint32_t>& toks, double now) {
+std::vector<std::array<double, 2>> out;

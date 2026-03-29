@@ -51,3 +51,4 @@ if (it == adj.end()) return nullptr;
 for (const auto& e : it>second)
 if (e.target == v) return &e;
 return nullptr;
+}

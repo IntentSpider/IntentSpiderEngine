@@ -23,3 +23,7 @@ using ss = string;
 
 #pragma once
 
+
+#include "a.h"
+#include "hexa.h"
+#include "otherconfigs.h"
