@@ -51,3 +51,4 @@ double n = std::sqrt(dot(v, v));
 if (n < 1e12) return false;
 for (auto& x : v) x /= n;
 return true;
+}

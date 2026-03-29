@@ -18,5 +18,3 @@ var = 0.25 * x * x + 1e3;
 havestats = true;
 } else {
 double d = x - mu;
-mu += cfg.statsema * d;
-var += cfg.statsema * (d * d - var);
