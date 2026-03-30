@@ -127,3 +127,9 @@ streakdeltas.push_back({tu, tv, now, dw});
 
 
 
+}
+}
+}
+
+
+if (valstats.shock(val, cadence.correctionrate())) {

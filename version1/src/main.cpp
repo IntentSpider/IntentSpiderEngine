@@ -79,3 +79,5 @@ prefix.push_back(t);
 
 
 auto p = eng.diffusefor(prefix, now);
+
+std::array<double, 2> pt{0.0, 0.0};
