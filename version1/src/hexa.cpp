@@ -20,3 +20,4 @@ havestats = true;
 double d = x - mu;
 mu += cfg.statsema * d;
 var += cfg.statsema * (d * d - var);
+}

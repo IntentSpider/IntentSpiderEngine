@@ -81,3 +81,7 @@ prefix.push_back(t);
 auto p = eng.diffusefor(prefix, now);
 
 std::array<double, 2> pt{0.0, 0.0};
+if (emb.position(p, &pt))
+out.push_back(pt);
+else if (!out.empty())
+out.push_back(out.back());

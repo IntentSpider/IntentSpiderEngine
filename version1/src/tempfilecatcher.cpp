@@ -61,5 +61,3 @@ res = embeddingresult{};
 
 
 
-
-

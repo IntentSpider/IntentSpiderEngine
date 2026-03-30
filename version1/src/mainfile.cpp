@@ -133,3 +133,7 @@ streakdeltas.push_back({tu, tv, now, dw});
 
 
 if (valstats.shock(val, cadence.correctionrate())) {
+graph.suppressshock(u, v, now);
+lastshockt = now;
+recentshock = true;
+}

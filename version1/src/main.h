@@ -27,3 +27,6 @@ using ss = string;
 #include "a.h"
 #include "hexa.h"
 #include "otherconfigs.h"
+#include "spider.h"
+#include "gettoc.h"
+#include "valandource.h"
