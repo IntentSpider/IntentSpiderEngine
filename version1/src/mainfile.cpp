@@ -137,3 +137,9 @@ graph.suppressshock(u, v, now);
 lastshockt = now;
 recentshock = true;
 }
+valstats.update(val);
+lastselval = val;
+}
+
+
+
