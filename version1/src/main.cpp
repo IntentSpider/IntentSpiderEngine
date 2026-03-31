@@ -90,3 +90,7 @@ out.push_back({0.0, 0.0});
 }
 return out;
 }
+
+void cmdembed(spectralembedding& emb, const engine& eng, double now) {
+if (emb.compute(eng.graph(), now)) {
+const auto& r = emb.result();

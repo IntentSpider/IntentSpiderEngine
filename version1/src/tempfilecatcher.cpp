@@ -67,5 +67,3 @@ std::unordered_map<uint32_t, std::unordered_map<uint32_t, double>> sym;
 
 
 
-for (const auto& kv : g.adjacency()) {
-for (const auto& e : kv.second) {

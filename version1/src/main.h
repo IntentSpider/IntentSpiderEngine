@@ -31,3 +31,6 @@ using ss = string;
 #include "gettoc.h"
 #include "valandource.h"
 
+namespace intentspider {
+
+struct suggestion {
