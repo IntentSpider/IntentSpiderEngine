@@ -63,3 +63,6 @@ return e.w * std::exp(-dt / cfg.tauv);
 void intentgraph::reinforce(uint32_t u, uint32_t v, double now,
 double valprime) {
 if (u == v) return;
+
+
+

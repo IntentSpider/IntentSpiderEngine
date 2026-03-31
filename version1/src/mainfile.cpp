@@ -143,3 +143,7 @@ lastselval = val;
 
 
 
+
+void engine::observetyped(const std::vector<uint32_t>& toks, double now) {
+if (toks.empty()) return;
+tokensobserved += toks.size();

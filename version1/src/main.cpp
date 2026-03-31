@@ -87,3 +87,6 @@ else if (!out.empty())
 out.push_back(out.back());
 else
 out.push_back({0.0, 0.0});
+}
+return out;
+}
