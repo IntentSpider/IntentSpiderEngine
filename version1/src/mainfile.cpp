@@ -151,3 +151,8 @@ tick(now);
 lastval = cadence.valence();
 
 applyoutcomes(toks.front());
+for (uint32_t v : toks) {
+std::vector<uint32_t> ctx = recentcontext();
+if (!sent.empty()) selectionevent(sent.back(), v, now, lastval);
+support.record(v, now, ctx);
+sent.push_back(v);
