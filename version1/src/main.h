@@ -33,4 +33,3 @@ using ss = string;
 
 namespace intentspider {
 
-struct suggestion {

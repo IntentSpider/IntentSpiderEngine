@@ -156,3 +156,8 @@ std::vector<uint32_t> ctx = recentcontext();
 if (!sent.empty()) selectionevent(sent.back(), v, now, lastval);
 support.record(v, now, ctx);
 sent.push_back(v);
+}
+
+clusters.add(arousalt.devsign(), arousalt.absdev(),
+cadence.correctionrate(), lastval);
+cadence.closewindow();

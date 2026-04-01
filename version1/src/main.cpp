@@ -92,3 +92,7 @@ return out;
 }
 
 void cmdembed(spectralembedding& emb, const engine& eng, double now) {
+if (emb.compute(eng.graph(), now)) {
+const auto& r = emb.result();
+std::cout << strplaceholder0 << r.graphnodes
+<< strplaceholder0 << r.componentnodes

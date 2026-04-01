@@ -70,3 +70,7 @@ std::unordered_map<uint32_t, std::unordered_map<uint32_t, double>> sym;
 for (const auto& kv : g.adjacency()) {
 for (const auto& e : kv.second) {
 if (!g.istransmission(e)) continue;
+double w = g.weight(e, now);
+if (w <= 0.0) continue;
+sym[kv.first][e.target] += w;
+sym[e.target][kv.first] += w;

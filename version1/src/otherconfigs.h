@@ -28,3 +28,5 @@ namespace intentspider {
 
 
 
+struct config {
+  
