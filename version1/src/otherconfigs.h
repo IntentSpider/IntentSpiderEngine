@@ -32,5 +32,3 @@ struct config {
   
   double eta = 0.5;           
   double tauv = 86400.0;     
-
-  

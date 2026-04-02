@@ -171,3 +171,9 @@ std::vector<suggestion> engine::predict(double now) {
 tick(now);
 lastranked.clear();
 lastcontext.clear();
+lastedgemass.clear();
+dbg = debuginfo{};
+lastval = cadence.valence();
+dbg.valprime = lastval;
+
+

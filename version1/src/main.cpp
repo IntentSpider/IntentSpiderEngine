@@ -103,3 +103,6 @@ std::cout << strplaceholder0 << r.graphnodes
 std::cout << strplaceholder0
  strplaceholder0;
 }
+}
+
+void cmdtraj(const std::vector<std::array<double, 2>>& traj,

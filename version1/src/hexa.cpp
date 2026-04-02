@@ -26,3 +26,7 @@ streak = arousal() > cfg.thetaa ? streak + 1 : 0;
 }
 }
 lastkey = now;
+}
+
+double arousaltracker::arousal() const {
+if (!havex || !havestats) return 0.0;
