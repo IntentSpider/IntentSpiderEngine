@@ -166,3 +166,8 @@ cadence.closewindow();
 
 
 
+
+std::vector<suggestion> engine::predict(double now) {
+tick(now);
+lastranked.clear();
+lastcontext.clear();

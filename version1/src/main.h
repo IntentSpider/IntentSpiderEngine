@@ -35,3 +35,6 @@ namespace intentspider {
 
 struct suggestion {
 uint32_t token = 0;
+double score = 0.0;
+};
+

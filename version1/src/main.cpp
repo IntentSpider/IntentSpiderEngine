@@ -99,3 +99,7 @@ std::cout << strplaceholder0 << r.graphnodes
 << strplaceholder0 << std::fixed << std::setprecision(3)
 << r.centroid[0] << strplaceholder0 << r.centroid[1] << strplaceholder1
 << std::defaultfloat;
+} else {
+std::cout << strplaceholder0
+ strplaceholder0;
+}

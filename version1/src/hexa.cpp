@@ -26,4 +26,3 @@ streak = arousal() > cfg.thetaa ? streak + 1 : 0;
 }
 }
 lastkey = now;
-}
