@@ -33,3 +33,5 @@ using ss = string;
 
 namespace intentspider {
 
+struct suggestion {
+uint32_t token = 0;

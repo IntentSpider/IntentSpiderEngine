@@ -25,3 +25,5 @@ var += cfg.statsema * (d * d - var);
 streak = arousal() > cfg.thetaa ? streak + 1 : 0;
 }
 }
+lastkey = now;
+}

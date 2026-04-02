@@ -96,3 +96,6 @@ if (emb.compute(eng.graph(), now)) {
 const auto& r = emb.result();
 std::cout << strplaceholder0 << r.graphnodes
 << strplaceholder0 << r.componentnodes
+<< strplaceholder0 << std::fixed << std::setprecision(3)
+<< r.centroid[0] << strplaceholder0 << r.centroid[1] << strplaceholder1
+<< std::defaultfloat;

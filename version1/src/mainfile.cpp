@@ -161,3 +161,8 @@ sent.push_back(v);
 clusters.add(arousalt.devsign(), arousalt.absdev(),
 cadence.correctionrate(), lastval);
 cadence.closewindow();
+}
+
+
+
+
