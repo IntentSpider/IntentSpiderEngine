@@ -110,3 +110,5 @@ void cmdtraj(const std::vector<std::array<double, 2>>& traj,
 if (traj.empty()) {
 std::cout << strplaceholder0
  strplaceholder0;
+
+

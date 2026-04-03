@@ -81,3 +81,6 @@ sym[e.target][kv.first] += w;
 
 
 res.graphnodes = sym.size();
+if (sym.size() < 3) return false;
+
+

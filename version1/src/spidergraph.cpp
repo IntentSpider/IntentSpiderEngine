@@ -80,4 +80,3 @@ e>target = v;
 
 e>tf = cfg.tfinit;
 e>tw = now;
-e>ts = now;

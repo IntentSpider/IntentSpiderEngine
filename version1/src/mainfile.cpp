@@ -179,3 +179,8 @@ dbg.valprime = lastval;
 
 dbg.arousal = arousalt.arousal();
 dbg.streak = arousalt.streak();
+dbg.prey = staticcast<int>(preylast.size());
+dbg.substates = clusters.count();
+dbg.shock = recentshock;
+recentshock = false;
+if (sent.empty()) return {};

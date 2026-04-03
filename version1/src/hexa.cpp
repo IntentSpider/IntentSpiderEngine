@@ -32,3 +32,4 @@ double arousaltracker::arousal() const {
 if (!havex || !havestats) return 0.0;
 double sigma = std::sqrt(std::max(var, 1e6));
 
+

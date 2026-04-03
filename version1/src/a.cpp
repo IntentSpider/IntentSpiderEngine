@@ -15,3 +15,7 @@
 #include <unordered_set>
 #include <tuple>
 #include <climits>
+#include <cstring>
+
+using namespace std;
+using ll = long long;
