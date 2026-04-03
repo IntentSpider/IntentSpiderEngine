@@ -31,4 +31,3 @@ namespace intentspider {
 class tokenizer;
 
 
-struct edge {

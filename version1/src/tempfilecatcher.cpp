@@ -80,3 +80,4 @@ sym[e.target][kv.first] += w;
 
 
 
+res.graphnodes = sym.size();

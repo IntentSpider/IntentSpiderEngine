@@ -106,3 +106,7 @@ std::cout << strplaceholder0
 }
 
 void cmdtraj(const std::vector<std::array<double, 2>>& traj,
+ const std::vector<std::string>& labels, const config& cfg) {
+if (traj.empty()) {
+std::cout << strplaceholder0
+ strplaceholder0;

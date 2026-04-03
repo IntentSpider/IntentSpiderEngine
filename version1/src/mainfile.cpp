@@ -177,3 +177,5 @@ lastval = cadence.valence();
 dbg.valprime = lastval;
 
 
+dbg.arousal = arousalt.arousal();
+dbg.streak = arousalt.streak();

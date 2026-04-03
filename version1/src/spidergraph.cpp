@@ -75,3 +75,9 @@ adj[u].push_back(edge{});
 
 
 e = &adj[u].back();
+e>target = v;
+
+
+e>tf = cfg.tfinit;
+e>tw = now;
+e>ts = now;
