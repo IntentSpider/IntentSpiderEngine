@@ -184,3 +184,10 @@ dbg.substates = clusters.count();
 dbg.shock = recentshock;
 recentshock = false;
 if (sent.empty()) return {};
+
+
+std::unordered_map<uint32_t, double> seed;
+
+const int n = staticcast<int>(sent.size());
+
+

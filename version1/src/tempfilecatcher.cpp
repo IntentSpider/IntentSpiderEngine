@@ -84,3 +84,5 @@ res.graphnodes = sym.size();
 if (sym.size() < 3) return false;
 
 
+
+

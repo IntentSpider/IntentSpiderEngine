@@ -39,3 +39,4 @@ double score = 0.0;
 };
 
 
+struct debuginfo {
