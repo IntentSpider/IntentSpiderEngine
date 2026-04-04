@@ -36,4 +36,3 @@ struct config {
   
   double etatf = 0.2;        
   double thetatf = 0.35;     
-  double tfinit = 0.5;       

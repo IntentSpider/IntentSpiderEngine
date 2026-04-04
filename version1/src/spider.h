@@ -32,3 +32,7 @@ class tokenizer;
 
 
 struct edge {
+uint32_t target = 0;
+double w = 0.0; 
+double tf = 0.0;
+double s = 0.0; 

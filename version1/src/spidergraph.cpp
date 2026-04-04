@@ -81,3 +81,6 @@ e>target = v;
 e>tf = cfg.tfinit;
 e>tw = now;
 e>ts = now;
+}
+
+e>w = weight(*e, now) + cfg.eta;
