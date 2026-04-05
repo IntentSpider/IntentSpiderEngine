@@ -30,6 +30,3 @@ namespace intentspider {
 
 
 
-
-
-class arousaltracker {

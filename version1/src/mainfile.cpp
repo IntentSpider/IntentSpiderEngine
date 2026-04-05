@@ -194,3 +194,11 @@ const int n = staticcast<int>(sent.size());
 
 const int k = std::min(cfg.seedk, n);
 double total = 0.0;
+for (int i = 0; i < k; ++i) {
+uint32_t u = sent[n - 1 - i];
+
+
+
+
+lastcontext.push_back(u);
+double phi = graph.fandispersion(u, now);
