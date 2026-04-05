@@ -92,3 +92,8 @@ std::unordered_map<uint32_t, int> comp;
 
 
 
+int ncomp = 0;
+for (const auto& kv : sym) {
+if (comp.count(kv.first)) continue;
+
+

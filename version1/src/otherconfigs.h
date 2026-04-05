@@ -39,4 +39,3 @@ struct config {
   double tfinit = 0.5;       
 
   
-  double taux = 30.0;        

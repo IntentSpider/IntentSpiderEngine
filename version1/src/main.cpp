@@ -122,3 +122,8 @@ for (size_t i = 0; i < traj.size(); ++i) {
 bool head = false, plat = false;
 
 
+
+for (int h : an.heads) head |= (h == staticcast<int>(i));
+for (int p : an.plateaus) plat |= (p == staticcast<int>(i));
+std::cout << strplaceholder0 << std::setw(4) << i << strplaceholder1 << std::setw(15)
+<< std::left << (i < labels.size() ? labels[i] : strplaceholder0)

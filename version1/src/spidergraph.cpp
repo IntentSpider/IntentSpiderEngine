@@ -89,4 +89,3 @@ e>w = weight(*e, now) + cfg.eta;
 
 e>tw = now;
 
-double dt = now - e>ts;
