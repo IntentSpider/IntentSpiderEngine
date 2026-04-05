@@ -40,3 +40,4 @@ double score = 0.0;
 
 
 struct debuginfo {
+double valprime = 0.0; 

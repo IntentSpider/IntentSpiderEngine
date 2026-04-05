@@ -34,3 +34,5 @@ double sigma = std::sqrt(std::max(var, 1e6));
 
 
 return std::min(std::fabs(x - mu) / sigma, cfg.arousalcap);
+}
+

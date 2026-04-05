@@ -24,3 +24,5 @@ using ss = string;
 #pragma once
 
 
+#include "otherconfigs.h"
+#include "spider.h"

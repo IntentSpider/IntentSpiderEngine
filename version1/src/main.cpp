@@ -121,3 +121,4 @@ std::cout << strplaceholder0;
 for (size_t i = 0; i < traj.size(); ++i) {
 bool head = false, plat = false;
 
+
