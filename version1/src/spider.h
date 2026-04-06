@@ -38,3 +38,4 @@ double tf = 0.0;
 double s = 0.0; 
 
 double negacc = 0.0; 
+double sup = 0.0; 

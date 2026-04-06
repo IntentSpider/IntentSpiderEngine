@@ -214,3 +214,8 @@ total += wgt;
 }
 
 
+}
+
+
+double alphaeff = arousalt.alphaeffective();
+dbg.alphaeff = alphaeff;

@@ -129,3 +129,7 @@ std::cout << strplaceholder0 << std::setw(4) << i << strplaceholder1 << std::set
 << std::left << (i < labels.size() ? labels[i] : strplaceholder0)
 << std::right << strplaceholder0 << std::fixed << std::setprecision(3)
 << traj[i][0] << strplaceholder0 << traj[i][1] << strplaceholder1 << std::setw(6)
+<< an.speed[i] << strplaceholder0 << (head ? strplaceholder1 : strplaceholder2)
+<< (plat ? strplaceholder0 : strplaceholder1) << std::defaultfloat;
+
+}

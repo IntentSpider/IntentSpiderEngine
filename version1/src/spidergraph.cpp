@@ -92,3 +92,8 @@ e>tw = now;
 double dt = now - e>ts;
 if (dt < 0.0) dt = 0.0;
 
+double snew = e>s * std::exp(-dt / cfg.tauv) + cfg.eta * valprime;
+
+
+
+

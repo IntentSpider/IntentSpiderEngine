@@ -97,3 +97,8 @@ for (const auto& kv : sym) {
 if (comp.count(kv.first)) continue;
 
 
+std::vector<uint32_t> stack{kv.first};
+comp[kv.first] = ncomp;
+while (!stack.empty()) {
+uint32_t u = stack.back();
+
