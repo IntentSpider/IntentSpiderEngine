@@ -209,3 +209,8 @@ double wgt =
 
 if (wgt > 0.0) {
 seed[u] += wgt;
+
+total += wgt;
+}
+
+
