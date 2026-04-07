@@ -47,3 +47,4 @@ double hnorm = 0.0;
 double necessity = 0.0; 
 double arousal = 0.0; 
 double alphaeff = 0.0; 
+int streak = 0; 

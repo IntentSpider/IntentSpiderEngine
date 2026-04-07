@@ -219,3 +219,5 @@ total += wgt;
 
 double alphaeff = arousalt.alphaeffective();
 dbg.alphaeff = alphaeff;
+
+std::vector<suggestion> ranked;

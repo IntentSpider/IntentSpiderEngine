@@ -40,3 +40,5 @@ struct config {
 
   
   double taux = 30.0;        
+
+

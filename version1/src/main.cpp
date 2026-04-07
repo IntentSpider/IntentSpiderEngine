@@ -133,3 +133,6 @@ std::cout << strplaceholder0 << std::setw(4) << i << strplaceholder1 << std::set
 << (plat ? strplaceholder0 : strplaceholder1) << std::defaultfloat;
 
 }
+
+
+}
