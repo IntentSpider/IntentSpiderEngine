@@ -35,3 +35,4 @@ namespace intentspider {
 class arousaltracker {
  public:
 explicit arousaltracker(const config& cfg) : cfg(cfg) {}
+

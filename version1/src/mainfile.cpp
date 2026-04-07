@@ -221,3 +221,8 @@ double alphaeff = arousalt.alphaeffective();
 dbg.alphaeff = alphaeff;
 
 std::vector<suggestion> ranked;
+lastp.clear();
+if (total > 0.0) {
+for (auto& kv : seed) kv.second /= total;
+
+

@@ -136,3 +136,5 @@ std::cout << strplaceholder0 << std::setw(4) << i << strplaceholder1 << std::set
 
 
 }
+
+void cmdcompare(const std::string& args, engine& eng,

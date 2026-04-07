@@ -40,3 +40,4 @@ double s = 0.0;
 double negacc = 0.0; 
 double sup = 0.0; 
 double shock = 0.0; 
+double tw = 0.0; 
