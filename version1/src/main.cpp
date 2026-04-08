@@ -138,3 +138,7 @@ std::cout << strplaceholder0 << std::setw(4) << i << strplaceholder1 << std::set
 }
 
 void cmdcompare(const std::string& args, engine& eng,
+const spectralembedding& emb, const config& cfg, double now) {
+if (!emb.valid()) {
+std::cout << strplaceholder0;
+

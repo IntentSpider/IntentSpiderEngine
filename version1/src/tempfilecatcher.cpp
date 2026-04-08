@@ -103,3 +103,7 @@ while (!stack.empty()) {
 uint32_t u = stack.back();
 
 
+
+
+stack.pop_back();
+for (const auto& nb : sym[u]) {

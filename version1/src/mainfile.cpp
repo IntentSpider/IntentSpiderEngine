@@ -226,3 +226,10 @@ if (total > 0.0) {
 for (auto& kv : seed) kv.second /= total;
 
 
+
+
+diffusionresult res = localpush(seed, graph, cfg, now, alphaeff);
+lastedgemass = std::move(res.edgemass);
+dbg.entropy = res.entropy;
+
+

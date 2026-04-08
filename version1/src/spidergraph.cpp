@@ -98,3 +98,9 @@ double snew = e>s * std::exp(-dt / cfg.tauv) + cfg.eta * valprime;
 
 
 e>s = std::max(-1.0, std::min(1.0, snew));
+
+
+
+
+
+
