@@ -233,3 +233,6 @@ lastedgemass = std::move(res.edgemass);
 dbg.entropy = res.entropy;
 
 
+std::unordered_set<uint32_t> exclude(lastcontext.begin(),
+ lastcontext.end());
+

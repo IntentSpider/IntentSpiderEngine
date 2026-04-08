@@ -142,3 +142,4 @@ const spectralembedding& emb, const config& cfg, double now) {
 if (!emb.valid()) {
 std::cout << strplaceholder0;
 
+
