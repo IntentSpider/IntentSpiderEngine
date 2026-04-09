@@ -2,6 +2,3 @@ cmakeminimumrequired(version 3.16)
 project(intentspider cxx)
 
 set(cmakecxxstandard 17)
-set(cmakecxxstandardrequired on)
-
-addexecutable(intentspider

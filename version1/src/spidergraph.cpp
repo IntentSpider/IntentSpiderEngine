@@ -107,3 +107,6 @@ e>s = std::max(-1.0, std::min(1.0, snew));
 
 e>negacc = e>negacc * std::exp(-dt / cfg.tprime) + std::max(0.0, -e>s);
 if (e>negacc > cfg.thetas) {
+e>sup = 1.0;
+e>tsup = now;
+}

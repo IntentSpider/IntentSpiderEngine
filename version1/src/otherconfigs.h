@@ -46,3 +46,4 @@ struct config {
 
   
   double alpha = 0.15;        
+  double eps = 1e4;          

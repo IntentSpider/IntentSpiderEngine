@@ -38,3 +38,6 @@ explicit arousaltracker(const config& cfg) : cfg(cfg) {}
 
 void onkey(double now);
 
+double arousal() const;
+int streak() const { return streak; }
+

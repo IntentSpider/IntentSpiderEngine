@@ -110,3 +110,5 @@ for (const auto& nb : sym[u]) {
 if (!comp.count(nb.first)) {
 comp[nb.first] = ncomp;
 stack.push_back(nb.first);
+
+

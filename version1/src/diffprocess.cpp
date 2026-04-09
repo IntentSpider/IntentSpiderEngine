@@ -24,3 +24,4 @@ using ss = string;
 #include "diff.h"
 
 
+namespace intentspider {

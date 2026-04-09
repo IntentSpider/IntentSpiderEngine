@@ -242,3 +242,8 @@ for (const auto& kv : res.p) {
 if (kv.second <= 0.0) continue;
 ++positive;
 lastp[kv.first] = kv.second;
+if (!exclude.count(kv.first)) ranked.push_back({kv.first, kv.second});
+}
+std::sort(ranked.begin(), ranked.end(),
+[](const suggestion& a, const suggestion& b) {
+return a.score > b.score;
