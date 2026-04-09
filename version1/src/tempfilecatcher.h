@@ -28,6 +28,3 @@ using ss = string;
 #include "spider.h"
 
 namespace intentspider {
-
-
-

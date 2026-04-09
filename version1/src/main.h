@@ -49,3 +49,7 @@ double arousal = 0.0;
 double alphaeff = 0.0; 
 int streak = 0; 
 int prey = 0; 
+
+size_t substates = 0; 
+bool gated = false; 
+bool arbitrated = false;

@@ -236,3 +236,9 @@ dbg.entropy = res.entropy;
 std::unordered_set<uint32_t> exclude(lastcontext.begin(),
  lastcontext.end());
 
+
+size_t positive = 0;
+for (const auto& kv : res.p) {
+if (kv.second <= 0.0) continue;
+++positive;
+lastp[kv.first] = kv.second;

@@ -45,3 +45,4 @@ struct config {
 
 
   
+  double alpha = 0.15;        
