@@ -250,3 +250,9 @@ return a.score > b.score;
 });
 
 dbg.hnorm =
+positive > 1
+? std::min(1.0,
+ res.entropy / std::log(staticcast<double>(positive)))
+: 0.0;
+
+

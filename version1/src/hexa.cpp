@@ -41,3 +41,4 @@ double arousaltracker::zeta() const {
 return 1.0 - std::exp(-staticcast<double>(streak) / cfg.l0);
 }
 
+double arousaltracker::alphaeffective() const {
