@@ -247,3 +247,6 @@ if (!exclude.count(kv.first)) ranked.push_back({kv.first, kv.second});
 std::sort(ranked.begin(), ranked.end(),
 [](const suggestion& a, const suggestion& b) {
 return a.score > b.score;
+});
+
+dbg.hnorm =

@@ -112,3 +112,4 @@ comp[nb.first] = ncomp;
 stack.push_back(nb.first);
 
 
+}
