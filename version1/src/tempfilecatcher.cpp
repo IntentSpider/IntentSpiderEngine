@@ -119,3 +119,6 @@ stack.push_back(nb.first);
 ++ncomp;
 }
 std::vector<size_t> csize(ncomp, 0);
+
+for (const auto& kv : comp) ++csize[kv.second];
+

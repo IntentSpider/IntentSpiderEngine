@@ -155,3 +155,7 @@ return;
 
 size_t bar = args.find(strplaceholder0);
 if (bar == std::string::npos) {
+std::cout << strplaceholder0;
+
+
+

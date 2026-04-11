@@ -263,3 +263,6 @@ double rtop = residue(ranked[0].token, now);
 
 double rsecond = residue(ranked[1].token, now);
 if (rtop > 0.0 && rsecond < rtop) {
+double sup = support.support(ranked[1].token, now, lastcontext);
+
+if (sup > cfg.ccal * rtop) {
