@@ -47,6 +47,3 @@ struct config {
   
   double alpha = 0.15;        
   double eps = 1e4;          
-  long maxpushops = 200000; 
-  double gamma = 0.8;         
-  double masstrivial = 1e3; 

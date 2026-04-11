@@ -26,4 +26,3 @@ using ss = string;
 
 namespace intentspider {
 
-diffusionresult localpush(const std::unordered_map<uint32_t, double>& seed,

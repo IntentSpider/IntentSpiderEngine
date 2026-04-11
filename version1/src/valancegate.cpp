@@ -22,5 +22,3 @@ using ss= string;
 
 namespace intentspider {
 
-void cadencetracker::onkey(double now, bool isbackspace) {
-if (lastkey >= 0.0) {

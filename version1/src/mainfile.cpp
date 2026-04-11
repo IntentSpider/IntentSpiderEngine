@@ -256,3 +256,10 @@ positive > 1
 : 0.0;
 
 
+if (ranked.size() >= 2) {
+double rtop = residue(ranked[0].token, now);
+
+
+
+double rsecond = residue(ranked[1].token, now);
+if (rtop > 0.0 && rsecond < rtop) {
