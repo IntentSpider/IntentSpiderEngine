@@ -50,3 +50,7 @@ struct config {
   long maxpushops = 200000; 
   double gamma = 0.8;         
   double masstrivial = 1e3; 
+
+  
+  double tauseed = 2.0;      
+

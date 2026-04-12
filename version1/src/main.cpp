@@ -165,3 +165,5 @@ return;
 
 
 
+auto ta = eng.tokenizer().tokenize(args.substr(0, bar));
+auto tb = eng.tokenizer().tokenize(args.substr(bar + 1));

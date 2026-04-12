@@ -269,3 +269,10 @@ if (sup > cfg.ccal * rtop) {
 std::swap(ranked[0], ranked[1]);
 dbg.arbitrated = true;
 }
+}
+
+
+
+}
+if (staticcast<int>(ranked.size()) > cfg.topn) ranked.resize(cfg.topn);
+}

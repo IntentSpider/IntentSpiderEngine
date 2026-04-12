@@ -56,3 +56,6 @@ bool arbitrated = false;
 
 
 
+bool shock = false; 
+bool shockwindow = false;
+};

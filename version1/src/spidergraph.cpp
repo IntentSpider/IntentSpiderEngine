@@ -116,3 +116,10 @@ e>tlast = now;
 
 void intentgraph::updatetf(uint32_t u, uint32_t v, bool outcome) {
 edge* e = find(u, v);
+if (!e) return;
+
+
+
+
+e>tf += cfg.etatf * ((outcome ? 1.0 : 0.0) - e>tf);
+}
