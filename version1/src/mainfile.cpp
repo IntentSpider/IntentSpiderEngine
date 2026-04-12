@@ -266,3 +266,6 @@ if (rtop > 0.0 && rsecond < rtop) {
 double sup = support.support(ranked[1].token, now, lastcontext);
 
 if (sup > cfg.ccal * rtop) {
+std::swap(ranked[0], ranked[1]);
+dbg.arbitrated = true;
+}

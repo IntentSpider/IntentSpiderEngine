@@ -122,3 +122,7 @@ std::vector<size_t> csize(ncomp, 0);
 
 for (const auto& kv : comp) ++csize[kv.second];
 
+int best = 0;
+
+
+

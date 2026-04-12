@@ -56,4 +56,3 @@ bool arbitrated = false;
 
 
 
-bool shock = false; 
