@@ -46,3 +46,7 @@ double arousaltracker::alphaeffective() const {
 
 
 
+
+
+return std::max(cfg.alpha * (1.0 - zeta()), cfg.alphamin);
+}

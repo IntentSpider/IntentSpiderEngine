@@ -127,3 +127,4 @@ int best = 0;
 
 
 
+for (int c = 1; c < ncomp; ++c)

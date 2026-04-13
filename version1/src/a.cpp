@@ -24,3 +24,5 @@ using ss = string;
 #include "a.h"
 
 
+namespace intentspider {
+
