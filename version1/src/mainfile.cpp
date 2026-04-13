@@ -276,3 +276,7 @@ dbg.arbitrated = true;
 }
 if (staticcast<int>(ranked.size()) > cfg.topn) ranked.resize(cfg.topn);
 }
+
+
+if (staticcast<int>(ranked.size()) < cfg.topn) {
+std::unordered_set<uint32_t> exclude(lastcontext.begin(),

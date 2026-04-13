@@ -51,6 +51,3 @@ struct config {
   double gamma = 0.8;         
   double masstrivial = 1e3; 
 
-  
-  double tauseed = 2.0;      
-
