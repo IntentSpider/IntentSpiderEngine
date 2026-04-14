@@ -175,3 +175,7 @@ return;
 }
 
 auto a = trajectoryfor(eng, emb, ta, now);
+auto b = trajectoryfor(eng, emb, tb, now);
+size_t n = std::min(a.size(), b.size());
+std::cout << strplaceholder0;
+for (size_t i = 0; i < n; ++i) {

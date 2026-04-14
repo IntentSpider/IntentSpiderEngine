@@ -23,3 +23,7 @@ using ss= string;
 namespace intentspider {
 
 void cadencetracker::onkey(double now, bool isbackspace) {
+if (lastkey >= 0.0) {
+double dt = now - lastkey;
+if (dt >= 0.0) {
+sumdt += std::min(dt, cfg.dtcap);

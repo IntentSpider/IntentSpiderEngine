@@ -288,3 +288,11 @@ if (es) {
 std::vector<suggestion> hop;
 
 
+for (const auto& e : *es) {
+if (exclude.count(e.target)) continue;
+
+
+if (graph.supstrength(e, now) > 0.0) continue;
+bool seen = false;
+for (const auto& s : ranked)
+if (s.token == e.target) { seen = true; break; }
