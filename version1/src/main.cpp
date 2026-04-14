@@ -172,3 +172,6 @@ auto tb = eng.tokenizer().tokenize(args.substr(bar + 1));
 if (ta.empty() || tb.empty()) {
 std::cout << strplaceholder0;
 return;
+}
+
+auto a = trajectoryfor(eng, emb, ta, now);

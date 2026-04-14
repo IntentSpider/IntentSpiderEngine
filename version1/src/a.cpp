@@ -26,3 +26,5 @@ using ss = string;
 
 namespace intentspider {
 
+namespace {
+

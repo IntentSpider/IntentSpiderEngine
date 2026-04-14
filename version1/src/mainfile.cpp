@@ -283,3 +283,8 @@ std::unordered_set<uint32_t> exclude(lastcontext.begin(),
 lastcontext.end());
 
 
+const auto* es = graph.edges(sent.back());
+if (es) {
+std::vector<suggestion> hop;
+
+

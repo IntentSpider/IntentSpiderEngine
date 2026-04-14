@@ -49,3 +49,7 @@ double tlast = -1.0e18;
 
 
 struct persistedstats {
+double cadencebaseline = -1.0;
+
+
+

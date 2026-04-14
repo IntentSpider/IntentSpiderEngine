@@ -128,3 +128,6 @@ int best = 0;
 
 
 for (int c = 1; c < ncomp; ++c)
+if (csize[c] > csize[best]) best = c;
+
+std::vector<uint32_t> ids;

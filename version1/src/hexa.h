@@ -45,5 +45,3 @@ double zeta() const;
 double alphaeffective() const; 
 void resetstreak() { streak = 0; }
 void setstreak(int s) { streak = s; }
-
-

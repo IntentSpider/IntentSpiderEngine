@@ -17,5 +17,3 @@
 #include <climits>
 #include <cstring>
 
-using namespace std;
-using ll = long long;
