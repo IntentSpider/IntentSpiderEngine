@@ -135,3 +135,7 @@ std::vector<uint32_t> ids;
 
 
 for (const auto& kv : comp)
+if (kv.second == best) ids.push_back(kv.first);
+std::sort(ids.begin(), ids.end());
+const size_t n = ids.size();
+

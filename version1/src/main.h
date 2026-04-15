@@ -64,3 +64,5 @@ bool shockwindow = false;
 
 
 
+class engine {
+ public:

@@ -27,3 +27,4 @@ if (lastkey >= 0.0) {
 double dt = now - lastkey;
 if (dt >= 0.0) {
 sumdt += std::min(dt, cfg.dtcap);
+++ndt;

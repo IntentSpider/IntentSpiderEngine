@@ -296,3 +296,6 @@ if (graph.supstrength(e, now) > 0.0) continue;
 bool seen = false;
 for (const auto& s : ranked)
 if (s.token == e.target) { seen = true; break; }
+if (!seen) hop.push_back({e.target, graph.weight(e, now)});
+}
+std::sort(hop.begin(), hop.end(),

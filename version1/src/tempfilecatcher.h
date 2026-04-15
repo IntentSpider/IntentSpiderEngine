@@ -34,3 +34,4 @@ namespace intentspider {
 
 
 
+struct embeddingresult {
