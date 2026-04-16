@@ -29,3 +29,5 @@ namespace intentspider {
 namespace {
 
 
+
+double jaccard(const std::vector<uint32_t>& a, const std::vector<uint32_t>& b) {

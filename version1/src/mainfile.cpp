@@ -305,3 +305,6 @@ return a.score > b.score;
 for (const auto& s : hop) {
 if (staticcast<int>(ranked.size()) >= cfg.topn) break;
 ranked.push_back(s);
+}
+
+

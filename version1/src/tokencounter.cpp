@@ -17,3 +17,6 @@
 #include <map>
 #include <cstring>
 #include <utility>
+
+using namespace std;
+using ll  = long long;
