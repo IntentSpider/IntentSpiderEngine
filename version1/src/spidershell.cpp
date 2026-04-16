@@ -24,3 +24,5 @@ using ss = string;
 #include "spidershellont.h"
 
 
+#ifdef _WIN32
+#else

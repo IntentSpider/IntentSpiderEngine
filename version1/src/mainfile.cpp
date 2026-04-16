@@ -299,3 +299,9 @@ if (s.token == e.target) { seen = true; break; }
 if (!seen) hop.push_back({e.target, graph.weight(e, now)});
 }
 std::sort(hop.begin(), hop.end(),
+[](const suggestion& a, const suggestion& b) {
+return a.score > b.score;
+});
+for (const auto& s : hop) {
+if (staticcast<int>(ranked.size()) >= cfg.topn) break;
+ranked.push_back(s);

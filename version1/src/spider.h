@@ -53,3 +53,5 @@ double cadencebaseline = -1.0;
 
 
 
+double ratemu = -1.0; 
+double ratevar = -1.0;

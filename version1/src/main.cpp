@@ -181,3 +181,4 @@ std::cout << strplaceholder0;
 for (size_t i = 0; i < n; ++i) {
 double gx = a[i][0] - b[i][0], gy = a[i][1] - b[i][1];
 double mx = 0.5 * (a[i][0] + b[i][0]);
+double my = 0.5 * (a[i][1] + b[i][1]);

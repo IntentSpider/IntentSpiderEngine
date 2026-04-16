@@ -49,3 +49,5 @@ void setstreak(int s) { streak = s; }
 
 double devsign() const;
 double absdev() const;
+
+

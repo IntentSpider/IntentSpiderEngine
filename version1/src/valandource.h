@@ -29,3 +29,5 @@ using ss = string;
 namespace intentspider {
 
 
+
+class cadencetracker {
