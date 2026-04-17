@@ -32,3 +32,6 @@ double alpha) {
 diffusionresult out;
 std::unordered_map<uint32_t, double> r;
 std::deque<uint32_t> queue;
+
+for (const auto& kv : seed) {
+r[kv.first] = kv.second;

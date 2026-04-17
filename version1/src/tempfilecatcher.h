@@ -37,3 +37,4 @@ namespace intentspider {
 struct embeddingresult {
 std::unordered_map<uint32_t, std::array<double, 2>> pos;
 std::array<double, 2> centroid{0.0, 0.0};
+

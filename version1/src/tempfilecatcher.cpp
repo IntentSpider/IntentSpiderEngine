@@ -142,3 +142,5 @@ const size_t n = ids.size();
 
 
 
+if (n < 3) return false;
+res.componentnodes = n;

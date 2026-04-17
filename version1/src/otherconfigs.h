@@ -58,4 +58,3 @@ struct config {
 
 
   int seedk = 3;             
-

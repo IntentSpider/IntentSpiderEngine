@@ -3,4 +3,3 @@ project(intentspider cxx)
 
 set(cmakecxxstandard 17)
 set(cmakecxxstandardrequired on)
-
