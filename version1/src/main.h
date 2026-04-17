@@ -65,3 +65,8 @@ bool shockwindow = false;
 
 
 class engine {
+ public:
+explicit engine(const config& cfg)
+: cfg(cfg),
+graph(cfg),
+cadence(cfg),

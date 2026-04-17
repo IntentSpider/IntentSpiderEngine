@@ -312,3 +312,7 @@ ranked.push_back(s);
 
 }
 }
+
+lastranked = ranked;
+if (ranked.empty()) return {};
+

@@ -188,3 +188,7 @@ eng.tokenizer().text(tb[i]);
 std::cout << strplaceholder0 << std::setw(4) << i << strplaceholder1 << std::setw(24)
 << std::left << lab << std::right << strplaceholder0 << std::fixed
 << std::setprecision(4) << std::sqrt(gx * gx + gy * gy) << strplaceholder0
+<< mx << strplaceholder0 << my << strplaceholder1 << std::defaultfloat;
+
+
+if (ta[i] == tb[i]) {

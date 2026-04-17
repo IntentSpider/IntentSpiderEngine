@@ -135,3 +135,5 @@ e>tw = now;
 }
 
 void intentgraph::adjustweight(uint32_t u, uint32_t v, double now,
+ double amount) {
+edge* e = find(u, v);
