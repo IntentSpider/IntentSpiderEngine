@@ -53,3 +53,5 @@ return std::max(cfg.alpha * (1.0 - zeta()), cfg.alphamin);
 
 double arousaltracker::devsign() const {
 if (!havex || !havestats) return 0.0;
+return x >= mu ? 1.0 : -1.0;
+}

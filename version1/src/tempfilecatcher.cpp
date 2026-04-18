@@ -144,3 +144,9 @@ const size_t n = ids.size();
 
 if (n < 3) return false;
 res.componentnodes = n;
+
+std::unordered_map<uint32_t, size_t> idx;
+for (size_t i = 0; i < n; ++i) idx[ids[i]] = i;
+
+
+

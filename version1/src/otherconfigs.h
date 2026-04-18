@@ -59,3 +59,6 @@ struct config {
 
   int seedk = 3;             
 
+  
+  double vala = 4.0;         
+  double valb = 6.0;         

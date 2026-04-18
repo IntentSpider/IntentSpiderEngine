@@ -30,3 +30,6 @@ namespace intentspider {
 
 
 
+class cadencetracker {
+ public:
+explicit cadencetracker(const config& cfg)
