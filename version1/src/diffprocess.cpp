@@ -35,3 +35,5 @@ std::deque<uint32_t> queue;
 
 for (const auto& kv : seed) {
 r[kv.first] = kv.second;
+if (std::fabs(kv.second) >= cfg.eps) queue.push_back(kv.first);
+}

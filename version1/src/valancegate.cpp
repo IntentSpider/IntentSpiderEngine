@@ -29,4 +29,3 @@ if (dt >= 0.0) {
 sumdt += std::min(dt, cfg.dtcap);
 ++ndt;
 }
-}

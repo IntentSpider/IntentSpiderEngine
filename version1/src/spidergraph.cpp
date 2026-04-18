@@ -139,3 +139,7 @@ void intentgraph::adjustweight(uint32_t u, uint32_t v, double now,
 edge* e = find(u, v);
 if (!e) return;
 e>w = std::max(0.0, weight(*e, now) + amount);
+e>tw = now;
+}
+
+void intentgraph::suppressshock(uint32_t u, uint32_t v, double now) {

@@ -50,3 +50,7 @@ void setstreak(int s) { streak = s; }
 double devsign() const;
 double absdev() const;
 
+
+double mu() const { return mu; }
+double var() const { return var; }
+

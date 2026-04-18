@@ -62,3 +62,4 @@ struct config {
   
   double vala = 4.0;         
   double valb = 6.0;         
+

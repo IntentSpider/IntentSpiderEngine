@@ -323,3 +323,5 @@ double exh = 0.0;
 for (uint32_t u : lastcontext)
 exh = std::max(exh, graph.exhaustion(u, ranked[0].token, now));
 double n = cfg.beta1 * (1.0 - dbg.hnorm) + cfg.beta2 * urgency -
+ cfg.beta3 * exh;
+dbg.necessity = n;

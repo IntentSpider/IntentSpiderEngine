@@ -192,3 +192,7 @@ std::cout << strplaceholder0 << std::setw(4) << i << strplaceholder1 << std::set
 
 
 if (ta[i] == tb[i]) {
+double phi = eng.graph().fandispersion(ta[i], now);
+
+
+
