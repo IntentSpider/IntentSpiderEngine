@@ -149,3 +149,5 @@ std::unordered_map<uint32_t, size_t> idx;
 for (size_t i = 0; i < n; ++i) idx[ids[i]] = i;
 
 
+
+std::vector<double> d(n, 0.0);

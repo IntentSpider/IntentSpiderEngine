@@ -54,3 +54,4 @@ double absdev() const;
 double mu() const { return mu; }
 double var() const { return var; }
 
+

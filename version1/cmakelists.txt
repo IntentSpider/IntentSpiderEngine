@@ -5,3 +5,4 @@ set(cmakecxxstandard 17)
 set(cmakecxxstandardrequired on)
 
 addexecutable(intentspider
+  src/main.cpp

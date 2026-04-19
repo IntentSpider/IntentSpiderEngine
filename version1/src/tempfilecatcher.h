@@ -39,7 +39,3 @@ std::unordered_map<uint32_t, std::array<double, 2>> pos;
 std::array<double, 2> centroid{0.0, 0.0};
 
 
-size_t graphnodes = 0;
-size_t componentnodes = 0;
-bool valid = false;
-};

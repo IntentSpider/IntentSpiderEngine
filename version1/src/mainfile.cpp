@@ -325,3 +325,7 @@ exh = std::max(exh, graph.exhaustion(u, ranked[0].token, now));
 double n = cfg.beta1 * (1.0 - dbg.hnorm) + cfg.beta2 * urgency -
  cfg.beta3 * exh;
 dbg.necessity = n;
+bool inshockwindow = now - lastshockt <= cfg.wshock;
+dbg.shockwindow = inshockwindow;
+
+double kappat = cfg.kappan + (inshockwindow ? cfg.dkappashock : 0.0);

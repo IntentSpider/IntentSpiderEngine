@@ -143,3 +143,5 @@ e>tw = now;
 }
 
 void intentgraph::suppressshock(uint32_t u, uint32_t v, double now) {
+edge* e = find(u, v);
+if (!e) return;

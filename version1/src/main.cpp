@@ -196,3 +196,5 @@ double phi = eng.graph().fandispersion(ta[i], now);
 
 
 
+std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
+<< phi << strplaceholder0 << std::defaultfloat;
