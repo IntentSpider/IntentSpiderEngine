@@ -329,3 +329,9 @@ bool inshockwindow = now - lastshockt <= cfg.wshock;
 dbg.shockwindow = inshockwindow;
 
 double kappat = cfg.kappan + (inshockwindow ? cfg.dkappashock : 0.0);
+if (n <= kappat) {
+dbg.gated = true;
+return {};
+}
+return ranked;
+

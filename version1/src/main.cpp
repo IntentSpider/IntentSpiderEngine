@@ -198,3 +198,8 @@ double phi = eng.graph().fandispersion(ta[i], now);
 
 std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
 << phi << strplaceholder0 << std::defaultfloat;
+}
+}
+std::vector<std::array<double, 2>> ac(a.begin(), a.begin() + n);
+std::vector<std::array<double, 2>> bc(b.begin(), b.begin() + n);
+

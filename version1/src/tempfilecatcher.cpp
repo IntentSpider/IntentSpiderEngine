@@ -151,3 +151,7 @@ for (size_t i = 0; i < n; ++i) idx[ids[i]] = i;
 
 
 std::vector<double> d(n, 0.0);
+for (size_t i = 0; i < n; ++i)
+for (const auto& nb : sym[ids[i]])
+if (idx.count(nb.first)) d[i] += nb.second;
+for (size_t i = 0; i < n; ++i)
