@@ -56,4 +56,3 @@ if (!havex || !havestats) return 0.0;
 return x >= mu ? 1.0 : -1.0;
 }
 
-double arousaltracker::absdev() const {

@@ -203,3 +203,6 @@ std::cout << strplaceholder0 << std::fixed << std::setprecision(2)
 std::vector<std::array<double, 2>> ac(a.begin(), a.begin() + n);
 std::vector<std::array<double, 2>> bc(b.begin(), b.begin() + n);
 
+std::cout << strplaceholder0 << std::fixed
+<< std::setprecision(5) << gaparea(ac, bc) << std::defaultfloat;
+std::cout << strplaceholder0

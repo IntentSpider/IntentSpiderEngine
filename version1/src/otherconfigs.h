@@ -64,3 +64,6 @@ struct config {
   double valb = 6.0;         
 
 
+
+  double dtrefinit = 0.28;  
+

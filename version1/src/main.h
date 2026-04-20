@@ -71,5 +71,3 @@ explicit engine(const config& cfg)
 graph(cfg),
 cadence(cfg),
 support(cfg),
-arousalt(cfg),
-valstats(cfg),

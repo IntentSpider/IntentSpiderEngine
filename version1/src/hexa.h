@@ -55,3 +55,4 @@ double mu() const { return mu; }
 double var() const { return var; }
 
 
+void setstats(double mu, double var);

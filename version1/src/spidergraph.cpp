@@ -147,3 +147,6 @@ edge* e = find(u, v);
 if (!e) return;
 
 e>sup = 1.0;
+e>shock = 1.0;
+e>tsup = now;
+}
