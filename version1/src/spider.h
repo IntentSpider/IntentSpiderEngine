@@ -61,3 +61,5 @@ uint64_t tokensobserved = 0;
 };
 
 
+
+class intentgraph {

@@ -340,3 +340,8 @@ return ranked;
 }
 
 
+
+std::unordered_map<uint32_t, double> engine::diffusefor(
+const std::vector<uint32_t>& toks, double now) const {
+std::unordered_map<uint32_t, double> out;
+
