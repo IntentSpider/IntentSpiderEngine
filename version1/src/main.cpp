@@ -206,3 +206,9 @@ std::vector<std::array<double, 2>> bc(b.begin(), b.begin() + n);
 std::cout << strplaceholder0 << std::fixed
 << std::setprecision(5) << gaparea(ac, bc) << std::defaultfloat;
 std::cout << strplaceholder0
+ strplaceholder0;
+}
+
+void cmdhyp7(const spectralembedding& emb, const engine& eng, double now) {
+if (!emb.valid()) {
+std::cout << strplaceholder0;

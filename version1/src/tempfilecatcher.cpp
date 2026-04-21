@@ -157,3 +157,6 @@ if (idx.count(nb.first)) d[i] += nb.second;
 for (size_t i = 0; i < n; ++i)
 if (d[i] <= 0.0) return false;
 
+
+
+

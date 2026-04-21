@@ -345,3 +345,10 @@ std::unordered_map<uint32_t, double> engine::diffusefor(
 const std::vector<uint32_t>& toks, double now) const {
 std::unordered_map<uint32_t, double> out;
 
+
+if (toks.empty()) return out;
+
+
+std::unordered_map<uint32_t, double> seed;
+const int n = staticcast<int>(toks.size());
+const int k = std::min(cfg.seedk, n);

@@ -60,6 +60,3 @@ double valvar = -1.0;
 uint64_t tokensobserved = 0;
 };
 
-
-
-class intentgraph {

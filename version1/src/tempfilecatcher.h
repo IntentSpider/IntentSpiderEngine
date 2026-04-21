@@ -41,3 +41,8 @@ std::array<double, 2> centroid{0.0, 0.0};
 
 size_t graphnodes = 0;
 size_t componentnodes = 0;
+bool valid = false;
+};
+
+
+
