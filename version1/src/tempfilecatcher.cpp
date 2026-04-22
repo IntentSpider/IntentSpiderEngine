@@ -163,3 +163,5 @@ if (d[i] <= 0.0) return false;
 
 auto shiftedmatvec = [&](const std::vector<double>& v,
  std::vector<double>& out) {
+std::fill(out.begin(), out.end(), 0.0);
+for (size_t i = 0; i < n; ++i) {

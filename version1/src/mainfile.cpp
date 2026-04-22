@@ -354,3 +354,6 @@ const int n = staticcast<int>(toks.size());
 const int k = std::min(cfg.seedk, n);
 
 double total = 0.0;
+for (int i = 0; i < k; ++i) {
+uint32_t u = toks[n - 1 - i];
+
