@@ -37,3 +37,5 @@ for (const auto& kv : seed) {
 r[kv.first] = kv.second;
 if (std::fabs(kv.second) >= cfg.eps) queue.push_back(kv.first);
 }
+
+long ops = 0;

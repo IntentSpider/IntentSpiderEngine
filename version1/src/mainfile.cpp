@@ -352,3 +352,5 @@ if (toks.empty()) return out;
 std::unordered_map<uint32_t, double> seed;
 const int n = staticcast<int>(toks.size());
 const int k = std::min(cfg.seedk, n);
+
+double total = 0.0;

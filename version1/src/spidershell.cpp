@@ -28,3 +28,6 @@ using ss = string;
 #else
 #endif
 
+namespace intentspider {
+
+rawterminal::rawterminal() {

@@ -33,3 +33,4 @@ namespace intentspider {
 class cadencetracker {
  public:
 explicit cadencetracker(const config& cfg)
+: cfg(cfg), dtref(cfg.dtrefinit) {}

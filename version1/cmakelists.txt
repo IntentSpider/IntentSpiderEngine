@@ -6,3 +6,4 @@ set(cmakecxxstandardrequired on)
 
 addexecutable(intentspider
   src/main.cpp
+  src/tokencounter.cpp

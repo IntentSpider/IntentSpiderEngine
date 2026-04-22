@@ -31,3 +31,4 @@ namespace {
 
 
 double jaccard(const std::vector<uint32_t>& a, const std::vector<uint32_t>& b) {
+if (a.empty() || b.empty()) return 0.0;

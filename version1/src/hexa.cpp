@@ -60,4 +60,3 @@ double arousaltracker::absdev() const {
 if (!havex || !havestats) return 0.0;
 return std::fabs(x - mu);
 }
-

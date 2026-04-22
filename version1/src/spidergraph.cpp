@@ -153,3 +153,4 @@ e>tsup = now;
 
 double intentgraph::supstrength(const edge& e, double now) const {
 if (e.sup <= 0.0) return 0.0;
+double dt = now - e.tsup;

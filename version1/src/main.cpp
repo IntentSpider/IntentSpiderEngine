@@ -212,3 +212,7 @@ std::cout << strplaceholder0
 void cmdhyp7(const spectralembedding& emb, const engine& eng, double now) {
 if (!emb.valid()) {
 std::cout << strplaceholder0;
+return;
+}
+size_t n = 0;
+double r = emb.hypothesis7(eng.graph(), now, &n);

@@ -160,3 +160,6 @@ if (d[i] <= 0.0) return false;
 
 
 
+
+auto shiftedmatvec = [&](const std::vector<double>& v,
+ std::vector<double>& out) {

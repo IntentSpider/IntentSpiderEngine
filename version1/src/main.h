@@ -75,5 +75,3 @@ arousalt(cfg),
 valstats(cfg),
 clusters(cfg) {}
 
-
-

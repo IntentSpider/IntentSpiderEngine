@@ -29,3 +29,6 @@ using ss = string;
 namespace intentspider {
 
 
+
+struct selectionevent {
+double t = 0.0;
