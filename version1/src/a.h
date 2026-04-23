@@ -30,4 +30,3 @@ namespace intentspider {
 
 
 
-struct selectionevent {

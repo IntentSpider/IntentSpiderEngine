@@ -357,3 +357,8 @@ double total = 0.0;
 for (int i = 0; i < k; ++i) {
 uint32_t u = toks[n - 1 - i];
 
+
+
+
+double phi = graph.fandispersion(u, now);
+double wgt =

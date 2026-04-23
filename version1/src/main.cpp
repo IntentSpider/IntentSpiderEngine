@@ -216,3 +216,9 @@ return;
 }
 size_t n = 0;
 double r = emb.hypothesis7(eng.graph(), now, &n);
+
+
+std::cout << strplaceholder0 << std::fixed
+<< std::setprecision(3) << r << strplaceholder0 << n << strplaceholder1
+<< std::defaultfloat;
+

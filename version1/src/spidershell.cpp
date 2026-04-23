@@ -30,5 +30,3 @@ using ss = string;
 
 namespace intentspider {
 
-rawterminal::rawterminal() {
-#ifndef _WIN32

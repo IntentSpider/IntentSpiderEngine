@@ -68,3 +68,5 @@ struct config {
   double dtrefinit = 0.28;  
 
 
+  double dtrefema = 0.05;   
+  double dtcap = 2.0;        

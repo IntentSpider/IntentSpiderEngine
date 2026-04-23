@@ -156,3 +156,9 @@ if (e.sup <= 0.0) return 0.0;
 double dt = now - e.tsup;
 if (dt < 0.0) dt = 0.0;
 
+
+double tau = e.shock > 0.0 ? cfg.taushock : cfg.tausupp;
+
+double v = e.sup * std::exp(-dt / tau);
+return v < cfg.supmin ? 0.0 : v;
+
