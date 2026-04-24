@@ -44,5 +44,3 @@ size_t componentnodes = 0;
 bool valid = false;
 };
 
-
-

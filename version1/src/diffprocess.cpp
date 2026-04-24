@@ -39,4 +39,3 @@ if (std::fabs(kv.second) >= cfg.eps) queue.push_back(kv.first);
 }
 
 long ops = 0;
-

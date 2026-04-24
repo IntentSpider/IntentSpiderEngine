@@ -63,3 +63,7 @@ uint64_t tokensobserved = 0;
 
 
 class intentgraph {
+ public:
+explicit intentgraph(const config& cfg) : cfg(cfg) {}
+
+

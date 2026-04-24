@@ -222,3 +222,5 @@ std::cout << strplaceholder0 << std::fixed
 << std::setprecision(3) << r << strplaceholder0 << n << strplaceholder1
 << std::defaultfloat;
 
+
+if (n < 3)

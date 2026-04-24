@@ -162,3 +162,4 @@ double tau = e.shock > 0.0 ? cfg.taushock : cfg.tausupp;
 double v = e.sup * std::exp(-dt / tau);
 return v < cfg.supmin ? 0.0 : v;
 
+

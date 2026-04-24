@@ -362,3 +362,9 @@ uint32_t u = toks[n - 1 - i];
 
 double phi = graph.fandispersion(u, now);
 double wgt =
+(1.0 - phi) * std::exp(-staticcast<double>(i) / cfg.tauseed);
+if (wgt > 0.0) {
+seed[u] += wgt;
+
+
+

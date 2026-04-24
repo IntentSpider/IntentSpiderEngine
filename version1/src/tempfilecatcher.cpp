@@ -167,3 +167,8 @@ std::fill(out.begin(), out.end(), 0.0);
 for (size_t i = 0; i < n; ++i) {
 for (const auto& nb : sym[ids[i]]) {
 auto it = idx.find(nb.first);
+if (it == idx.end()) continue;
+out[i] += nb.second / std::sqrt(d[i] * d[it>second]) * v[it>second];
+}
+}
+
