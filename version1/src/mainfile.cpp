@@ -368,3 +368,9 @@ seed[u] += wgt;
 
 
 
+total += wgt;
+}
+
+}
+if (total <= 0.0) return out;
+for (auto& kv : seed) kv.second /= total;

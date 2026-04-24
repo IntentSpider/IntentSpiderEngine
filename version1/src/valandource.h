@@ -37,4 +37,3 @@ explicit cadencetracker(const config& cfg)
 
 
 void onkey(double now, bool isbackspace);
-

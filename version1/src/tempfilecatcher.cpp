@@ -170,5 +170,3 @@ auto it = idx.find(nb.first);
 if (it == idx.end()) continue;
 out[i] += nb.second / std::sqrt(d[i] * d[it>second]) * v[it>second];
 }
-}
-

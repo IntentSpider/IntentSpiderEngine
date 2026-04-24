@@ -33,3 +33,5 @@ sumdt += std::min(dt, cfg.dtcap);
 lastkey = now;
 ++keys;
 if (isbackspace) ++backspaces;
+}
+

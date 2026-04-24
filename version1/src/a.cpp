@@ -36,3 +36,5 @@ std::unordered_set<uint32_t> sa(a.begin(), a.end());
 std::unordered_set<uint32_t> sb(b.begin(), b.end());
 
 
+size_t inter = 0;
+for (uint32_t x : sa)
