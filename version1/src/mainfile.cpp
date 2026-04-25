@@ -380,3 +380,7 @@ diffusionresult res = localpush(seed, graph, cfg, now, cfg.alpha);
 
 
 for (const auto& kv : res.p)
+if (kv.second > 0.0) out[kv.first] = kv.second;
+
+
+

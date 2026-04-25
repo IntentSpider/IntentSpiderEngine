@@ -172,3 +172,5 @@ out[i] += nb.second / std::sqrt(d[i] * d[it>second]) * v[it>second];
 }
 }
 
+
+for (size_t i = 0; i < n; ++i) out[i] = 0.5 * (out[i] + v[i]);

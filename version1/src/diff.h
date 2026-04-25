@@ -22,3 +22,6 @@ using ll = long long;
 using ss = string;
 
 #pragma once
+
+
+#include "otherconfigs.h"

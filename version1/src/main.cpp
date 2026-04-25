@@ -229,3 +229,5 @@ else
 std::cout << strplaceholder0
  strplaceholder0;
 }
+
+int runreplay(const config& cfg, const std::string& path) {
