@@ -45,3 +45,8 @@ bool valid = false;
 };
 
 
+
+struct trajectoryanalysis {
+std::vector<double> speed;
+std::vector<int> heads; 
+std::vector<int> plateaus;

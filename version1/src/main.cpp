@@ -224,3 +224,8 @@ std::cout << strplaceholder0 << std::fixed
 
 
 if (n < 3)
+std::cout << strplaceholder0;
+else
+std::cout << strplaceholder0
+ strplaceholder0;
+}

@@ -80,4 +80,3 @@ clusters(cfg) {}
 void onkey(double now, bool isbackspace) {
 cadence.onkey(now, isbackspace);
 arousalt.onkey(now);
-}

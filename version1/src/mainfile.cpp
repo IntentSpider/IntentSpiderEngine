@@ -374,3 +374,9 @@ total += wgt;
 }
 if (total <= 0.0) return out;
 for (auto& kv : seed) kv.second /= total;
+diffusionresult res = localpush(seed, graph, cfg, now, cfg.alpha);
+
+
+
+
+for (const auto& kv : res.p)

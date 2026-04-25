@@ -164,3 +164,7 @@ return v < cfg.supmin ? 0.0 : v;
 
 
 }
+
+double intentgraph::signedweight(const edge& e, double now) const {
+double w = weight(e, now);
+double pos = istransmission(e) ? w : 0.0; 

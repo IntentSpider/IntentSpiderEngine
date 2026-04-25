@@ -62,3 +62,8 @@ return std::fabs(x - mu);
 }
 
 void arousaltracker::setstats(double mu, double var) {
+if (mu > 0.0 && var > 0.0) {
+mu = mu;
+var = var;
+havestats = true;
+}
