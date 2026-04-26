@@ -81,3 +81,6 @@ void onkey(double now, bool isbackspace) {
 cadence.onkey(now, isbackspace);
 arousalt.onkey(now);
 }
+
+void observetyped(const std::vector<uint32_t>& toks, double now);
+std::vector<suggestion> predict(double now);
