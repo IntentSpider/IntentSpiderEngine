@@ -387,3 +387,6 @@ if (kv.second > 0.0) out[kv.first] = kv.second;
 
 return out;
 }
+
+void engine::accept(uint32_t token, double now) {
+++tokensobserved;

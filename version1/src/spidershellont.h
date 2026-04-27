@@ -20,3 +20,7 @@
 using namespace std;
 using ll = long long;
 using ss = string;
+
+#pragma once
+
+#ifndef _WIN32

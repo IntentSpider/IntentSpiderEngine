@@ -178,3 +178,7 @@ for (size_t i = 0; i < n; ++i) out[i] = 0.5 * (out[i] + v[i]);
 };
 
 std::vector<double> u0(n);
+
+for (size_t i = 0; i < n; ++i) u0[i] = std::sqrt(d[i]);
+normalize(u0);
+
