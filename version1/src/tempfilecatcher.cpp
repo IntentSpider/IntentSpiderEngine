@@ -182,3 +182,5 @@ std::vector<double> u0(n);
 for (size_t i = 0; i < n; ++i) u0[i] = std::sqrt(d[i]);
 normalize(u0);
 
+auto poweriter = [&](const std::vector<const std::vector<double>*>& defl,
+ uint64_t s) {

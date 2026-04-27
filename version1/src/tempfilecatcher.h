@@ -47,3 +47,4 @@ bool valid = false;
 
 
 struct trajectoryanalysis {
+std::vector<double> speed;

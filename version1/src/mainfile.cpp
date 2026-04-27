@@ -390,3 +390,8 @@ return out;
 
 void engine::accept(uint32_t token, double now) {
 ++tokensobserved;
+tick(now);
+if (!sent.empty()) selectionevent(sent.back(), token, now, lastval);
+applyoutcomes(token);
+support.record(token, now, lastcontext);
+sent.push_back(token);

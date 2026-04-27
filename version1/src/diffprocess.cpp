@@ -42,3 +42,4 @@ long ops = 0;
 
 while (!queue.empty()) {
 if (++ops > cfg.maxpushops) {
+out.truncated = true;

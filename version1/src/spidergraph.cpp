@@ -172,3 +172,8 @@ double neg = cfg.gamma * supstrength(e, now) * w;
 return pos - neg; 
 
 
+
+}
+
+
+double intentgraph::abssigneddegree(uint32_t u, double now) const {
