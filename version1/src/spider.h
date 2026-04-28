@@ -70,4 +70,3 @@ explicit intentgraph(const config& cfg) : cfg(cfg) {}
 
 
 
-

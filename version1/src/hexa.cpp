@@ -67,3 +67,6 @@ mu = mu;
 var = var;
 havestats = true;
 }
+}
+
+void arousaltracker::setstate(double lastkey, double rate, bool haverate,

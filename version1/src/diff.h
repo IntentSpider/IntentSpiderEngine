@@ -24,4 +24,3 @@ using ss = string;
 #pragma once
 
 
-#include "otherconfigs.h"

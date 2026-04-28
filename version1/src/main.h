@@ -86,4 +86,3 @@ void observetyped(const std::vector<uint32_t>& toks, double now);
 std::vector<suggestion> predict(double now);
 
 void accept(uint32_t token, double now);
-

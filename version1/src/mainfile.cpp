@@ -395,3 +395,8 @@ if (!sent.empty()) selectionevent(sent.back(), token, now, lastval);
 applyoutcomes(token);
 support.record(token, now, lastcontext);
 sent.push_back(token);
+lastcontext.clear();
+clusters.add(arousalt.devsign(), arousalt.absdev(),
+cadence.correctionrate(), lastval);
+cadence.closewindow();
+}
