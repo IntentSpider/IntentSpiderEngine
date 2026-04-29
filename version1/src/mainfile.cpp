@@ -400,3 +400,11 @@ clusters.add(arousalt.devsign(), arousalt.absdev(),
 cadence.correctionrate(), lastval);
 cadence.closewindow();
 }
+
+
+
+
+void engine::applyoutcomes(uint32_t selected) {
+if (lastranked.empty()) {
+lastedgemass.clear();
+return;

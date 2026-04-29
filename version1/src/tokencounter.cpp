@@ -24,6 +24,3 @@ using ss= string;
 
 namespace intentspider {
 
-uint32_t tokenizer::intern(const std::string& s) {
-  auto it = ids.find(s);
-

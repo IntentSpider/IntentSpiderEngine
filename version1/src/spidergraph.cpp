@@ -175,3 +175,7 @@ return pos - neg;
 
 }
 
+
+double intentgraph::abssigneddegree(uint32_t u, double now) const {
+const auto* es = edges(u);
+

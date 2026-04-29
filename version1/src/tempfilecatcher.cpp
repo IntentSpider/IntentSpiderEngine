@@ -185,3 +185,4 @@ normalize(u0);
 auto poweriter = [&](const std::vector<const std::vector<double>*>& defl,
  uint64_t s) {
 std::vector<double> v(n), tmp(n);
+for (size_t i = 0; i < n; ++i) {

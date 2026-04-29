@@ -65,3 +65,4 @@ void setstats(double mu, double var);
 double lastkey() const { return lastkey; }
 
 
+

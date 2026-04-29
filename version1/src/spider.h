@@ -70,3 +70,7 @@ explicit intentgraph(const config& cfg) : cfg(cfg) {}
 
 
 
+
+
+void reinforce(uint32_t u, uint32_t v, double now, double valprime);
+
