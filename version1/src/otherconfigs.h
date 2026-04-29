@@ -79,4 +79,3 @@ struct config {
 
 
 
-  double thetas = 0.8;       

@@ -34,4 +34,3 @@ rawterminal::rawterminal() {
 #ifndef _WIN32
 if (tcgetattr(stdinfileno, &orig) == 0) {
 termios raw = orig;
-raw.clflag &= ~(icanon | echo);

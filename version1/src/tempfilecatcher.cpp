@@ -186,3 +186,7 @@ auto poweriter = [&](const std::vector<const std::vector<double>*>& defl,
  uint64_t s) {
 std::vector<double> v(n), tmp(n);
 for (size_t i = 0; i < n; ++i) {
+s ^= s << 13;
+s ^= s >> 7;
+s ^= s << 17;
+v[i] = staticcast<double>(s % 1000003) / 1000003.0 - 0.5;

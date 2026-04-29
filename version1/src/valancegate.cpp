@@ -36,4 +36,3 @@ if (isbackspace) ++backspaces;
 }
 
 double cadencetracker::valence() const {
-if (ndt == 0) return 0.0;

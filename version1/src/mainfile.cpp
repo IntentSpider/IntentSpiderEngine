@@ -408,3 +408,4 @@ void engine::applyoutcomes(uint32_t selected) {
 if (lastranked.empty()) {
 lastedgemass.clear();
 return;
+}
