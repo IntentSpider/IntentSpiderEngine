@@ -409,3 +409,10 @@ if (lastranked.empty()) {
 lastedgemass.clear();
 return;
 }
+
+std::unordered_set<uint32_t> cands;
+
+
+for (const auto& s : lastranked) cands.insert(s.token);
+for (const auto& kv : lastedgemass) {
+if (kv.second < cfg.masstrivial) continue;

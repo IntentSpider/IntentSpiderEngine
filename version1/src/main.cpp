@@ -247,3 +247,8 @@ double clock = 1.0e9;
  
  
  
+long preds = 0, top1 = 0, top3 = 0, gated = 0, cold = 0, tokens = 0;
+std::string line;
+while (std::getline(in, line)) {
+auto toks = eng.tokenizer().tokenize(line);
+

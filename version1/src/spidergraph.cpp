@@ -180,3 +180,5 @@ double intentgraph::abssigneddegree(uint32_t u, double now) const {
 const auto* es = edges(u);
 
 if (!es) return 0.0;
+double d = 0.0;
+for (const auto& e : *es) d += std::fabs(signedweight(e, now));
