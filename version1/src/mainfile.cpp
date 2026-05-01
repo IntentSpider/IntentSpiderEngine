@@ -416,3 +416,7 @@ std::unordered_set<uint32_t> cands;
 for (const auto& s : lastranked) cands.insert(s.token);
 for (const auto& kv : lastedgemass) {
 if (kv.second < cfg.masstrivial) continue;
+uint32_t u = staticcast<uint32_t>(kv.first >> 32);
+uint32_t v = staticcast<uint32_t>(kv.first & 0xffffffffu);
+if (v == selected)
+graph.updatetf(u, v, true);

@@ -14823,3 +14823,173 @@ or any project gutenberg work, (b) alteration, modification, or
 additions or deletions to any project gutenberg work, and (c) any
 defect you cause.
 
+section 2. information about the mission of project gutenberg
+
+project gutenberg is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middleaged and new computers. it
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching project gutenberg’s
+goals and ensuring that the project gutenberg collection will
+remain freely available for generations to come. in 2001, the project
+gutenberg literary archive foundation was created to provide a secure
+and permanent future for project gutenberg and future
+generations. to learn more about the project gutenberg literary
+archive foundation and how your efforts and donations can help, see
+sections 3 and 4 and the foundation information page at www.gutenberg.org.
+
+section 3. information about the project gutenberg literary archive foundation
+
+the project gutenberg literary archive foundation is a nonprofit
+501(c)(3) educational corporation organized under the laws of the
+state of mississippi and granted tax exempt status by the internal
+revenue service. the foundation’s ein or federal tax identification
+number is 64-6221541. contributions to the project gutenberg literary
+archive foundation are tax deductible to the full extent permitted by
+u.s. federal laws and your state’s laws.
+
+the foundation’s business office is located at 41 watchung plaza #516,
+montclair nj 07042, usa, +1 (862) 621-9288. email contact links and up
+to date contact information can be found at the foundation’s website
+and official page at www.gutenberg.org/contact
+
+section 4. information about donations to the project gutenberg
+literary archive foundation
+
+project gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machinereadable form accessible by the widest
+array of equipment including outdated equipment. many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the irs.
+
+the foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the united
+states. compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. we do not solicit donations in locations
+where we have not received written confirmation of compliance. to send
+donations or determine the status of compliance for any particular state
+visit www.gutenberg.org/donate.
+
+while we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+international donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the united states. u.s. laws alone swamp our small staff.
+
+please check the project gutenberg web pages for current donation
+methods and addresses. donations are accepted in a number of other
+ways including checks, online payments and credit card donations. to
+donate, please visit: www.gutenberg.org/donate.
+
+section 5. general information about project gutenberg electronic works
+
+professor michael s. hart was the originator of the project
+gutenberg concept of a library of electronic works that could be
+freely shared with anyone. for forty years, he produced and
+distributed project gutenberg ebooks with only a loose network of
+volunteer support.
+
+project gutenberg ebooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the u.s. unless a copyright notice is included. thus, we do not
+necessarily keep ebooks in compliance with any particular paper
+edition.
+
+most people start at our website which has the main pg search
+facility: www.gutenberg.org.
+
+this website includes information about project gutenberg,
+including how to make donations to the project gutenberg literary
+archive foundation, how to help produce our new ebooks, and how to
+subscribe to our email newsletter to hear about new ebooks.
+
+
+the project gutenberg ebook of alice's adventures in wonderland
+    
+this ebook is for the use of anyone anywhere in the united states and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. you may copy it, give it away or reuse it under the terms
+of the project gutenberg license included with this ebook or online
+at www.gutenberg.org. if you are not located in the united states,
+you will have to check the laws of the country where you are located
+before using this ebook.
+
+title: alice's adventures in wonderland
+
+author: lewis carroll
+
+
+        
+release date: june 27, 2008 [ebook #11]
+                most recently updated: june 26, 2025
+
+language: english
+
+other information and formats: www.gutenberg.org/ebooks/11
+
+credits: arthur dibianca and david widger
+
+
+*** start of the project gutenberg ebook alice's adventures in wonderland ***
+
+[illustration]
+
+
+
+
+alice’s adventures in wonderland
+
+by lewis carroll
+
+the millennium fulcrum edition 3.0
+
+contents
+
+ chapter i.     down the rabbithole
+ chapter ii.    the pool of tears
+ chapter iii.   a caucusrace and a long tale
+ chapter iv.    the rabbit sends in a little bill
+ chapter v.     advice from a caterpillar
+ chapter vi.    pig and pepper
+ chapter vii.   a mad teaparty
+ chapter viii.  the queen’s croquetground
+ chapter ix.    the mock turtle’s story
+ chapter x.     the lobster quadrille
+ chapter xi.    who stole the tarts?
+ chapter xii.   alice’s evidence
+
+
+
+
+chapter i.
+down the rabbithole
+
+
+alice was beginning to get very tired of sitting by her sister on the
+bank, and of having nothing to do: once or twice she had peeped into
+the book her sister was reading, but it had no pictures or
+conversations in it, “and what is the use of a book,” thought alice
+“without pictures or conversations?”
+
+so she was considering in her own mind (as well as she could, for the
+hot day made her feel very sleepy and stupid), whether the pleasure of
+making a daisychain would be worth the trouble of getting up and
+picking the daisies, when suddenly a white rabbit with pink eyes ran
+close by her.
+
+there was nothing so very remarkable in that; nor did alice think it
+so very much out of the way to hear the rabbit say to itself, “oh
+dear! oh dear! i shall be late!” (when she thought it over afterwards,
+it occurred to her that she ought to have wondered at this, but at the
+time it all seemed quite natural); but when the rabbit actually took a
+watch out of its waistcoatpocket, and looked at it, and then hurried
+on, alice started to her feet, for it flashed across her mind that she

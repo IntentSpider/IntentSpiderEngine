@@ -24,4 +24,3 @@ using ss = string;
 #pragma once
 
 #ifndef _WIN32
-#endif

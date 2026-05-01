@@ -78,3 +78,8 @@ struct config {
   double tprime = 3600.0;    
 
 
+
+  double thetas = 0.8;       
+  double tausupp = 604800.0; 
+
+

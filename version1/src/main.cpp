@@ -252,3 +252,6 @@ std::string line;
 while (std::getline(in, line)) {
 auto toks = eng.tokenizer().tokenize(line);
 
+
+eng.clearsentence();
+

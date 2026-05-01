@@ -70,3 +70,6 @@ havestats = true;
 }
 
 void arousaltracker::setstate(double lastkey, double rate, bool haverate,
+double mu, double var, bool havestats,
+int streak) {
+lastkey = lastkey;

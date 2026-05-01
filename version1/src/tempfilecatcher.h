@@ -52,5 +52,3 @@ std::vector<int> heads;
 std::vector<int> plateaus;
 };
 
-class spectralembedding {
- public:
