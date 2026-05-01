@@ -186,3 +186,6 @@ return d;
 }
 
 double intentgraph::fandispersion(uint32_t u, double now) const {
+const auto* es = edges(u);
+if (!es) return 0.0;
+double tot = 0.0;

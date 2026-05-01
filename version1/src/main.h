@@ -91,3 +91,4 @@ const std::vector<uint32_t>& sentence() const { return sent; }
 const std::vector<suggestion>& pendingsuggestions() const { return lastranked; }
 std::string sentencetext() const;
 void clearsentence();
+

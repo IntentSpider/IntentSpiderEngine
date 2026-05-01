@@ -81,5 +81,3 @@ struct config {
 
   double thetas = 0.8;       
   double tausupp = 604800.0; 
-
-

@@ -420,3 +420,6 @@ uint32_t u = staticcast<uint32_t>(kv.first >> 32);
 uint32_t v = staticcast<uint32_t>(kv.first & 0xffffffffu);
 if (v == selected)
 graph.updatetf(u, v, true);
+else if (cands.count(v))
+graph.updatetf(u, v, false);
+}

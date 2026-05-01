@@ -68,3 +68,4 @@ double lastkey() const { return lastkey; }
 
 
 double rate() const { return x; }
+bool haverate() const { return havex; }

@@ -42,6 +42,3 @@ void onkey(double now, bool isbackspace);
 double valence() const;
 
 
-
-
-
