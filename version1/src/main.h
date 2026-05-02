@@ -92,3 +92,4 @@ const std::vector<suggestion>& pendingsuggestions() const { return lastranked; }
 std::string sentencetext() const;
 void clearsentence();
 
+

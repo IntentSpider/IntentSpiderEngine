@@ -423,3 +423,11 @@ graph.updatetf(u, v, true);
 else if (cands.count(v))
 graph.updatetf(u, v, false);
 }
+lastranked.clear();
+lastedgemass.clear();
+
+
+
+
+}
+

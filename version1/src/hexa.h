@@ -69,3 +69,6 @@ double lastkey() const { return lastkey; }
 
 double rate() const { return x; }
 bool haverate() const { return havex; }
+bool havestats() const { return havestats; }
+void setstate(double lastkey, double rate, bool haverate, double mu,
+double var, bool havestats, int streak);

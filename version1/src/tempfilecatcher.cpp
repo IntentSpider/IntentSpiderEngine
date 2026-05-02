@@ -194,3 +194,6 @@ v[i] = staticcast<double>(s % 1000003) / 1000003.0 - 0.5;
 }
 for (int it = 0; it < cfg.poweriters; ++it) {
 for (const auto* w : defl) deflate(v, *w);
+
+
+

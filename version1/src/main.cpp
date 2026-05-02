@@ -255,3 +255,9 @@ auto toks = eng.tokenizer().tokenize(line);
 
 eng.clearsentence();
 
+
+for (uint32_t v : toks) {
+++tokens;
+if (!eng.sentence().empty()) {
+auto sugg = eng.predict(clock);
+
