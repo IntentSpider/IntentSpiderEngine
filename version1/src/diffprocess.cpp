@@ -45,3 +45,4 @@ if (++ops > cfg.maxpushops) {
 out.truncated = true;
 break;
 }
+uint32_t u = queue.front();

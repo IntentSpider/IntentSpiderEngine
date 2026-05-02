@@ -197,3 +197,6 @@ for (const auto* w : defl) deflate(v, *w);
 
 
 
+if (!normalize(v)) return v;
+shiftedmatvec(v, tmp);
+v.swap(tmp);

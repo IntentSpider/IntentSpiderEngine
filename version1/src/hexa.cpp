@@ -72,3 +72,7 @@ havestats = true;
 void arousaltracker::setstate(double lastkey, double rate, bool haverate,
 double mu, double var, bool havestats,
 int streak) {
+lastkey = lastkey;
+x = std::max(0.0, rate);
+havex = haverate;
+mu = mu;

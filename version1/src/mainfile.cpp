@@ -431,3 +431,6 @@ lastedgemass.clear();
 
 }
 
+double engine::residue(uint32_t v, double now) const {
+(void)now;
+double best = 0.0;
