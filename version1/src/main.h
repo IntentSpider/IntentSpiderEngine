@@ -93,5 +93,3 @@ std::string sentencetext() const;
 void clearsentence();
 
 
-
-

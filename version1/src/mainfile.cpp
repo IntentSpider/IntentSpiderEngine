@@ -434,3 +434,7 @@ lastedgemass.clear();
 double engine::residue(uint32_t v, double now) const {
 (void)now;
 double best = 0.0;
+for (uint32_t u : lastcontext) {
+const edge* e = graph.edge(u, v);
+if (e) best = std::max(best, e>tf);
+}

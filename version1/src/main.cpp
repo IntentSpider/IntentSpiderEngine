@@ -261,3 +261,8 @@ for (uint32_t v : toks) {
 if (!eng.sentence().empty()) {
 auto sugg = eng.predict(clock);
 
+
+if (!sugg.empty()) {
+++preds;
+if (sugg[0].token == v) ++top1;
+for (const auto& s : sugg)

@@ -191,3 +191,5 @@ if (!es) return 0.0;
 double tot = 0.0;
 std::vector<double> ws;
 for (const auto& e : *es) {
+if (!istransmission(e)) continue;
+double w = weight(e, now);

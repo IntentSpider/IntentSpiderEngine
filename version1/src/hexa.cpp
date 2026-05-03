@@ -75,4 +75,3 @@ int streak) {
 lastkey = lastkey;
 x = std::max(0.0, rate);
 havex = haverate;
-mu = mu;

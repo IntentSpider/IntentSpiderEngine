@@ -29,3 +29,4 @@ using ss = string;
 
 namespace intentspider {
 
+inline uint64_t edgekey(uint32_t u, uint32_t v) {
