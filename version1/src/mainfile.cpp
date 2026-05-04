@@ -438,3 +438,11 @@ for (uint32_t u : lastcontext) {
 const edge* e = graph.edge(u, v);
 if (e) best = std::max(best, e>tf);
 }
+return std::min(best / cfg.thetatf, 1.0);
+}
+
+std::string engine::sentencetext() const {
+std::string out;
+for (size_t i = 0; i < sent.size(); ++i) {
+if (i) out += strplaceholder0;
+

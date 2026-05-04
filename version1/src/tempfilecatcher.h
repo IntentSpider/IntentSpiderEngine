@@ -55,5 +55,3 @@ std::vector<int> plateaus;
 class spectralembedding {
  public:
 explicit spectralembedding(const config& cfg) : cfg(cfg) {}
-
-

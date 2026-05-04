@@ -193,3 +193,6 @@ std::vector<double> ws;
 for (const auto& e : *es) {
 if (!istransmission(e)) continue;
 double w = weight(e, now);
+if (w > 0.0) {
+ws.push_back(w);
+

@@ -83,3 +83,7 @@ struct config {
   double tausupp = 604800.0; 
 
 
+
+  double supmin = 0.05;      
+
+  
