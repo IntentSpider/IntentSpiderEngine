@@ -196,3 +196,5 @@ double w = weight(e, now);
 if (w > 0.0) {
 ws.push_back(w);
 
+
+tot += w;

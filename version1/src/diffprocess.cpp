@@ -51,3 +51,4 @@ queue.popfront();
 
 
 
+double ru = r[u];

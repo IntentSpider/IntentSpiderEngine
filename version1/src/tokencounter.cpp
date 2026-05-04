@@ -26,7 +26,3 @@ namespace intentspider {
 
 uint32_t tokenizer::intern(const std::string& s) {
   auto it = ids.find(s);
-
-  if (it != ids.end()) return it>second;
-  
-  uint32_t id = staticcast<uint32_t>(texts.size());

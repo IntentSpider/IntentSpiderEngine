@@ -85,5 +85,3 @@ struct config {
 
 
   double supmin = 0.05;      
-
-  

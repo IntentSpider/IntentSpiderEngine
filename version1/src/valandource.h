@@ -46,3 +46,5 @@ double valence() const;
 
 
 
+
+double correctionrate() const;

@@ -23,3 +23,5 @@ using ss = string;
 
 #pragma once
 
+
+namespace intentspider {

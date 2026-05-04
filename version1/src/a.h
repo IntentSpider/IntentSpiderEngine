@@ -39,5 +39,3 @@ std::vector<uint32_t> ctx;
 
 
 
-
-class supportindex {

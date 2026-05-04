@@ -446,3 +446,7 @@ std::string out;
 for (size_t i = 0; i < sent.size(); ++i) {
 if (i) out += strplaceholder0;
 
+
+
+
+out += tok.text(sent[i]);
