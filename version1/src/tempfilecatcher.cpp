@@ -209,3 +209,5 @@ return v;
 };
 
 
+std::vector<double> v1 = poweriter({&u0}, 0x9e3779b97f4a7c15ull);
+std::vector<double> v2 = poweriter({&u0, &v1}, 0xc2b2ae3d27d4eb4full);

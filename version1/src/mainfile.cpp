@@ -450,3 +450,8 @@ if (i) out += strplaceholder0;
 
 
 out += tok.text(sent[i]);
+}
+
+
+return out;
+

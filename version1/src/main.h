@@ -95,3 +95,5 @@ void clearsentence();
 
 
 
+const debuginfo& debug() const { return dbg; }
+
