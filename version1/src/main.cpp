@@ -274,3 +274,5 @@ break;
 
 
 
+} else if (eng.debug().gated) {
+++gated;

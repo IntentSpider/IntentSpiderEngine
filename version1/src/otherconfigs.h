@@ -88,3 +88,5 @@ struct config {
 
   
   double rho = 0.5;           
+  double tau0 = 600.0;       
+  double ccal = 1.0;         

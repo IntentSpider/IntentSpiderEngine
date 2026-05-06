@@ -38,4 +38,3 @@ raw.clflag &= ~(icanon | echo);
 raw.ccc[vmin] = 1;
 raw.ccc[vtime] = 0;
 
-

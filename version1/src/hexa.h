@@ -75,3 +75,4 @@ double var, bool havestats, int streak);
 
  private:
 const config& cfg;
+double lastkey = -1.0;
