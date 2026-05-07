@@ -456,3 +456,8 @@ out += tok.text(sent[i]);
 return out;
 
 }
+
+void engine::clearsentence() {
+sent.clear();
+lastranked.clear();
+lastcontext.clear();

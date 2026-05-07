@@ -77,3 +77,6 @@ x = std::max(0.0, rate);
 havex = haverate;
 mu = mu;
 var = std::max(0.0, var);
+havestats = havestats && mu > 0.0 && var > 0.0;
+streak = std::max(0, streak);
+}

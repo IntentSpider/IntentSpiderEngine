@@ -202,5 +202,3 @@ tot += w;
 }
 if (ws.size() < 2 || tot <= 0.0) return 0.0;
 double h = 0.0;
-
-
