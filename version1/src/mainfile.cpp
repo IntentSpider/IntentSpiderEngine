@@ -461,3 +461,11 @@ void engine::clearsentence() {
 sent.clear();
 lastranked.clear();
 lastcontext.clear();
+
+lastedgemass.clear();
+}
+
+bool engine::save(const std::string& path) const {
+persistedstats st;
+st.cadencebaseline = cadence.baseline();
+st.ratemu = arousalt.mu();

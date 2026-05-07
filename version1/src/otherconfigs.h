@@ -91,3 +91,4 @@ struct config {
   double tau0 = 600.0;       
   double ccal = 1.0;         
   int historycap = 20;       
+

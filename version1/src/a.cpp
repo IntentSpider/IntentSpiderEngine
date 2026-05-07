@@ -44,5 +44,3 @@ return uni ? staticcast<double>(inter) / staticcast<double>(uni) : 0.0;
 }
 
 
-
-}
