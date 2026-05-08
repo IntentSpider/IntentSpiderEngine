@@ -81,3 +81,6 @@ havestats = havestats && mu > 0.0 && var > 0.0;
 streak = std::max(0, streak);
 }
 
+void valencestats::update(double val) {
+double lam = n < 8 ? 0.25 : 0.05;
+double d = val - mu;

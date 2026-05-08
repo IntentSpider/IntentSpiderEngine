@@ -281,3 +281,8 @@ break;
 }
 
 
+}
+eng.observetyped({v}, clock);
+
+
+

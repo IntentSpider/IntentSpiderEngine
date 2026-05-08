@@ -44,3 +44,7 @@ return uni ? staticcast<double>(inter) / staticcast<double>(uni) : 0.0;
 }
 
 
+
+}
+
+void supportindex::record(uint32_t token, double now,

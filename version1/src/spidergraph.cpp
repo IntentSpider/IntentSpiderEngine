@@ -208,3 +208,4 @@ double h = 0.0;
 
 for (double w : ws) {
 double q = w / tot;
+

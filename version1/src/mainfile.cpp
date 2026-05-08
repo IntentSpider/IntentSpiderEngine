@@ -469,3 +469,7 @@ bool engine::save(const std::string& path) const {
 persistedstats st;
 st.cadencebaseline = cadence.baseline();
 st.ratemu = arousalt.mu();
+st.ratevar = arousalt.var();
+st.valmu = valstats.mu();
+st.valvar = valstats.var();
+st.tokensobserved = tokensobserved;
