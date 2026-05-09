@@ -479,3 +479,7 @@ return graph.save(path, tok, st);
 
 
 bool engine::load(const std::string& path) {
+persistedstats st;
+if (!graph.load(path, tok, &st)) return false;
+if (st.cadencebaseline > 0.0) cadence.setbaseline(st.cadencebaseline);
+

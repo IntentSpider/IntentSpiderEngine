@@ -40,3 +40,5 @@ if (ndt == 0) return 0.0;
 double dtavg = sumdt / staticcast<double>(ndt);
 double kappa = correctionrate();
 
+
+
