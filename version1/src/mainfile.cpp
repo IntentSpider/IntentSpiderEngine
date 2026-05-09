@@ -473,3 +473,9 @@ st.ratevar = arousalt.var();
 st.valmu = valstats.mu();
 st.valvar = valstats.var();
 st.tokensobserved = tokensobserved;
+return graph.save(path, tok, st);
+}
+
+
+
+bool engine::load(const std::string& path) {

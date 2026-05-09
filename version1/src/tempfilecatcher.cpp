@@ -215,3 +215,7 @@ std::vector<double> v2 = poweriter({&u0, &v1}, 0xc2b2ae3d27d4eb4full);
 
 for (size_t i = 0; i < n; ++i) {
 double x = v1[i] / std::sqrt(d[i]);
+double y = v2[i] / std::sqrt(d[i]);
+res.pos[ids[i]] = {x, y};
+res.centroid[0] += x;
+res.centroid[1] += y;

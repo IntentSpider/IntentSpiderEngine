@@ -92,3 +92,5 @@ struct config {
   double ccal = 1.0;         
   int historycap = 20;       
 
+
+
