@@ -82,3 +82,6 @@ streak = std::max(0, streak);
 }
 
 void valencestats::update(double val) {
+double lam = n < 8 ? 0.25 : 0.05;
+double d = val - mu;
+mu += lam * d;

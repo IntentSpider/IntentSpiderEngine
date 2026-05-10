@@ -483,3 +483,7 @@ persistedstats st;
 if (!graph.load(path, tok, &st)) return false;
 if (st.cadencebaseline > 0.0) cadence.setbaseline(st.cadencebaseline);
 
+
+
+
+if (st.ratemu > 0.0 && st.ratevar > 0.0)

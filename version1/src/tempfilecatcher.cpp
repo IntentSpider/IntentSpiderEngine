@@ -220,3 +220,8 @@ res.pos[ids[i]] = {x, y};
 res.centroid[0] += x;
 res.centroid[1] += y;
 
+
+}
+res.centroid[0] /= staticcast<double>(n);
+
+

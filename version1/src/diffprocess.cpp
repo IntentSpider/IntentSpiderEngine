@@ -54,3 +54,4 @@ queue.popfront();
 double ru = r[u];
 if (std::fabs(ru) < cfg.eps) continue;
 r[u] = 0.0;
+

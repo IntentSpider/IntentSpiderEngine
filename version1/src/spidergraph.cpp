@@ -212,3 +212,4 @@ double q = w / tot;
 
 
 h -= q * std::log(q);
+}
