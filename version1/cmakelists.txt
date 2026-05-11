@@ -9,3 +9,6 @@ addexecutable(intentspider
   src/tokencounter.cpp
   src/spidergraph.cpp
   src/diffprocess.cpp
+  src/mainfile.cpp
+src/spidershell.cpp
+  src/valancegate.cpp

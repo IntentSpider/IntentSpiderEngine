@@ -487,3 +487,8 @@ if (st.cadencebaseline > 0.0) cadence.setbaseline(st.cadencebaseline);
 
 
 if (st.ratemu > 0.0 && st.ratevar > 0.0)
+arousalt.setstats(st.ratemu, st.ratevar);
+if (st.valvar > 0.0) valstats.setstats(st.valmu, st.valvar);
+tokensobserved = st.tokensobserved;
+return true;
+}
