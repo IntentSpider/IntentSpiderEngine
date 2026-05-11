@@ -26,3 +26,5 @@ using ss = string;
 #ifndef _WIN32
 #endif
 
+namespace intentspider {
+

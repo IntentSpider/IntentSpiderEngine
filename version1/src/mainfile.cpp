@@ -492,3 +492,5 @@ if (st.valvar > 0.0) valstats.setstats(st.valmu, st.valvar);
 tokensobserved = st.tokensobserved;
 return true;
 }
+
+void engine::normalizeloadedtimestamps(double now) {

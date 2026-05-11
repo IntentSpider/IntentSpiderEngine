@@ -296,3 +296,6 @@ clock += 10.0;
 }
 
 
+std::cout << strplaceholder0 << tokens << strplaceholder1
+<< (preds + gated + cold) << strplaceholder0;
+std::cout << strplaceholder0 << preds << strplaceholder1 << gated

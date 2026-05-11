@@ -219,3 +219,5 @@ return std::min(1.0, h / std::log(staticcast<double>(ws.size())));
 double intentgraph::exhaustion(uint32_t u, uint32_t v, double now) const {
 const edge* e = find(u, v);
 if (!e || e>tlast < 0.0) return 0.0;
+
+
