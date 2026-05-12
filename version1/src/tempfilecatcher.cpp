@@ -230,3 +230,4 @@ res.centroid[0] /= staticcast<double>(n);
 res.centroid[1] /= staticcast<double>(n);
 res.valid = true;
 
+

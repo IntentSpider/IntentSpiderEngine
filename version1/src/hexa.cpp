@@ -87,4 +87,3 @@ double d = val - mu;
 mu += lam * d;
 var += lam * (d * d - var);
 ++n;
-}

@@ -494,3 +494,11 @@ return true;
 }
 
 void engine::normalizeloadedtimestamps(double now) {
+const double maxt = graph.maxtimestamp();
+
+
+
+if (maxt > 0.0 && maxt < 1.0e8 && now > 1.0e8) {
+loadedtimestampshift = now - maxt;
+graph.shifttimestamps(loadedtimestampshift);
+} else {
