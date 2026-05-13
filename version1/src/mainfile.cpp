@@ -502,3 +502,8 @@ if (maxt > 0.0 && maxt < 1.0e8 && now > 1.0e8) {
 loadedtimestampshift = now - maxt;
 graph.shifttimestamps(loadedtimestampshift);
 } else {
+loadedtimestampshift = 0.0;
+}
+}
+
+bool engine::savetransient(const std::string& path,

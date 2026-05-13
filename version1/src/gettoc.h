@@ -27,3 +27,5 @@ using ss = string;
 namespace intentspider {
 
 
+
+class tokenizer {

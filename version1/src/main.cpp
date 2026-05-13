@@ -301,3 +301,8 @@ std::cout << strplaceholder0 << tokens << strplaceholder1
 std::cout << strplaceholder0 << preds << strplaceholder1 << gated
 << strplaceholder0 << cold << strplaceholder1;
 if (preds > 0) {
+std::cout << std::fixed << std::setprecision(3);
+std::cout << strplaceholder0
+<< staticcast<double>(top1) / preds << strplaceholder0;
+std::cout << strplaceholder0
+<< staticcast<double>(top3) / preds << strplaceholder0

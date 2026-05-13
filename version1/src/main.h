@@ -109,3 +109,6 @@ const std::unordered_map<uint32_t, double>& lastp() const { return lastp; }
 
 
 
+std::unordered_map<uint32_t, double> diffusefor(
+const std::vector<uint32_t>& toks, double now) const;
+

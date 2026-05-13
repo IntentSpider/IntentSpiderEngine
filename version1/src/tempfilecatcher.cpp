@@ -231,3 +231,7 @@ res.centroid[1] /= staticcast<double>(n);
 res.valid = true;
 
 
+return true;
+}
+
+
