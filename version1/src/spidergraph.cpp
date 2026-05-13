@@ -221,3 +221,9 @@ const edge* e = find(u, v);
 if (!e || e>tlast < 0.0) return 0.0;
 
 
+
+double age = std::max(0.0, now - e>tlast);
+
+
+
+

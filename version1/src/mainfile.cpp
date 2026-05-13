@@ -507,3 +507,8 @@ loadedtimestampshift = 0.0;
 }
 
 bool engine::savetransient(const std::string& path,
+ const std::string& buffer) const {
+std::ofstream out(path);
+if (!out) return false;
+out << strplaceholder0;
+out.precision(17);

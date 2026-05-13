@@ -306,3 +306,6 @@ std::cout << strplaceholder0
 << staticcast<double>(top1) / preds << strplaceholder0;
 std::cout << strplaceholder0
 << staticcast<double>(top3) / preds << strplaceholder0
+<< std::defaultfloat;
+}
+spectralembedding emb(cfg);

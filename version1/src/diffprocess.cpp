@@ -56,5 +56,3 @@ if (std::fabs(ru) < cfg.eps) continue;
 r[u] = 0.0;
 
 
-
-

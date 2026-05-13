@@ -43,3 +43,4 @@ raw.ccc[vtime] = 0;
 if (tcsetattr(stdinfileno, tcsaflush, &raw) == 0) active = true;
 }
 #endif
+}

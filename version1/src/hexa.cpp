@@ -87,3 +87,6 @@ double d = val - mu;
 mu += lam * d;
 var += lam * (d * d - var);
 ++n;
+}
+
+bool valencestats::shock(double val, double correctionrate) const {
