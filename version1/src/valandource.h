@@ -54,4 +54,3 @@ double correctionrate() const;
 
 
 
-void closewindow();

@@ -513,3 +513,10 @@ if (!out) return false;
 out << strplaceholder0;
 out.precision(17);
 
+
+out << arousalt.lastkey() << strplaceholder0 << arousalt.rate() << strplaceholder1
+<< (arousalt.haverate() ? 1 : 0) << strplaceholder0 << arousalt.mu() << strplaceholder1
+<< arousalt.var() << strplaceholder0 << (arousalt.havestats() ? 1 : 0) << strplaceholder1
+<< arousalt.streak() << strplaceholder0;
+
+

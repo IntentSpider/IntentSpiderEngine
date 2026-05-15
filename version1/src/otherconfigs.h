@@ -97,3 +97,5 @@ struct config {
 
 
   
+  double beta1 = 0.6;         
+  double beta2 = 0.3;         

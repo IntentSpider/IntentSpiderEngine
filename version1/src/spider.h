@@ -91,3 +91,5 @@ void suppressshock(uint32_t u, uint32_t v, double now);
 
 
 
+const edge* edge(uint32_t u, uint32_t v) const { return find(u, v); }
+

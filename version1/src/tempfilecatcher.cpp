@@ -236,3 +236,4 @@ return true;
 
 
 
+bool spectralembedding::position(const std::unordered_map<uint32_t, double>& p,

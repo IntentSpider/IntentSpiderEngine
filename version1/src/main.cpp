@@ -309,3 +309,6 @@ std::cout << strplaceholder0
 << std::defaultfloat;
 }
 spectralembedding emb(cfg);
+if (emb.compute(eng.graph(), clock)) {
+const auto& r = emb.result();
+
