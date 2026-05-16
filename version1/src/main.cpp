@@ -312,3 +312,10 @@ spectralembedding emb(cfg);
 if (emb.compute(eng.graph(), clock)) {
 const auto& r = emb.result();
 
+
+
+
+size_t n = 0;
+double h7 = emb.hypothesis7(eng.graph(), clock, &n);
+std::cout << strplaceholder0 << r.graphnodes
+<< strplaceholder0 << r.componentnodes << strplaceholder1;

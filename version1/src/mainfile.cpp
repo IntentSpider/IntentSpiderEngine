@@ -520,3 +520,8 @@ out << arousalt.lastkey() << strplaceholder0 << arousalt.rate() << strplaceholde
 << arousalt.streak() << strplaceholder0;
 
 
+out << cadence.baseline() << strplaceholder0 << cadence.lastkey() << strplaceholder1
+<< cadence.sumdt() << strplaceholder0 << cadence.intervalcount() << strplaceholder1
+<< cadence.keycount() << strplaceholder0 << cadence.backspacecount() << strplaceholder1;
+
+
