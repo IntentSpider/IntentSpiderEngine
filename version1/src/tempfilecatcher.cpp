@@ -239,3 +239,7 @@ return true;
 bool spectralembedding::position(const std::unordered_map<uint32_t, double>& p,
  std::array<double, 2>* out) const {
 if (!res.valid || !out) return false;
+double m = 0.0, x = 0.0, y = 0.0;
+
+for (const auto& kv : p) {
+if (kv.second <= 0.0) continue;

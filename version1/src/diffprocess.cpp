@@ -56,3 +56,7 @@ if (std::fabs(ru) < cfg.eps) continue;
 r[u] = 0.0;
 
 
+
+
+out.p[u] += alpha * ru;
+

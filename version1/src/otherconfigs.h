@@ -99,3 +99,6 @@ struct config {
   
   double beta1 = 0.6;         
   double beta2 = 0.3;         
+  double beta3 = 0.4;         
+  double kappan = 0.10;      
+

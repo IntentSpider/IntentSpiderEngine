@@ -45,4 +45,3 @@ if (tcsetattr(stdinfileno, tcsaflush, &raw) == 0) active = true;
 #endif
 }
 
-rawterminal::~rawterminal() {

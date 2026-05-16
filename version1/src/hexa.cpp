@@ -91,3 +91,4 @@ var += lam * (d * d - var);
 
 bool valencestats::shock(double val, double correctionrate) const {
 if (n < 4) return false;
+double sigma = std::sqrt(std::max(var, 1e4));

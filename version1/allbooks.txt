@@ -18657,3 +18657,171 @@ section 5. general information about project gutenberg electronic works
 professor michael s. hart was the originator of the project
 gutenberg concept of a library of electronic works that could be
 freely shared with anyone. for forty years, he produced and
+distributed project gutenberg ebooks with only a loose network of
+volunteer support.
+
+project gutenberg ebooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the u.s. unless a copyright notice is included. thus, we do not
+necessarily keep ebooks in compliance with any particular paper
+edition.
+
+most people start at our website which has the main pg search
+facility: www.gutenberg.org.
+
+this website includes information about project gutenberg,
+including how to make donations to the project gutenberg literary
+archive foundation, how to help produce our new ebooks, and how to
+subscribe to our email newsletter to hear about new ebooks.
+
+
+the project gutenberg ebook of the adventures of sherlock holmes
+    
+this ebook is for the use of anyone anywhere in the united states and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. you may copy it, give it away or reuse it under the terms
+of the project gutenberg license included with this ebook or online
+at www.gutenberg.org. if you are not located in the united states,
+you will have to check the laws of the country where you are located
+before using this ebook.
+
+title: the adventures of sherlock holmes
+
+author: arthur conan doyle
+
+
+        
+release date: march 1, 1999 [ebook #1661]
+                most recently updated: october 10, 2023
+
+language: english
+
+other information and formats: www.gutenberg.org/ebooks/1661
+
+credits: an anonymous project gutenberg volunteer and jose menendez
+
+
+*** start of the project gutenberg ebook the adventures of sherlock holmes ***
+
+
+
+
+the adventures of sherlock holmes
+
+by arthur conan doyle
+
+
+contents
+
+   i.     a scandal in bohemia
+   ii.    the redheaded league
+   iii.   a case of identity
+   iv.    the boscombe valley mystery
+   v.     the five orange pips
+   vi.    the man with the twisted lip
+   vii.   the adventure of the blue carbuncle
+   viii.  the adventure of the speckled band
+   ix.    the adventure of the engineer’s thumb
+   x.     the adventure of the noble bachelor
+   xi.    the adventure of the beryl coronet
+   xii.   the adventure of the copper beeches
+
+
+
+
+i. a scandal in bohemia
+
+
+i.
+
+to sherlock holmes she is always the woman. i have seldom heard him
+mention her under any other name. in his eyes she eclipses and
+predominates the whole of her sex. it was not that he felt any emotion
+akin to love for irene adler. all emotions, and that one particularly,
+were abhorrent to his cold, precise but admirably balanced mind. he
+was, i take it, the most perfect reasoning and observing machine that
+the world has seen, but as a lover he would have placed himself in a
+false position. he never spoke of the softer passions, save with a gibe
+and a sneer. they were admirable things for the observer—excellent for
+drawing the veil from men’s motives and actions. but for the trained
+reasoner to admit such intrusions into his own delicate and finely
+adjusted temperament was to introduce a distracting factor which might
+throw a doubt upon all his mental results. grit in a sensitive
+instrument, or a crack in one of his own highpower lenses, would not
+be more disturbing than a strong emotion in a nature such as his. and
+yet there was but one woman to him, and that woman was the late irene
+adler, of dubious and questionable memory.
+
+i had seen little of holmes lately. my marriage had drifted us away
+from each other. my own complete happiness, and the homecentred
+interests which rise up around the man who first finds himself master
+of his own establishment, were sufficient to absorb all my attention,
+while holmes, who loathed every form of society with his whole bohemian
+soul, remained in our lodgings in baker street, buried among his old
+books, and alternating from week to week between cocaine and ambition,
+the drowsiness of the drug, and the fierce energy of his own keen
+nature. he was still, as ever, deeply attracted by the study of crime,
+and occupied his immense faculties and extraordinary powers of
+observation in following out those clues, and clearing up those
+mysteries which had been abandoned as hopeless by the official police.
+from time to time i heard some vague account of his doings: of his
+summons to odessa in the case of the trepoff murder, of his clearing up
+of the singular tragedy of the atkinson brothers at trincomalee, and
+finally of the mission which he had accomplished so delicately and
+successfully for the reigning family of holland. beyond these signs of
+his activity, however, which i merely shared with all the readers of
+the daily press, i knew little of my former friend and companion.
+
+one night—it was on the twentieth of march, 1888—i was returning from a
+journey to a patient (for i had now returned to civil practice), when
+my way led me through baker street. as i passed the wellremembered
+door, which must always be associated in my mind with my wooing, and
+with the dark incidents of the study in scarlet, i was seized with a
+keen desire to see holmes again, and to know how he was employing his
+extraordinary powers. his rooms were brilliantly lit, and, even as i
+looked up, i saw his tall, spare figure pass twice in a dark silhouette
+against the blind. he was pacing the room swiftly, eagerly, with his
+head sunk upon his chest and his hands clasped behind him. to me, who
+knew his every mood and habit, his attitude and manner told their own
+story. he was at work again. he had risen out of his drugcreated
+dreams and was hot upon the scent of some new problem. i rang the bell
+and was shown up to the chamber which had formerly been in part my own.
+
+his manner was not effusive. it seldom was; but he was glad, i think,
+to see me. with hardly a word spoken, but with a kindly eye, he waved
+me to an armchair, threw across his case of cigars, and indicated a
+spirit case and a gasogene in the corner. then he stood before the fire
+and looked me over in his singular introspective fashion.
+
+“wedlock suits you,” he remarked. “i think, watson, that you have put
+on seven and a half pounds since i saw you.”
+
+“seven!” i answered.
+
+“indeed, i should have thought a little more. just a trifle more, i
+fancy, watson. and in practice again, i observe. you did not tell me
+that you intended to go into harness.”
+
+“then, how do you know?”
+
+“i see it, i deduce it. how do i know that you have been getting
+yourself very wet lately, and that you have a most clumsy and careless
+servant girl?”
+
+“my dear holmes,” said i, “this is too much. you would certainly have
+been burned, had you lived a few centuries ago. it is true that i had a
+country walk on thursday and came home in a dreadful mess, but as i
+have changed my clothes i can’t imagine how you deduce it. as to mary
+jane, she is incorrigible, and my wife has given her notice, but there,
+again, i fail to see how you work it out.”
+
+he chuckled to himself and rubbed his long, nervous hands together.
+
+“it is simplicity itself,” said he; “my eyes tell me that on the inside
+of your left shoe, just where the firelight strikes it, the leather is
+scored by six almost parallel cuts. obviously they have been caused by
+someone who has very carelessly scraped round the edges of the sole in
+order to remove crusted mud from it. hence, you see, my double
+deduction that you had been out in vile weather, and that you had a
+particularly malignant bootslitting specimen of the london slavey. as
+to your practice, if a gentleman walks into my rooms smelling of

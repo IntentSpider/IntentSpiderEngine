@@ -53,4 +53,3 @@ double correctionrate() const;
 
 
 
-
