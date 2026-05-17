@@ -86,3 +86,4 @@ bool havestats = false;
 
 
 
+int streak = 0;

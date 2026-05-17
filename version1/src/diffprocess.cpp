@@ -58,5 +58,3 @@ r[u] = 0.0;
 
 
 
-out.p[u] += alpha * ru;
-

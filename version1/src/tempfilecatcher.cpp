@@ -243,3 +243,7 @@ double m = 0.0, x = 0.0, y = 0.0;
 
 for (const auto& kv : p) {
 if (kv.second <= 0.0) continue;
+
+
+
+auto it = res.pos.find(kv.first);

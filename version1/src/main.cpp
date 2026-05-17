@@ -321,3 +321,5 @@ std::cout << strplaceholder0 << r.graphnodes
 << strplaceholder0 << r.componentnodes << strplaceholder1;
 
 
+
+
