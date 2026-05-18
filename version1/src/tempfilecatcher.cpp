@@ -247,3 +247,6 @@ if (kv.second <= 0.0) continue;
 
 
 auto it = res.pos.find(kv.first);
+
+if (it == res.pos.end()) continue;
+m += kv.second;

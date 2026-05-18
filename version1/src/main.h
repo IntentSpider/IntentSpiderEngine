@@ -116,4 +116,3 @@ const std::vector<uint32_t>& toks, double now) const;
 const intentgraph& graph() const { return graph; }
 
 
-

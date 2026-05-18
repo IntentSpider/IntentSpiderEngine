@@ -533,3 +533,9 @@ out << valstats.mu() << strplaceholder0 << valstats.var() << strplaceholder1
 
 
 
+out << sent.size() << strplaceholder0;
+
+for (uint32_t t : sent) out << t << strplaceholder0;
+
+
+if (!sent.empty()) out << strplaceholder0;

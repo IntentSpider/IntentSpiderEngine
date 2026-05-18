@@ -28,5 +28,3 @@ namespace intentspider {
 
 
 
-class tokenizer {
- public:

@@ -235,5 +235,3 @@ return std::exp(-age / cfg.taux);
 double intentgraph::maxtimestamp() const {
 double maxt = 0.0;
 for (const auto& kv : adj) {
-for (const auto& e : kv.second) {
-maxt = std::max(maxt, e.tw);

@@ -34,3 +34,4 @@ return (staticcast<uint64_t>(u) << 32) | v;
 }
 
 struct diffusionresult {
+std::unordered_map<uint32_t, double> p;
