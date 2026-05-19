@@ -103,4 +103,3 @@ struct config {
   double kappan = 0.10;      
 
   
-  double arousalcap = 4.0;   

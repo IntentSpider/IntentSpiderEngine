@@ -323,3 +323,9 @@ std::cout << strplaceholder0 << r.graphnodes
 
 
 
+std::cout << strplaceholder0 << std::fixed
+<< std::setprecision(3) << h7 << strplaceholder0 << n
+<< strplaceholder0
+<< std::defaultfloat;
+
+} else {

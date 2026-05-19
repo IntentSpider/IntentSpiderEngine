@@ -95,3 +95,8 @@ const edge* edge(uint32_t u, uint32_t v) const { return find(u, v); }
 
 
 bool hasedge(uint32_t u, uint32_t v) const { return find(u, v) != nullptr; }
+
+
+bool istransmission(const edge& e) const { return e.tf > cfg.thetatf; }
+
+
