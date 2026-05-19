@@ -52,3 +52,4 @@ const std::vector<uint32_t>& ctx) {
 auto& dq = events[token];
 dq.push_back({now, ctx});
 while (staticcast<int>(dq.size()) > cfg.historycap) dq.popfront();
+}

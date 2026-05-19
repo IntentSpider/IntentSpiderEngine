@@ -33,5 +33,3 @@ uint32_t tokenizer::intern(const std::string& s) {
   ids.emplace(s, id);
   texts.push_back(s);
   return id;
-}
-

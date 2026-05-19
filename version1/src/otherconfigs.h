@@ -103,3 +103,7 @@ struct config {
   double kappan = 0.10;      
 
   
+  double arousalcap = 4.0;   
+  double rateema = 0.3;      
+  double statsema = 0.02;    
+

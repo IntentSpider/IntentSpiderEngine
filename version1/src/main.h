@@ -118,3 +118,5 @@ const intentgraph& graph() const { return graph; }
 
 
 
+tokenizer& tokenizer() { return tok; }
+const tokenizer& tokenizer() const { return tok; }

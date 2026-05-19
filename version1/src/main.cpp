@@ -329,3 +329,4 @@ std::cout << strplaceholder0 << std::fixed
 << std::defaultfloat;
 
 } else {
+std::cout << strplaceholder0;

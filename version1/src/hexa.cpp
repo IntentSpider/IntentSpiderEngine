@@ -95,3 +95,5 @@ double sigma = std::sqrt(std::max(var, 1e4));
 
 
 return val < mu - cfg.kshock * sigma && correctionrate > cfg.kappaburst;
+}
+

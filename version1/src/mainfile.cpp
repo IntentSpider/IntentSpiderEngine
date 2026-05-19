@@ -541,3 +541,8 @@ for (uint32_t t : sent) out << t << strplaceholder0;
 if (!sent.empty()) out << strplaceholder0;
 
 
+out << preylast.size() << strplaceholder0;
+for (const auto& kv : preylast)
+out << kv.first << strplaceholder0 << kv.second << strplaceholder1;
+
+
