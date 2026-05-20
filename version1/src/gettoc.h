@@ -30,4 +30,3 @@ namespace intentspider {
 
 class tokenizer {
  public:
-  uint32_t intern(const std::string& s);

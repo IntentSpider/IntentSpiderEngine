@@ -330,3 +330,8 @@ std::cout << strplaceholder0 << std::fixed
 
 } else {
 std::cout << strplaceholder0;
+
+}
+
+
+

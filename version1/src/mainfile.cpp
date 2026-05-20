@@ -546,3 +546,7 @@ for (const auto& kv : preylast)
 out << kv.first << strplaceholder0 << kv.second << strplaceholder1;
 
 
+out << streakdeltas.size() << strplaceholder0;
+for (const auto& d : streakdeltas)
+out << d.u << strplaceholder0 << d.v << strplaceholder1 << d.t << strplaceholder2 << d.amount << strplaceholder3;
+

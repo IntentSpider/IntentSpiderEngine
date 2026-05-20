@@ -68,6 +68,3 @@ explicit spectralembedding(const config& cfg) : cfg(cfg) {}
 
 
 
-bool compute(const intentgraph& g, double now);
-
-bool valid() const { return res.valid; }

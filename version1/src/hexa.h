@@ -89,3 +89,6 @@ bool havestats = false;
 int streak = 0;
 };
 
+
+
+class valencestats {

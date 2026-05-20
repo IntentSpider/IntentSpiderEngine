@@ -253,3 +253,6 @@ m += kv.second;
 x += kv.second * it>second[0];
 y += kv.second * it>second[1];
 }
+if (m <= 0.0) return false;
+(*out)[0] = x / m;
+
