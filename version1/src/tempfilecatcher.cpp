@@ -256,3 +256,5 @@ y += kv.second * it>second[1];
 if (m <= 0.0) return false;
 (*out)[0] = x / m;
 
+(*out)[1] = y / m;
+

@@ -11,3 +11,5 @@ addexecutable(intentspider
   src/diffprocess.cpp
   src/mainfile.cpp
 src/spidershell.cpp
+  src/valancegate.cpp
+  src/a.cpp

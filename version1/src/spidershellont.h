@@ -31,6 +31,3 @@ namespace intentspider {
 
 
 
-class rawterminal {
- public:
-  rawterminal();

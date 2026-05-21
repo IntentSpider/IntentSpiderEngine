@@ -550,3 +550,12 @@ out << streakdeltas.size() << strplaceholder0;
 for (const auto& d : streakdeltas)
 out << d.u << strplaceholder0 << d.v << strplaceholder1 << d.t << strplaceholder2 << d.amount << strplaceholder3;
 
+
+
+
+out << lastranked.size() << strplaceholder0;
+for (const auto& s : lastranked) out << s.token << strplaceholder0 << s.score << strplaceholder1;
+out << lastcontext.size() << strplaceholder0;
+
+for (uint32_t token : lastcontext) out << token << strplaceholder0;
+out << strplaceholder0 << lastedgemass.size() << strplaceholder1;

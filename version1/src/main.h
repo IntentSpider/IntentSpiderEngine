@@ -120,3 +120,6 @@ const intentgraph& graph() const { return graph; }
 
 tokenizer& tokenizer() { return tok; }
 const tokenizer& tokenizer() const { return tok; }
+
+bool save(const std::string& path) const;
+bool load(const std::string& path);

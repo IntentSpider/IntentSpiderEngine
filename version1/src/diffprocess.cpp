@@ -60,6 +60,3 @@ r[u] = 0.0;
 
 out.p[u] += alpha * ru;
 
-double dabs = g.abssigneddegree(u, now);
-if (dabs <= 0.0) continue;
-

@@ -106,3 +106,7 @@ struct config {
   double arousalcap = 4.0;   
   double rateema = 0.3;      
   double statsema = 0.02;    
+
+  
+  double thetaa = 1.5;       
+  double l0 = 20.0;           

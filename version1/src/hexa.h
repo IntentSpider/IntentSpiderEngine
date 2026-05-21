@@ -91,4 +91,3 @@ int streak = 0;
 
 
 
-class valencestats {

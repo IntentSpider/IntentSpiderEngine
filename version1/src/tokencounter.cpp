@@ -33,3 +33,8 @@ uint32_t tokenizer::intern(const std::string& s) {
   ids.emplace(s, id);
   texts.push_back(s);
   return id;
+}
+
+std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
+  std::vector<uint32_t> out;
+
