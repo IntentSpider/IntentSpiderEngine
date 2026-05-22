@@ -31,3 +31,5 @@ namespace intentspider {
 
 
 
+class rawterminal {
+ public:

@@ -109,4 +109,3 @@ struct config {
 
   
   double thetaa = 1.5;       
-  double l0 = 20.0;           

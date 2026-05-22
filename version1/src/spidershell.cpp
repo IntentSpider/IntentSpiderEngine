@@ -46,3 +46,6 @@ if (tcsetattr(stdinfileno, tcsaflush, &raw) == 0) active = true;
 }
 
 rawterminal::~rawterminal() {
+#ifndef _WIN32
+if (active) tcsetattr(stdinfileno, tcsaflush, &orig);
+#endif

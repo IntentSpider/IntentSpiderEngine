@@ -559,3 +559,4 @@ out << lastcontext.size() << strplaceholder0;
 
 for (uint32_t token : lastcontext) out << token << strplaceholder0;
 out << strplaceholder0 << lastedgemass.size() << strplaceholder1;
+
