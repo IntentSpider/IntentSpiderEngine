@@ -48,3 +48,5 @@ double kappa = correctionrate();
 
 
 return std::tanh(cfg.vala * (dtavg - dtref) - cfg.valb * kappa);
+}
+

@@ -337,3 +337,7 @@ std::cout << strplaceholder0;
 
 std::cout << strplaceholder0
  strplaceholder0;
+return 0;
+}
+
+}

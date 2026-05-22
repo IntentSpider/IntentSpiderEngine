@@ -247,3 +247,7 @@ if (e.tlast > -1.0e17) maxt = std::max(maxt, e.tlast);
 }
 }
 return maxt;
+}
+
+void intentgraph::shifttimestamps(double delta) {
+if (delta == 0.0) return;

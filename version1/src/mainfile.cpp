@@ -560,3 +560,7 @@ out << lastcontext.size() << strplaceholder0;
 for (uint32_t token : lastcontext) out << token << strplaceholder0;
 out << strplaceholder0 << lastedgemass.size() << strplaceholder1;
 
+
+for (const auto& kv : lastedgemass) out << kv.first << strplaceholder0 << kv.second << strplaceholder1;
+
+
