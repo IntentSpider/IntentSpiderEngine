@@ -564,3 +564,11 @@ out << strplaceholder0 << lastedgemass.size() << strplaceholder1;
 for (const auto& kv : lastedgemass) out << kv.first << strplaceholder0 << kv.second << strplaceholder1;
 
 
+
+
+out << lastp.size() << strplaceholder0;
+for (const auto& kv : lastp) out << kv.first << strplaceholder0 << kv.second << strplaceholder1;
+
+
+
+
