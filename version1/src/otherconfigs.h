@@ -108,3 +108,6 @@ struct config {
   double statsema = 0.02;    
 
   
+  double thetaa = 1.5;       
+  double l0 = 20.0;           
+  double alphamin = 0.02;    

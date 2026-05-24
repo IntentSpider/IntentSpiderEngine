@@ -253,4 +253,3 @@ void intentgraph::shifttimestamps(double delta) {
 if (delta == 0.0) return;
 for (auto& kv : adj) {
 for (auto& e : kv.second) {
-e.tw += delta;

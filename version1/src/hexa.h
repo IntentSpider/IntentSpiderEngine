@@ -93,3 +93,6 @@ int streak = 0;
 
 class valencestats {
  public:
+explicit valencestats(const config& cfg) : cfg(cfg) {}
+void update(double val);
+bool shock(double val, double correctionrate) const;

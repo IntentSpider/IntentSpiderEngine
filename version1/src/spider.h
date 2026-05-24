@@ -102,5 +102,3 @@ bool istransmission(const edge& e) const { return e.tf > cfg.thetatf; }
 
 double weight(const edge& e, double now) const;
 
-
-

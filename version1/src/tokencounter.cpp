@@ -35,4 +35,3 @@ uint32_t tokenizer::intern(const std::string& s) {
   return id;
 }
 
-std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
