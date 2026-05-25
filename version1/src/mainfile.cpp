@@ -581,3 +581,5 @@ size_t supportcount = 0;
 for (const auto& kv : support.events()) supportcount += kv.second.size();
 
 
+out << supportcount << strplaceholder0;
+for (const auto& kv : support.events()) {

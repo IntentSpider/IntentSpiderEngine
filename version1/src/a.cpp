@@ -55,6 +55,3 @@ while (staticcast<int>(dq.size()) > cfg.historycap) dq.popfront();
 }
 
 void supportindex::shifttimestamps(double delta) {
-if (delta == 0.0) return;
-
-

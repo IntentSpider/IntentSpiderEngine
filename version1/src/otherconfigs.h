@@ -112,3 +112,6 @@ struct config {
   double l0 = 20.0;           
   double alphamin = 0.02;    
 
+
+
+                              

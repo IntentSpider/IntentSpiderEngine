@@ -104,3 +104,6 @@ double weight(const edge& e, double now) const;
 
 
 
+double supstrength(const edge& e, double now) const;
+
+
