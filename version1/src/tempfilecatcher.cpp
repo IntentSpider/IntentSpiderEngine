@@ -264,3 +264,9 @@ if (m <= 0.0) return false;
 return true;
 }
 
+
+
+
+
+double spectralembedding::hypothesis7(const intentgraph& g, double now,
+size_t* nout) const {

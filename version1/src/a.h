@@ -49,3 +49,6 @@ void record(uint32_t token, double now, const std::vector<uint32_t>& ctx);
 
 
 
+double support(uint32_t token, double now,
+ const std::vector<uint32_t>& ctx) const;
+

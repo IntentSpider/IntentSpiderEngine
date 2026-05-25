@@ -125,5 +125,3 @@ bool save(const std::string& path) const;
 bool load(const std::string& path);
 bool savetransient(const std::string& path, const std::string& buffer = strplaceholder0) const;
 bool loadtransient(const std::string& path, std::string* buffer = nullptr);
-uint64_t tokensobserved() const { return tokensobserved; }
-

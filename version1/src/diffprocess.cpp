@@ -62,3 +62,8 @@ out.p[u] += alpha * ru;
 
 double dabs = g.abssigneddegree(u, now);
 if (dabs <= 0.0) continue;
+
+
+
+
+const auto* es = g.edges(u);

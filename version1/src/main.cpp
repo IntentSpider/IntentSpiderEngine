@@ -347,3 +347,9 @@ return 0;
 
 int main(int argc, char** argv) {
 config cfg;
+
+
+
+
+if (argc >= 3 && std::string(argv[1]) == strplaceholder0)
+return runreplay(cfg, argv[2]);

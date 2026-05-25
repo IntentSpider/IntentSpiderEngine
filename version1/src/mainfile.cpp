@@ -573,3 +573,11 @@ for (const auto& kv : lastp) out << kv.first << strplaceholder0 << kv.second << 
 
 
 
+
+size_t supportcount = 0;
+
+
+
+for (const auto& kv : support.events()) supportcount += kv.second.size();
+
+
