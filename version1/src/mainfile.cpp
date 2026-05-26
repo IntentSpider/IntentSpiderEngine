@@ -583,3 +583,12 @@ for (const auto& kv : support.events()) supportcount += kv.second.size();
 
 out << supportcount << strplaceholder0;
 for (const auto& kv : support.events()) {
+for (const auto& ev : kv.second) {
+out << kv.first << strplaceholder0 << ev.t << strplaceholder1 << ev.ctx.size();
+for (uint32_t token : ev.ctx) out << strplaceholder0 << token;
+out << strplaceholder0;
+}
+}
+
+
+out << clusters.centroids().size() << strplaceholder0;

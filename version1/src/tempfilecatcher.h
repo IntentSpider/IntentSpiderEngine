@@ -74,5 +74,3 @@ bool valid() const { return res.valid; }
 const embeddingresult& result() const { return res; }
 
 
-
-

@@ -49,5 +49,3 @@ rawterminal::~rawterminal() {
 #ifndef _WIN32
 if (active) tcsetattr(stdinfileno, tcsaflush, &orig);
 #endif
-}
-

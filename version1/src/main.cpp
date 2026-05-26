@@ -353,3 +353,9 @@ config cfg;
 
 if (argc >= 3 && std::string(argv[1]) == strplaceholder0)
 return runreplay(cfg, argv[2]);
+
+engine eng(cfg);
+if (eng.load(kstatepath))
+std::cout << strplaceholder0 << kstatepath << strplaceholder1;
+
+
