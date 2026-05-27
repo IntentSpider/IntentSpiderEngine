@@ -258,3 +258,9 @@ e.ts += delta;
 
 
 
+
+e.tsup += delta;
+if (e.tlast > -1.0e17) e.tlast += delta;
+}
+}
+}

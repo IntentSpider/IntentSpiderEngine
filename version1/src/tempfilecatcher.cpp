@@ -274,3 +274,5 @@ std::vector<double> xs, ys;
 if (res.valid) {
 for (const auto& kv : res.pos) {
 const auto* es = g.edges(kv.first);
+
+if (!es) continue;

@@ -100,3 +100,8 @@ return val < mu - cfg.kshock * sigma && correctionrate > cfg.kappaburst;
 void valencestats::setstats(double mu, double var) {
 if (var > 0.0) {
 mu = mu;
+var = var;
+n = 8;
+}
+}
+
