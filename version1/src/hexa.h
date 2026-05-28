@@ -97,5 +97,3 @@ explicit valencestats(const config& cfg) : cfg(cfg) {}
 void update(double val);
 bool shock(double val, double correctionrate) const;
 double mu() const { return mu; }
-double var() const { return var; }
-int count() const { return n; }

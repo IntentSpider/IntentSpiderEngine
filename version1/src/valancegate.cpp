@@ -53,5 +53,3 @@ return std::tanh(cfg.vala * (dtavg - dtref) - cfg.valb * kappa);
 double cadencetracker::correctionrate() const {
 return keys ? staticcast<double>(backspaces) / staticcast<double>(keys)
  : 0.0;
-}
-

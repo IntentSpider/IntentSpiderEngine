@@ -59,5 +59,3 @@ if (delta == 0.0) return;
 
 
 
-
-for (auto& kv : events)

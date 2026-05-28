@@ -598,3 +598,7 @@ out << clusters.sizes()[i] << strplaceholder0 << c[0] << strplaceholder1 << c[1]
 << c[2] << strplaceholder0 << c[3] << strplaceholder1;
 }
 
+
+out << lastpreyactivity << strplaceholder0 << lastselval << strplaceholder1
+<< lastshockt << strplaceholder0 << (recentshock ? 1 : 0) << strplaceholder1
+<< lastval << strplaceholder0;
