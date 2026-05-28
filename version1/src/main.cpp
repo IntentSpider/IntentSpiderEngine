@@ -358,3 +358,8 @@ engine eng(cfg);
 if (eng.load(kstatepath))
 std::cout << strplaceholder0 << kstatepath << strplaceholder1;
 
+
+
+
+
+std::cout << strplaceholder0

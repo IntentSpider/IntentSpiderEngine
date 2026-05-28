@@ -264,3 +264,5 @@ if (e.tlast > -1.0e17) e.tlast += delta;
 }
 }
 }
+
+const std::vector<edge>* intentgraph::edges(uint32_t u) const {

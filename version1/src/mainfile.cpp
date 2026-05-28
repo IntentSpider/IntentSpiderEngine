@@ -592,3 +592,9 @@ out << strplaceholder0;
 
 
 out << clusters.centroids().size() << strplaceholder0;
+for (size_t i = 0; i < clusters.centroids().size(); ++i) {
+const auto& c = clusters.centroids()[i];
+out << clusters.sizes()[i] << strplaceholder0 << c[0] << strplaceholder1 << c[1] << strplaceholder2
+<< c[2] << strplaceholder0 << c[3] << strplaceholder1;
+}
+

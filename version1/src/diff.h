@@ -37,3 +37,7 @@ struct diffusionresult {
 std::unordered_map<uint32_t, double> p;
  
 std::unordered_map<uint64_t, double> edgemass;
+ 
+double entropy = 0.0;
+
+bool truncated = false;

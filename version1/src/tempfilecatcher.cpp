@@ -276,3 +276,4 @@ for (const auto& kv : res.pos) {
 const auto* es = g.edges(kv.first);
 
 if (!es) continue;
+int cnt = 0;
