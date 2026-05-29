@@ -602,3 +602,7 @@ out << clusters.sizes()[i] << strplaceholder0 << c[0] << strplaceholder1 << c[1]
 out << lastpreyactivity << strplaceholder0 << lastselval << strplaceholder1
 << lastshockt << strplaceholder0 << (recentshock ? 1 : 0) << strplaceholder1
 << lastval << strplaceholder0;
+out << std::quoted(buffer) << strplaceholder0;
+
+return staticcast<bool>(out);
+}

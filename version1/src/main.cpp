@@ -365,3 +365,5 @@ std::cout << strplaceholder0 << kstatepath << strplaceholder1;
 std::cout << strplaceholder0
  strplaceholder0;
 printhelp();
+
+rawterminal term;

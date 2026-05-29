@@ -277,3 +277,8 @@ const auto* es = g.edges(kv.first);
 
 if (!es) continue;
 int cnt = 0;
+for (const auto& e : *es)
+if (g.istransmission(e) && g.weight(e, now) > 0.0) ++cnt;
+if (cnt < 2) continue;
+
+
