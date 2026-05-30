@@ -53,4 +53,3 @@ double support(uint32_t token, double now,
  const std::vector<uint32_t>& ctx) const;
 
 const std::unordered_map<uint32_t, std::deque<selectionevent>>& events() const {
-return events;

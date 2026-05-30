@@ -367,3 +367,5 @@ std::cout << strplaceholder0
 printhelp();
 
 rawterminal term;
+spectralembedding emb(cfg);
+std::vector<std::array<double, 2>> traj; 

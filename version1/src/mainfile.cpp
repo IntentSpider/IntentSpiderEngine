@@ -606,3 +606,11 @@ out << std::quoted(buffer) << strplaceholder0;
 
 return staticcast<bool>(out);
 }
+
+bool engine::loadtransient(const std::string& path, std::string* buffer) {
+std::ifstream in(path);
+
+if (!in) return false;
+std::string magic;
+std::getline(in, magic);
+const bool v2 = magic == strplaceholder0;

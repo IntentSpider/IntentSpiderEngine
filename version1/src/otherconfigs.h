@@ -119,4 +119,3 @@ struct config {
 
   
   double etacluster = 0.25;  
-

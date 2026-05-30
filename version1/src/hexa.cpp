@@ -104,3 +104,6 @@ var = var;
 n = 8;
 }
 }
+
+void valencestats::setstate(double mu, double var, int count) {
+mu = mu;

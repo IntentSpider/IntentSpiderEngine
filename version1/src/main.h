@@ -131,4 +131,3 @@ uint64_t tokensobserved() const { return tokensobserved; }
 
 void normalizeloadedtimestamps(double now);
 
- private:
