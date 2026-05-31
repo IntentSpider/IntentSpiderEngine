@@ -51,4 +51,3 @@ if (active) tcsetattr(stdinfileno, tcsaflush, &orig);
 #endif
 }
 
-int rawterminal::readkey() {

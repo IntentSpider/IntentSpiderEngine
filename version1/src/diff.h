@@ -42,3 +42,4 @@ double entropy = 0.0;
 
 bool truncated = false;
 };
+

@@ -78,4 +78,3 @@ const embeddingresult& result() const { return res; }
 
 
 
-

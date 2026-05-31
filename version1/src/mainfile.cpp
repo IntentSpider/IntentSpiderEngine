@@ -614,3 +614,5 @@ if (!in) return false;
 std::string magic;
 std::getline(in, magic);
 const bool v2 = magic == strplaceholder0;
+
+const bool v1 = magic == strplaceholder0;

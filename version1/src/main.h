@@ -131,3 +131,7 @@ uint64_t tokensobserved() const { return tokensobserved; }
 
 void normalizeloadedtimestamps(double now);
 
+ private:
+struct applieddelta {
+uint32_t u = 0;
+uint32_t v = 0;

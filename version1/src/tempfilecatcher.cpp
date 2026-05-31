@@ -281,3 +281,6 @@ for (const auto& e : *es)
 if (g.istransmission(e) && g.weight(e, now) > 0.0) ++cnt;
 if (cnt < 2) continue;
 
+
+
+double phi = g.fandispersion(kv.first, now);

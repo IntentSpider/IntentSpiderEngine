@@ -36,4 +36,3 @@ class tokenizer {
   size_t size() const { return texts.size(); }
 
   
-  std::vector<uint32_t> tokenize(const std::string& line);

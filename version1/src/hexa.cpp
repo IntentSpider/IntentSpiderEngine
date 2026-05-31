@@ -107,3 +107,4 @@ n = 8;
 
 void valencestats::setstate(double mu, double var, int count) {
 mu = mu;
+var = std::max(var, 1e4);
