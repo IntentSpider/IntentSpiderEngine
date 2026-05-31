@@ -103,3 +103,4 @@ int count() const { return n; }
 
 
 
+void setstats(double mu, double var);

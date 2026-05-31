@@ -616,3 +616,10 @@ std::getline(in, magic);
 const bool v2 = magic == strplaceholder0;
 
 const bool v1 = magic == strplaceholder0;
+if (!v1 && !v2) return false;
+
+
+
+
+
+if (v2) {

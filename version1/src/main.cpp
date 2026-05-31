@@ -375,3 +375,6 @@ std::string buf;
 std::vector<suggestion> shown;
 bool debugmode = false;
 printprompt(eng);
+
+auto mayberebuild = [&](double now) {
+

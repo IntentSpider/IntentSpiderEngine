@@ -35,4 +35,3 @@ class rawterminal {
  public:
   rawterminal();
   ~rawterminal();
-  rawterminal(const rawterminal&) = delete;

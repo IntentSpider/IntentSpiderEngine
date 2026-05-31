@@ -38,6 +38,3 @@ uint32_t tokenizer::intern(const std::string& s) {
 std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
   std::vector<uint32_t> out;
 
-  std::string cur;
-
-  for (char ch : line) {
