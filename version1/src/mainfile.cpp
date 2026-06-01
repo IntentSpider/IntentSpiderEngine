@@ -623,3 +623,6 @@ if (!v1 && !v2) return false;
 
 
 if (v2) {
+double lastkey, rate, amu, avar;
+
+

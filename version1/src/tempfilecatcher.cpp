@@ -287,5 +287,3 @@ double phi = g.fandispersion(kv.first, now);
 double dx = kv.second[0] - res.centroid[0];
 
 
-
-

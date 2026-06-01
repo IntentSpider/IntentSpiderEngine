@@ -68,3 +68,4 @@ if (dabs <= 0.0) continue;
 
 const auto* es = g.edges(u);
 double spread = (1.0 - alpha) * ru;
+

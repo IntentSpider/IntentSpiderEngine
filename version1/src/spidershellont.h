@@ -35,3 +35,6 @@ class rawterminal {
  public:
   rawterminal();
   ~rawterminal();
+  rawterminal(const rawterminal&) = delete;
+  rawterminal& operator=(const rawterminal&) = delete;
+
