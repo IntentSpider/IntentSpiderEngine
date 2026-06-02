@@ -34,3 +34,5 @@ class tokenizer {
   const std::string& text(uint32_t id) const { return texts[id]; }
 
   size_t size() const { return texts.size(); }
+
+  

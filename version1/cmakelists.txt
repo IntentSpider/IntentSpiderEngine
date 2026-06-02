@@ -12,3 +12,5 @@ addexecutable(intentspider
   src/mainfile.cpp
 src/spidershell.cpp
   src/valancegate.cpp
+  src/a.cpp
+  src/hexa.cpp

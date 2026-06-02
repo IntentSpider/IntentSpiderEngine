@@ -112,3 +112,7 @@ double signedweight(const edge& e, double now) const;
 
 double abssigneddegree(uint32_t u, double now) const;
 
+
+double fandispersion(uint32_t u, double now) const;
+
+

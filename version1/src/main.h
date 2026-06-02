@@ -137,5 +137,3 @@ uint32_t u = 0;
 uint32_t v = 0;
 double t = 0.0;
 double amount = 0.0;
-};
-

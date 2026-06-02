@@ -121,3 +121,4 @@ struct config {
   double etacluster = 0.25;  
 
 
+  double deltacomp = 0.35;   

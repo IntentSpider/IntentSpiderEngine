@@ -626,3 +626,8 @@ if (v2) {
 double lastkey, rate, amu, avar;
 
 
+
+int haverate, havestats, streak;
+if (!(in >> lastkey >> rate >> haverate >> amu >> avar >> havestats >>
+streak)) return false;
+arousalt.setstate(lastkey, rate, haverate != 0, amu, avar,
