@@ -278,3 +278,7 @@ const auto* es = edges(u);
 if (!es) return 0.0;
 double d = 0.0;
 for (const auto& e : *es)
+if (istransmission(e)) d += weight(e, now);
+return d;
+}
+

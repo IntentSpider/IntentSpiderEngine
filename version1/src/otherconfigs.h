@@ -122,3 +122,6 @@ struct config {
 
 
   double deltacomp = 0.35;   
+  double bmax = 2.0;         
+  double wactive = 20.0;     
+

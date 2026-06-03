@@ -58,3 +58,4 @@ return events;
 void clear() { events.clear(); }
 
 
+void restore(uint32_t token, double now, const std::vector<uint32_t>& ctx) {

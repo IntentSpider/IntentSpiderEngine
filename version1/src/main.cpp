@@ -381,3 +381,6 @@ auto mayberebuild = [&](double now) {
 if (eventssinceembed >= cfg.tembedevents) {
 emb.compute(eng.graph(), now);
 eventssinceembed = 0;
+}
+
+

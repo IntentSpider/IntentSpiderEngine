@@ -631,3 +631,7 @@ int haverate, havestats, streak;
 if (!(in >> lastkey >> rate >> haverate >> amu >> avar >> havestats >>
 streak)) return false;
 arousalt.setstate(lastkey, rate, haverate != 0, amu, avar,
+ havestats != 0, streak);
+
+double baseline, cadencelastkey, sumdt;
+size_t ndt, keys, backspaces;

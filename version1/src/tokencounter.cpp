@@ -40,5 +40,3 @@ std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
 
   std::string cur;
 
-  for (char ch : line) {
-    unsigned char c = staticcast<unsigned char>(ch);
