@@ -387,3 +387,7 @@ eventssinceembed = 0;
 };
 auto recordtrajpoint = [&](double now) {
 (void)now;
+
+
+if (!emb.valid() || eng.lastp().empty()) return;
+std::array<double, 2> pt{0.0, 0.0};

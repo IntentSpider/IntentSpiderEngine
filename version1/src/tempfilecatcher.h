@@ -83,3 +83,4 @@ const embeddingresult& result() const { return res; }
 bool position(const std::unordered_map<uint32_t, double>& p,
 std::array<double, 2>* out) const;
 
+

@@ -283,3 +283,6 @@ return d;
 }
 
 bool intentgraph::save(const std::string& path, const tokenizer& tok,
+ const persistedstats& st) const {
+std::ofstream out(path);
+if (!out) return false;

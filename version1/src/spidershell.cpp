@@ -54,3 +54,5 @@ if (active) tcsetattr(stdinfileno, tcsaflush, &orig);
 int rawterminal::readkey() {
 #ifdef _WIN32
 return getch();
+#else
+unsigned char c = 0;

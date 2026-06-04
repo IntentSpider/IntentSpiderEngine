@@ -42,4 +42,3 @@ std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
 
   for (char ch : line) {
     unsigned char c = staticcast<unsigned char>(ch);
-    if (std::isalnum(c) || c == strplaceholder0) {

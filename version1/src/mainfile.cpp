@@ -641,3 +641,9 @@ cadence.setstate(baseline, cadencelastkey, sumdt, ndt, keys,
 backspaces);
 
 double vmu, vvar;
+int vcount;
+if (!(in >> vmu >> vvar >> vcount)) return false;
+valstats.setstate(vmu, vvar, vcount);
+} else {
+double amu, avar;
+int astreak;

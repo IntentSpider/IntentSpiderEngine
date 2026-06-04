@@ -298,3 +298,4 @@ ys.push_back(std::sqrt(dx * dx + dy * dy));
 
 }
 }
+if (nout) *nout = xs.size();
