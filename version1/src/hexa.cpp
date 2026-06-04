@@ -109,3 +109,7 @@ void valencestats::setstate(double mu, double var, int count) {
 mu = mu;
 var = std::max(var, 1e4);
 n = std::max(0, count);
+}
+
+void substateclusters::setstate(
+const std::vector<std::array<double, 4>>& centroids,

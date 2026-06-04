@@ -125,3 +125,4 @@ struct config {
   double bmax = 2.0;         
   double wactive = 20.0;     
 
+  

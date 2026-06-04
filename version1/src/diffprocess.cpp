@@ -71,3 +71,6 @@ double spread = (1.0 - alpha) * ru;
 
 for (const auto& e : *es) {
 double sw = g.signedweight(e, now);
+if (sw == 0.0) continue;
+double delta = spread * (sw / dabs);
+

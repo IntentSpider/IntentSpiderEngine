@@ -55,3 +55,4 @@ return keys ? staticcast<double>(backspaces) / staticcast<double>(keys)
  : 0.0;
 }
 
+void cadencetracker::setstate(double baseline, double lastkey, double sumdt,

@@ -384,3 +384,6 @@ eventssinceembed = 0;
 }
 
 
+};
+auto recordtrajpoint = [&](double now) {
+(void)now;

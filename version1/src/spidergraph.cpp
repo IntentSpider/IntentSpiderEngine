@@ -282,3 +282,4 @@ if (istransmission(e)) d += weight(e, now);
 return d;
 }
 
+bool intentgraph::save(const std::string& path, const tokenizer& tok,

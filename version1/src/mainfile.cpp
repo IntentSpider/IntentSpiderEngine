@@ -635,3 +635,9 @@ arousalt.setstate(lastkey, rate, haverate != 0, amu, avar,
 
 double baseline, cadencelastkey, sumdt;
 size_t ndt, keys, backspaces;
+if (!(in >> baseline >> cadencelastkey >> sumdt >> ndt >> keys >>
+backspaces)) return false;
+cadence.setstate(baseline, cadencelastkey, sumdt, ndt, keys,
+backspaces);
+
+double vmu, vvar;
