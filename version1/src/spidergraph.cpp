@@ -286,3 +286,6 @@ bool intentgraph::save(const std::string& path, const tokenizer& tok,
  const persistedstats& st) const {
 std::ofstream out(path);
 if (!out) return false;
+out << strplaceholder0;
+out.precision(17);
+out << strplaceholder0 << st.cadencebaseline << strplaceholder1 << st.ratemu << strplaceholder2

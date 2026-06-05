@@ -647,3 +647,8 @@ valstats.setstate(vmu, vvar, vcount);
 } else {
 double amu, avar;
 int astreak;
+if (!(in >> amu >> avar >> astreak)) return false;
+if (amu > 0.0 && avar > 0.0) arousalt.setstats(amu, avar);
+arousalt.setstreak(astreak);
+
+double cbase;

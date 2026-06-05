@@ -56,3 +56,4 @@ int rawterminal::readkey() {
 return getch();
 #else
 unsigned char c = 0;
+ssizet r = read(stdinfileno, &c, 1);

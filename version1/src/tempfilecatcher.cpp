@@ -299,3 +299,6 @@ ys.push_back(std::sqrt(dx * dx + dy * dy));
 }
 }
 if (nout) *nout = xs.size();
+
+if (xs.size() < 3) return 0.0;
+double mx = 0.0, my = 0.0;
