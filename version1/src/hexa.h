@@ -105,3 +105,4 @@ int count() const { return n; }
 
 void setstats(double mu, double var);
 void setstate(double mu, double var, int count);
+

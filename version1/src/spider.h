@@ -116,3 +116,7 @@ double abssigneddegree(uint32_t u, double now) const;
 double fandispersion(uint32_t u, double now) const;
 
 
+double exhaustion(uint32_t u, uint32_t v, double now) const;
+
+
+

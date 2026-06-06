@@ -302,3 +302,4 @@ if (nout) *nout = xs.size();
 
 if (xs.size() < 3) return 0.0;
 double mx = 0.0, my = 0.0;
+for (size_t i = 0; i < xs.size(); ++i) {

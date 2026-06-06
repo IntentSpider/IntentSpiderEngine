@@ -652,3 +652,5 @@ if (amu > 0.0 && avar > 0.0) arousalt.setstats(amu, avar);
 arousalt.setstreak(astreak);
 
 double cbase;
+if (!(in >> cbase)) return false;
+if (cbase > 0.0) cadence.setbaseline(cbase);

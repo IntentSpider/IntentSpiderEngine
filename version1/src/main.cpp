@@ -392,3 +392,7 @@ auto recordtrajpoint = [&](double now) {
 if (!emb.valid() || eng.lastp().empty()) return;
 std::array<double, 2> pt{0.0, 0.0};
 if (emb.position(eng.lastp(), &pt)) {
+traj.push_back(pt);
+trajlabels.push_back(eng.sentence().empty()
+ ? std::string(strplaceholder0)
+ : eng.tokenizer().text(eng.sentence().back()));

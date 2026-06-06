@@ -289,3 +289,4 @@ if (!out) return false;
 out << strplaceholder0;
 out.precision(17);
 out << strplaceholder0 << st.cadencebaseline << strplaceholder1 << st.ratemu << strplaceholder2
+<< st.ratevar << strplaceholder0 << st.valmu << strplaceholder1 << st.valvar << strplaceholder2
