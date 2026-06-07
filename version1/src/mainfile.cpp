@@ -654,3 +654,8 @@ arousalt.setstreak(astreak);
 double cbase;
 if (!(in >> cbase)) return false;
 if (cbase > 0.0) cadence.setbaseline(cbase);
+
+double vmu, vvar;
+if (!(in >> vmu >> vvar)) return false;
+if (vvar > 0.0) valstats.setstats(vmu, vvar);
+}

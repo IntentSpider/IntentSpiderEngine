@@ -290,3 +290,7 @@ out << strplaceholder0;
 out.precision(17);
 out << strplaceholder0 << st.cadencebaseline << strplaceholder1 << st.ratemu << strplaceholder2
 << st.ratevar << strplaceholder0 << st.valmu << strplaceholder1 << st.valvar << strplaceholder2
+<< st.tokensobserved << strplaceholder0;
+out << tok.size() << strplaceholder0;
+for (size_t i = 0; i < tok.size(); ++i)
+out << tok.text(staticcast<uint32_t>(i)) << strplaceholder0;

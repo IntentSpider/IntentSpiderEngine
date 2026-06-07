@@ -39,3 +39,4 @@ class rawterminal {
   rawterminal& operator=(const rawterminal&) = delete;
 
   
+  int readkey();

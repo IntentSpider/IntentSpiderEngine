@@ -106,3 +106,7 @@ int count() const { return n; }
 void setstats(double mu, double var);
 void setstate(double mu, double var, int count);
 
+ private:
+const config& cfg;
+double mu = 0.0;
+double var = 0.25;

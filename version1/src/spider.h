@@ -120,3 +120,5 @@ double exhaustion(uint32_t u, uint32_t v, double now) const;
 
 
 
+double maxtimestamp() const;
+void shifttimestamps(double delta);

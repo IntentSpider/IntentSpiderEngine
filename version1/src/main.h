@@ -141,3 +141,6 @@ double amount = 0.0;
 
 std::vector<uint32_t> recentcontext() const;
 double residue(uint32_t v, double now) const;
+void applyoutcomes(uint32_t selected); 
+
+

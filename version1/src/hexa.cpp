@@ -115,3 +115,5 @@ void substateclusters::setstate(
 const std::vector<std::array<double, 4>>& centroids,
 const std::vector<size_t>& sizes) {
 if (centroids.size() != sizes.size() ||
+centroids.size() > staticcast<size_t>(cfg.maxclusters))
+return;
