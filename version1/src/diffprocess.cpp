@@ -73,3 +73,6 @@ for (const auto& e : *es) {
 double sw = g.signedweight(e, now);
 if (sw == 0.0) continue;
 double delta = spread * (sw / dabs);
+
+
+double& rv = r[e.target];

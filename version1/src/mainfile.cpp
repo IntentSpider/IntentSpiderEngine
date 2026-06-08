@@ -664,3 +664,7 @@ if (vvar > 0.0) valstats.setstats(vmu, vvar);
 
 
 size_t sentsz;
+if (!(in >> sentsz) || sentsz > 10000) return false;
+std::vector<uint32_t> loadedsent;
+loadedsent.reserve(sentsz);
+bool valid = true;

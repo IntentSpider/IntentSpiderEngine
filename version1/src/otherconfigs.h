@@ -129,5 +129,3 @@ struct config {
   double tgrace = 60.0;      
 
 
-
-

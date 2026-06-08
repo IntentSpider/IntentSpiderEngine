@@ -308,3 +308,4 @@ my += ys[i];
 }
 mx /= staticcast<double>(xs.size());
 my /= staticcast<double>(xs.size());
+double sxy = 0.0, sxx = 0.0, syy = 0.0;

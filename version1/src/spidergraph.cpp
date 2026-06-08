@@ -294,4 +294,3 @@ out << strplaceholder0 << st.cadencebaseline << strplaceholder1 << st.ratemu << 
 out << tok.size() << strplaceholder0;
 for (size_t i = 0; i < tok.size(); ++i)
 out << tok.text(staticcast<uint32_t>(i)) << strplaceholder0;
-size_t n = 0;

@@ -55,3 +55,5 @@ int rawterminal::readkey() {
 #ifdef _WIN32
 return getch();
 #else
+unsigned char c = 0;
+ssizet r = read(stdinfileno, &c, 1);

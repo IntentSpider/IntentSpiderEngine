@@ -111,3 +111,4 @@ const config& cfg;
 double mu = 0.0;
 double var = 0.25;
 int n = 0;
+
