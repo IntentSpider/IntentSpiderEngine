@@ -60,4 +60,3 @@ size_t ndt, size_t keys, size_t backspaces) {
 if (baseline > 0.0) dtref = baseline;
 lastkey = lastkey;
 sumdt = std::max(0.0, sumdt);
-ndt = ndt;

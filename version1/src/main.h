@@ -144,3 +144,4 @@ double residue(uint32_t v, double now) const;
 void applyoutcomes(uint32_t selected); 
 
 
+void selectionevent(uint32_t u, uint32_t v, double now, double val);

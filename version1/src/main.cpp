@@ -398,3 +398,8 @@ trajlabels.push_back(eng.sentence().empty()
  : eng.tokenizer().text(eng.sentence().back()));
 
 
+}
+};
+
+for (;;) {
+int key = term.readkey();

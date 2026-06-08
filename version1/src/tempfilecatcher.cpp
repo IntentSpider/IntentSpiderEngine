@@ -304,3 +304,7 @@ if (xs.size() < 3) return 0.0;
 double mx = 0.0, my = 0.0;
 for (size_t i = 0; i < xs.size(); ++i) {
 mx += xs[i];
+my += ys[i];
+}
+mx /= staticcast<double>(xs.size());
+my /= staticcast<double>(xs.size());

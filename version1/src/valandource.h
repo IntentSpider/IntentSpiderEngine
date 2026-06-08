@@ -68,4 +68,3 @@ void setbaseline(double v) { if (v > 0.0) dtref = v; }
 double lastkey() const { return lastkey; }
 double sumdt() const { return sumdt; }
 size_t intervalcount() const { return ndt; }
-size_t keycount() const { return keys; }
