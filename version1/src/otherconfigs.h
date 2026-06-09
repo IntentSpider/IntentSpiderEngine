@@ -129,3 +129,6 @@ struct config {
   double tgrace = 60.0;      
 
 
+
+
+  double munconf = 3.0;      

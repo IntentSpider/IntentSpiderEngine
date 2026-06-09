@@ -404,3 +404,8 @@ trajlabels.push_back(eng.sentence().empty()
 for (;;) {
 int key = term.readkey();
 if (key < 0) break;
+double now = rawterminal::nowseconds();
+
+
+
+
