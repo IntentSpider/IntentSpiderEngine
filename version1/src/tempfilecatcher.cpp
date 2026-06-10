@@ -312,3 +312,6 @@ double sxy = 0.0, sxx = 0.0, syy = 0.0;
 for (size_t i = 0; i < xs.size(); ++i) {
 double a = xs[i] - mx, b = ys[i] - my;
 sxy += a * b;
+
+sxx += a * a;
+syy += b * b;

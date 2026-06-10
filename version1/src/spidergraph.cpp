@@ -296,3 +296,6 @@ for (size_t i = 0; i < tok.size(); ++i)
 out << tok.text(staticcast<uint32_t>(i)) << strplaceholder0;
 size_t n = 0;
 for (const auto& kv : adj) n += kv.second.size();
+
+
+

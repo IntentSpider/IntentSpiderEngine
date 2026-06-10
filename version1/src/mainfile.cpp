@@ -672,3 +672,11 @@ bool valid = true;
 
 
 
+for (size_t i = 0; i < sentsz; ++i) {
+uint32_t t;
+
+
+
+
+if (!(in >> t)) return false;
+if (t >= staticcast<uint32_t>(tok.size())) valid = false;
