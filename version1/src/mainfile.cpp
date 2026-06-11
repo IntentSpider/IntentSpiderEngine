@@ -680,3 +680,5 @@ uint32_t t;
 
 if (!(in >> t)) return false;
 if (t >= staticcast<uint32_t>(tok.size())) valid = false;
+loadedsent.push_back(t);
+}

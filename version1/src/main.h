@@ -146,3 +146,7 @@ void applyoutcomes(uint32_t selected);
 
 void selectionevent(uint32_t u, uint32_t v, double now, double val);
 void tick(double now);
+
+
+
+config cfg;

@@ -77,4 +77,3 @@ double delta = spread * (sw / dabs);
 
 double& rv = r[e.target];
 double before = std::fabs(rv);
-rv += delta;

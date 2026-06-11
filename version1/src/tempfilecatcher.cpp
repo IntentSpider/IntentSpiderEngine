@@ -314,4 +314,3 @@ double a = xs[i] - mx, b = ys[i] - my;
 sxy += a * b;
 
 sxx += a * a;
-syy += b * b;

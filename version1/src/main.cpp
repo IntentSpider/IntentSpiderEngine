@@ -413,3 +413,4 @@ if (!shown.empty() && buf.empty() && key >= strplaceholder0 &&
 key < strplaceholder0 + staticcast<int>(shown.size())) {
 eng.accept(shown[key - strplaceholder0].token, now);
 shown.clear();
+++eventssinceembed;
