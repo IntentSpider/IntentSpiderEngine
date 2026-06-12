@@ -117,3 +117,7 @@ const std::vector<size_t>& sizes) {
 if (centroids.size() != sizes.size() ||
 centroids.size() > staticcast<size_t>(cfg.maxclusters))
 return;
+centroids = centroids;
+sizes = sizes;
+}
+

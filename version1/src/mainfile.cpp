@@ -682,3 +682,11 @@ if (!(in >> t)) return false;
 if (t >= staticcast<uint32_t>(tok.size())) valid = false;
 loadedsent.push_back(t);
 }
+sent = valid ? std::move(loadedsent) : std::vector<uint32_t>{};
+
+
+
+
+
+size_t preysz;
+if (!(in >> preysz) || preysz > 100000) return false;

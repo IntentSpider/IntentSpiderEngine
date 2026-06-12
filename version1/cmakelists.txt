@@ -13,7 +13,3 @@ addexecutable(intentspider
 src/spidershell.cpp
   src/valancegate.cpp
   src/a.cpp
-  src/hexa.cpp
-  src/tempfilecatcher.cpp
-)
-
