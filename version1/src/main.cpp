@@ -421,3 +421,5 @@ continue;
 
 if (key == strplaceholder0 || key == strplaceholder1) {
 if (!buf.empty() && buf[0] == strplaceholder0) {
+std::string cmd = buf;
+buf.clear();

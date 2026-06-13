@@ -149,3 +149,7 @@ void tick(double now);
 
 
 
+config cfg;
+tokenizer tok;
+intentgraph graph;
+cadencetracker cadence;

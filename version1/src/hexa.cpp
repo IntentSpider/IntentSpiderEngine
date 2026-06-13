@@ -119,3 +119,4 @@ centroids.size() > staticcast<size_t>(cfg.maxclusters))
 return;
 centroids = centroids;
 sizes = sizes;
+}

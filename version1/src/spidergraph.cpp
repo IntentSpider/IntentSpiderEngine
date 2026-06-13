@@ -304,3 +304,6 @@ out << n << strplaceholder0;
 
 
 for (const auto& kv : adj)
+for (const auto& e : kv.second)
+out << kv.first << strplaceholder0 << e.target << strplaceholder1 << e.w << strplaceholder2 << e.tf << strplaceholder3
+<< e.s << strplaceholder0 << e.negacc << strplaceholder1 << e.sup << strplaceholder2 << e.shock << strplaceholder3

@@ -134,5 +134,3 @@ struct config {
   double munconf = 3.0;      
 
   
-  double kshock = 2.0;       
-  double kappaburst = 0.25;  
