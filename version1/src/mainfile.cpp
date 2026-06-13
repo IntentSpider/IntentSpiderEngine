@@ -690,3 +690,6 @@ sent = valid ? std::move(loadedsent) : std::vector<uint32_t>{};
 
 size_t preysz;
 if (!(in >> preysz) || preysz > 100000) return false;
+preylast.clear();
+for (size_t i = 0; i < preysz; ++i) {
+uint64_t key;

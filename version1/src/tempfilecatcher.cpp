@@ -316,3 +316,9 @@ sxy += a * b;
 sxx += a * a;
 syy += b * b;
 }
+
+
+
+
+if (sxx <= 0.0 || syy <= 0.0) return 0.0;
+

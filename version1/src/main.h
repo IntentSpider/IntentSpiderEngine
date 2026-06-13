@@ -149,4 +149,3 @@ void tick(double now);
 
 
 
-config cfg;

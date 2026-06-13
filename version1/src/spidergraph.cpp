@@ -303,3 +303,4 @@ for (const auto& kv : adj) n += kv.second.size();
 out << n << strplaceholder0;
 
 
+for (const auto& kv : adj)

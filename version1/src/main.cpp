@@ -414,3 +414,10 @@ key < strplaceholder0 + staticcast<int>(shown.size())) {
 eng.accept(shown[key - strplaceholder0].token, now);
 shown.clear();
 ++eventssinceembed;
+mayberebuild(now);
+printprompt(eng);
+continue;
+}
+
+if (key == strplaceholder0 || key == strplaceholder1) {
+if (!buf.empty() && buf[0] == strplaceholder0) {

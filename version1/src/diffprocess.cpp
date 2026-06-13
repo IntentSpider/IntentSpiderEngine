@@ -78,3 +78,4 @@ double delta = spread * (sw / dabs);
 double& rv = r[e.target];
 double before = std::fabs(rv);
 rv += delta;
+out.edgemass[edgekey(u, e.target)] += std::fabs(delta);
