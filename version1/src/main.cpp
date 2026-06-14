@@ -423,3 +423,7 @@ if (key == strplaceholder0 || key == strplaceholder1) {
 if (!buf.empty() && buf[0] == strplaceholder0) {
 std::string cmd = buf;
 buf.clear();
+std::cout << strplaceholder0;
+if (cmd == strplaceholder0 || cmd == strplaceholder1) {
+if (!eng.save(kstatepath)) std::cout << strplaceholder0;
+std::cout << strplaceholder0;

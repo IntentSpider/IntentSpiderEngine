@@ -126,3 +126,6 @@ void shifttimestamps(double delta);
 
 
 
+const std::vector<edge>* edges(uint32_t u) const;
+
+

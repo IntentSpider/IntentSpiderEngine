@@ -698,3 +698,8 @@ uint64_t key;
 
 
 double val;
+if (!(in >> key >> val)) return false;
+uint32_t u = staticcast<uint32_t>(key >> 32);
+uint32_t v = staticcast<uint32_t>(key & 0xffffffffu);
+if (u < tok.size() && v < tok.size()) preylast[key] = val;
+

@@ -45,6 +45,3 @@ bool truncated = false;
 
 
 
-
-
-
