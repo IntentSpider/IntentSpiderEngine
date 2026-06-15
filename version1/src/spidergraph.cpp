@@ -309,3 +309,8 @@ out << kv.first << strplaceholder0 << e.target << strplaceholder1 << e.w << strp
 << e.s << strplaceholder0 << e.negacc << strplaceholder1 << e.sup << strplaceholder2 << e.shock << strplaceholder3
 << e.tw << strplaceholder0 << e.ts << strplaceholder1 << e.tsup << strplaceholder2 << e.tlast
 << strplaceholder0;
+return staticcast<bool>(out);
+}
+
+bool intentgraph::load(const std::string& path, tokenizer& tok,
+ persistedstats* st) {

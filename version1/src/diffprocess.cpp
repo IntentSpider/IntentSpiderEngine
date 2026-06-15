@@ -80,3 +80,4 @@ double before = std::fabs(rv);
 rv += delta;
 out.edgemass[edgekey(u, e.target)] += std::fabs(delta);
 if (before < cfg.eps && std::fabs(rv) >= cfg.eps)
+queue.push_back(e.target);

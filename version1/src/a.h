@@ -62,6 +62,3 @@ void restore(uint32_t token, double now, const std::vector<uint32_t>& ctx) {
 record(token, now, ctx);
 }
 
-
-
-

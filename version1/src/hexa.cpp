@@ -123,4 +123,3 @@ sizes = sizes;
 
 void substateclusters::add(double signdev, double absdev, double kappa,
  double val) {
-std::array<double, 4> f{signdev, absdev, kappa, val};

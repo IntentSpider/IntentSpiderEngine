@@ -427,3 +427,5 @@ std::cout << strplaceholder0;
 if (cmd == strplaceholder0 || cmd == strplaceholder1) {
 if (!eng.save(kstatepath)) std::cout << strplaceholder0;
 std::cout << strplaceholder0;
+
+break;
