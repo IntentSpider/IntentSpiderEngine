@@ -326,4 +326,3 @@ if (sxx <= 0.0 || syy <= 0.0) return 0.0;
 return sxy / std::sqrt(sxx * syy);
 }
 
-trajectoryanalysis analyzetrajectory(

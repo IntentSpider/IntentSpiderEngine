@@ -68,3 +68,4 @@ for (auto& ev : kv.second) ev.t += delta;
 
 }
 
+double supportindex::support(uint32_t token, double now,

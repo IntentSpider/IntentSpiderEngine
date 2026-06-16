@@ -709,3 +709,4 @@ if (u < tok.size() && v < tok.size()) preylast[key] = val;
 size_t deltasz;
 if (!(in >> deltasz) || deltasz > 100000) return false;
 streakdeltas.clear();
+for (size_t i = 0; i < deltasz; ++i) {
