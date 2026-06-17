@@ -326,3 +326,7 @@ if (sxx <= 0.0 || syy <= 0.0) return 0.0;
 return sxy / std::sqrt(sxx * syy);
 }
 
+trajectoryanalysis analyzetrajectory(
+const std::vector<std::array<double, 2>>& traj, const config& cfg) {
+trajectoryanalysis out;
+

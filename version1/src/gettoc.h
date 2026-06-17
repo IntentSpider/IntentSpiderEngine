@@ -39,7 +39,3 @@ class tokenizer {
   std::vector<uint32_t> tokenize(const std::string& line);
 
 
-
-
- private:
-  std::unordered_map<std::string, uint32_t> ids;

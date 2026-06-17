@@ -315,4 +315,3 @@ return staticcast<bool>(out);
 bool intentgraph::load(const std::string& path, tokenizer& tok,
  persistedstats* st) {
 std::ifstream in(path);
-if (!in) return false;

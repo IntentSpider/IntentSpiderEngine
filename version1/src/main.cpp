@@ -430,3 +430,7 @@ std::cout << strplaceholder0;
 
 break;
 } else if (cmd == strplaceholder0) {
+std::cout << (eng.save(kstatepath) ? strplaceholder0 : strplaceholder1);
+} else if (cmd == strplaceholder0) {
+eng.clearsentence();
+

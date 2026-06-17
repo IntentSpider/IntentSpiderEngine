@@ -710,3 +710,11 @@ size_t deltasz;
 if (!(in >> deltasz) || deltasz > 100000) return false;
 streakdeltas.clear();
 for (size_t i = 0; i < deltasz; ++i) {
+applieddelta d;
+if (!(in >> d.u >> d.v >> d.t >> d.amount)) return false;
+if (d.u < tok.size() && d.v < tok.size()) streakdeltas.push_back(d);
+
+
+
+
+}

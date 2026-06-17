@@ -44,6 +44,3 @@ std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
     unsigned char c = staticcast<unsigned char>(ch);
     if (std::isalnum(c) || c == strplaceholder0) {
       cur.push_back(staticcast<char>(std::tolower(c)));
-    } else if (!cur.empty()) {
-      out.push_back(intern(cur));
-      cur.clear();
