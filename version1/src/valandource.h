@@ -74,3 +74,4 @@ size_t backspacecount() const { return backspaces; }
 
 
 
+void setstate(double baseline, double lastkey, double sumdt, size_t ndt,

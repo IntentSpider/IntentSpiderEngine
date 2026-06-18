@@ -718,3 +718,5 @@ if (d.u < tok.size() && d.v < tok.size()) streakdeltas.push_back(d);
 
 
 }
+
+if (v2) {

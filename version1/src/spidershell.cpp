@@ -60,3 +60,7 @@ ssizet r = read(stdinfileno, &c, 1);
 
 
 
+return r == 1 ? staticcast<int>(c) : -1;
+
+
+

@@ -139,3 +139,6 @@ struct config {
   double taushock = 2592000.0; 
   double wshock = 120.0;     
   double dkappashock = 0.2;  
+
+  
+  double deltacluster = 1.0; 

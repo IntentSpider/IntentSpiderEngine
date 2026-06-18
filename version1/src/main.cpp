@@ -434,3 +434,7 @@ std::cout << (eng.save(kstatepath) ? strplaceholder0 : strplaceholder1);
 } else if (cmd == strplaceholder0) {
 eng.clearsentence();
 
+
+shown.clear();
+
+traj.clear();

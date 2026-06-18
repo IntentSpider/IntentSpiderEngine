@@ -130,5 +130,3 @@ const std::vector<edge>* edges(uint32_t u) const;
 
 
 
-double transmissionoutdegree(uint32_t u, double now) const;
-

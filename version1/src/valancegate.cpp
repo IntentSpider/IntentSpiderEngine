@@ -64,3 +64,6 @@ ndt = ndt;
 keys = keys;
 backspaces = std::min(backspaces, keys);
 }
+
+void cadencetracker::closewindow() {
+if (ndt > 0) {

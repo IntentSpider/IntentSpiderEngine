@@ -42,3 +42,5 @@ class rawterminal {
   int readkey();
 
   static double nowseconds();
+
+ private:
