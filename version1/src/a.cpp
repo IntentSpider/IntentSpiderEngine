@@ -69,3 +69,8 @@ for (auto& ev : kv.second) ev.t += delta;
 }
 
 double supportindex::support(uint32_t token, double now,
+ const std::vector<uint32_t>& ctx) const {
+auto it = events.find(token);
+if (it == events.end()) return 0.0;
+double total = 0.0;
+for (const auto& ev : it>second) {

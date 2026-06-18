@@ -16,4 +16,3 @@ src/spidershell.cpp
   src/hexa.cpp
   src/tempfilecatcher.cpp
 )
-

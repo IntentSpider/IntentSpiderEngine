@@ -333,3 +333,5 @@ trajectoryanalysis out;
 const size_t n = traj.size();
 
 
+out.speed.assign(n, 0.0);
+for (size_t i = 1; i < n; ++i) {

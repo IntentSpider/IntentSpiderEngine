@@ -157,3 +157,6 @@ cadencetracker cadence;
 
 supportindex support;
 arousaltracker arousalt;
+
+valencestats valstats;
+substateclusters clusters;

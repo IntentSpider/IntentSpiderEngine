@@ -438,3 +438,4 @@ eng.clearsentence();
 shown.clear();
 
 traj.clear();
+trajlabels.clear();

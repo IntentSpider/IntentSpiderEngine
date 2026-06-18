@@ -720,3 +720,10 @@ if (d.u < tok.size() && d.v < tok.size()) streakdeltas.push_back(d);
 }
 
 if (v2) {
+auto validtoken = [&](uint32_t token) { return token < tok.size(); };
+
+size_t rankedsz;
+if (!(in >> rankedsz) || rankedsz > 1000) return false;
+
+
+

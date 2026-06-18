@@ -142,3 +142,4 @@ struct config {
 
   
   double deltacluster = 1.0; 
+  int maxclusters = 12;      
