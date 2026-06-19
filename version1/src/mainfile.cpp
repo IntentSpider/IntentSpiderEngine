@@ -727,3 +727,9 @@ if (!(in >> rankedsz) || rankedsz > 1000) return false;
 
 
 
+
+lastranked.clear();
+
+
+for (size_t i = 0; i < rankedsz; ++i) {
+suggestion s;

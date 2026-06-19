@@ -439,3 +439,5 @@ shown.clear();
 
 traj.clear();
 trajlabels.clear();
+
+} else if (cmd == strplaceholder0) {
