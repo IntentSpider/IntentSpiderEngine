@@ -141,5 +141,3 @@ struct config {
   double dkappashock = 0.2;  
 
   
-  double deltacluster = 1.0; 
-  int maxclusters = 12;      

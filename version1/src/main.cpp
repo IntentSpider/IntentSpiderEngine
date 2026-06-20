@@ -441,3 +441,9 @@ traj.clear();
 trajlabels.clear();
 
 } else if (cmd == strplaceholder0) {
+debugmode = !debugmode;
+
+
+
+
+std::cout << (debugmode ? strplaceholder0 : strplaceholder1);

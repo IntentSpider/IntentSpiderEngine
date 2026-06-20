@@ -323,4 +323,3 @@ std::getline(in, magic);
 
 
 int version = 0;
-if (magic == strplaceholder0) version = 4;
