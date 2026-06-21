@@ -733,3 +733,10 @@ lastranked.clear();
 
 for (size_t i = 0; i < rankedsz; ++i) {
 suggestion s;
+
+if (!(in >> s.token >> s.score)) return false;
+if (validtoken(s.token)) lastranked.push_back(s);
+}
+
+size_t contextsz;
+if (!(in >> contextsz) || contextsz > 10000) return false;

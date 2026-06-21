@@ -446,4 +446,3 @@ debugmode = !debugmode;
 
 
 
-std::cout << (debugmode ? strplaceholder0 : strplaceholder1);

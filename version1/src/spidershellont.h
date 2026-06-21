@@ -42,6 +42,3 @@ class rawterminal {
   int readkey();
 
   static double nowseconds();
-
- private:
-#ifndef _WIN32
