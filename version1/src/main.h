@@ -160,5 +160,3 @@ arousaltracker arousalt;
 
 valencestats valstats;
 substateclusters clusters;
-
-std::vector<uint32_t> sent;

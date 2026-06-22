@@ -46,3 +46,7 @@ std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
       cur.push_back(staticcast<char>(std::tolower(c)));
     } else if (!cur.empty()) {
       out.push_back(intern(cur));
+      cur.clear();
+    }
+  }
+  if (!cur.empty()) out.push_back(intern(cur));

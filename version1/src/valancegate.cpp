@@ -67,3 +67,5 @@ backspaces = std::min(backspaces, keys);
 
 void cadencetracker::closewindow() {
 if (ndt > 0) {
+double dtavg = sumdt / staticcast<double>(ndt);
+

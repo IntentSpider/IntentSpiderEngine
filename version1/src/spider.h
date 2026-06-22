@@ -134,4 +134,3 @@ double transmissionoutdegree(uint32_t u, double now) const;
 
 
 
-

@@ -83,3 +83,4 @@ if (before < cfg.eps && std::fabs(rv) >= cfg.eps)
 queue.push_back(e.target);
 }
 }
+

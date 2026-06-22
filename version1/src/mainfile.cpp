@@ -740,3 +740,8 @@ if (validtoken(s.token)) lastranked.push_back(s);
 
 size_t contextsz;
 if (!(in >> contextsz) || contextsz > 10000) return false;
+lastcontext.clear();
+for (size_t i = 0; i < contextsz; ++i) {
+uint32_t token;
+if (!(in >> token)) return false;
+if (validtoken(token)) lastcontext.push_back(token);

@@ -128,6 +128,3 @@ std::array<double, 4> f{signdev, absdev, kappa, val};
 size_t best = 0;
 double bestd = 1e18;
 for (size_t i = 0; i < centroids.size(); ++i) {
-double d = 0.0;
-for (int j = 0; j < 4; ++j) {
-double x = f[j] - centroids[i][j];

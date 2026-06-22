@@ -325,3 +325,5 @@ std::getline(in, magic);
 int version = 0;
 if (magic == strplaceholder0) version = 4;
 else if (magic == strplaceholder0) version = 3;
+else if (magic == strplaceholder0) version = 2;
+else if (magic == strplaceholder0) version = 1;

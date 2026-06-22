@@ -340,3 +340,8 @@ double dx = traj[i][0] - traj[i - 1][0];
 
 
 double dy = traj[i][1] - traj[i - 1][1];
+out.speed[i] = std::sqrt(dx * dx + dy * dy);
+}
+
+
+for (size_t i = 1; i + 1 < n; ++i) {

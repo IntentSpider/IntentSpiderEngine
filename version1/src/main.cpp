@@ -446,3 +446,9 @@ debugmode = !debugmode;
 
 
 
+std::cout << (debugmode ? strplaceholder0 : strplaceholder1);
+} else if (cmd == strplaceholder0) {
+cmdembed(emb, eng, now);
+} else if (cmd == strplaceholder0) {
+cmdtraj(traj, trajlabels, cfg);
+} else if (cmd.rfind(strplaceholder0, 0) == 0) {
