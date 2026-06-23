@@ -65,3 +65,6 @@ record(token, now, ctx);
 
 
 
+void shifttimestamps(double delta);
+
+ private:

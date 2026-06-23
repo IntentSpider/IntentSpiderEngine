@@ -94,6 +94,3 @@ double hypothesis7(const intentgraph& g, double now, size_t* nout) const;
 
  private:
 const config& cfg;
-embeddingresult res;
-};
-

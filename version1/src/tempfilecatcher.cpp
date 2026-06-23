@@ -344,4 +344,3 @@ out.speed[i] = std::sqrt(dx * dx + dy * dy);
 }
 
 
-for (size_t i = 1; i + 1 < n; ++i) {

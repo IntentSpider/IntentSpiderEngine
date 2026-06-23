@@ -160,3 +160,7 @@ arousaltracker arousalt;
 
 valencestats valstats;
 substateclusters clusters;
+
+std::vector<uint32_t> sent;
+std::vector<suggestion> lastranked;
+std::vector<uint32_t> lastcontext;

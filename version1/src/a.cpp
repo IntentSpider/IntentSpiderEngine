@@ -74,3 +74,4 @@ auto it = events.find(token);
 if (it == events.end()) return 0.0;
 double total = 0.0;
 for (const auto& ev : it>second) {
+double r = std::exp(-(now - ev.t) / cfg.tau0);
