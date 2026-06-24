@@ -122,3 +122,7 @@ int n = 0;
 
 
 class substateclusters {
+ public:
+explicit substateclusters(const config& cfg) : cfg(cfg) {}
+
+

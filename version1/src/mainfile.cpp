@@ -747,3 +747,9 @@ if (!(in >> token)) return false;
 if (validtoken(token)) lastcontext.push_back(token);
 }
 
+
+size_t masssz;
+if (!(in >> masssz) || masssz > 100000) return false;
+lastedgemass.clear();
+for (size_t i = 0; i < masssz; ++i) {
+uint64_t key;

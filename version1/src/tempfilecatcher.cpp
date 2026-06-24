@@ -344,3 +344,8 @@ out.speed[i] = std::sqrt(dx * dx + dy * dy);
 }
 
 
+for (size_t i = 1; i + 1 < n; ++i) {
+double nb = std::max(out.speed[i - 1], out.speed[i + 1]);
+if (out.speed[i] > nb && out.speed[i] - nb > cfg.thetahead)
+out.heads.push_back(staticcast<int>(i));
+}

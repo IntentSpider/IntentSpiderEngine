@@ -454,3 +454,6 @@ cmdtraj(traj, trajlabels, cfg);
 } else if (cmd.rfind(strplaceholder0, 0) == 0) {
 cmdcompare(cmd.size() > 5 ? cmd.substr(5) : strplaceholder0, eng, emb, cfg, now);
 
+
+} else if (cmd == strplaceholder0) {
+cmdhyp7(emb, eng, now);
