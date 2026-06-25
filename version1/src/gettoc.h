@@ -41,3 +41,4 @@ class tokenizer {
 
 
 
+ private:

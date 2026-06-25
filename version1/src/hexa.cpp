@@ -130,3 +130,6 @@ double bestd = 1e18;
 for (size_t i = 0; i < centroids.size(); ++i) {
 double d = 0.0;
 for (int j = 0; j < 4; ++j) {
+double x = f[j] - centroids[i][j];
+d += x * x;
+}

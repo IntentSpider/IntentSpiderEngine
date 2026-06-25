@@ -163,3 +163,8 @@ substateclusters clusters;
 
 std::vector<uint32_t> sent;
 std::vector<suggestion> lastranked;
+std::vector<uint32_t> lastcontext;
+std::unordered_map<uint64_t, double> lastedgemass;
+std::unordered_map<uint32_t, double> lastp;
+
+std::unordered_map<uint64_t, double> preylast; 

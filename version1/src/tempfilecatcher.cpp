@@ -349,3 +349,4 @@ double nb = std::max(out.speed[i - 1], out.speed[i + 1]);
 if (out.speed[i] > nb && out.speed[i] - nb > cfg.thetahead)
 out.heads.push_back(staticcast<int>(i));
 }
+

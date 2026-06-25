@@ -753,3 +753,11 @@ if (!(in >> masssz) || masssz > 100000) return false;
 lastedgemass.clear();
 for (size_t i = 0; i < masssz; ++i) {
 uint64_t key;
+double mass;
+if (!(in >> key >> mass)) return false;
+uint32_t u = staticcast<uint32_t>(key >> 32);
+
+
+
+uint32_t v = staticcast<uint32_t>(key & 0xffffffffu);
+if (validtoken(u) && validtoken(v)) lastedgemass[key] = mass;
