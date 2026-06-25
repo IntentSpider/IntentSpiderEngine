@@ -136,3 +136,5 @@ double transmissionoutdegree(uint32_t u, double now) const;
 
 
 const std::unordered_map<uint32_t, std::vector<edge>>& adjacency() const {
+return adj;
+}

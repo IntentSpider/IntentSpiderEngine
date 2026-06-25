@@ -761,3 +761,7 @@ uint32_t u = staticcast<uint32_t>(key >> 32);
 
 uint32_t v = staticcast<uint32_t>(key & 0xffffffffu);
 if (validtoken(u) && validtoken(v)) lastedgemass[key] = mass;
+}
+
+size_t psz;
+if (!(in >> psz) || psz > 100000) return false;

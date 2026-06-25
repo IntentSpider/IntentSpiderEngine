@@ -333,3 +333,9 @@ if (version >= 3) {
 std::string tag;
 
 
+
+persistedstats s;
+
+
+in >> tag >> s.cadencebaseline >> s.ratemu >> s.ratevar >> s.valmu >>
+s.valvar;

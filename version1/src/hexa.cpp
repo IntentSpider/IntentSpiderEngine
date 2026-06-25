@@ -133,3 +133,5 @@ for (int j = 0; j < 4; ++j) {
 double x = f[j] - centroids[i][j];
 d += x * x;
 }
+d = std::sqrt(d);
+if (d < bestd) {
