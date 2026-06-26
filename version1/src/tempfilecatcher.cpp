@@ -353,4 +353,3 @@ out.heads.push_back(staticcast<int>(i));
 
 
 for (size_t i = 0; i < n; ++i) {
-if (staticcast<int>(i) < cfg.nplateau - 1) continue;

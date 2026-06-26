@@ -460,3 +460,6 @@ cmdhyp7(emb, eng, now);
 } else {
 printhelp();
 }
+printprompt(eng);
+continue;
+}

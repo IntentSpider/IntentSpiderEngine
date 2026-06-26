@@ -765,3 +765,8 @@ if (validtoken(u) && validtoken(v)) lastedgemass[key] = mass;
 
 size_t psz;
 if (!(in >> psz) || psz > 100000) return false;
+
+
+
+
+lastp.clear();

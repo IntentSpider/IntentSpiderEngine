@@ -77,3 +77,7 @@ size_t backspacecount() const { return backspaces; }
 void setstate(double baseline, double lastkey, double sumdt, size_t ndt,
 size_t keys, size_t backspaces);
 
+ private:
+const config& cfg;
+double dtref; 
+double lastkey = -1.0;

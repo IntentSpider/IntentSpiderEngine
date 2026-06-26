@@ -65,4 +65,3 @@ return r == 1 ? staticcast<int>(c) : -1;
 
 
 #endif
-}

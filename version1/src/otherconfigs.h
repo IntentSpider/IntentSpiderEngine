@@ -147,3 +147,6 @@ struct config {
   
   int tembedevents = 50;    
                               
+                              
+                              
+  int poweriters = 300;      

@@ -43,4 +43,3 @@ class rawterminal {
 
   static double nowseconds();
 
- private:
