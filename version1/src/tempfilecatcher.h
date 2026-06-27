@@ -97,3 +97,5 @@ const config& cfg;
 embeddingresult res;
 };
 
+
+

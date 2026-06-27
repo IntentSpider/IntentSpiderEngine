@@ -770,3 +770,7 @@ if (!(in >> psz) || psz > 100000) return false;
 
 
 lastp.clear();
+for (size_t i = 0; i < psz; ++i) {
+uint32_t token;
+double mass;
+if (!(in >> token >> mass)) return false;

@@ -463,3 +463,6 @@ printhelp();
 printprompt(eng);
 continue;
 }
+
+auto toks = eng.tokenizer().tokenize(buf);
+

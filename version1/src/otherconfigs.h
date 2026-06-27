@@ -149,4 +149,3 @@ struct config {
                               
                               
                               
-  int poweriters = 300;      

@@ -43,3 +43,6 @@ class rawterminal {
 
   static double nowseconds();
 
+ private:
+#ifndef _WIN32
+  termios orig{};
