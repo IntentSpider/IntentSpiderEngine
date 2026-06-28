@@ -126,3 +126,4 @@ class substateclusters {
 explicit substateclusters(const config& cfg) : cfg(cfg) {}
 
 
+void add(double signdev, double absdev, double kappa, double val);

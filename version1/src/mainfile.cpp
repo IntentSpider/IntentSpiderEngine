@@ -774,3 +774,6 @@ for (size_t i = 0; i < psz; ++i) {
 uint32_t token;
 double mass;
 if (!(in >> token >> mass)) return false;
+if (validtoken(token)) lastp[token] = mass;
+}
+

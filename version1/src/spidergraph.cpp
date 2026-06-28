@@ -341,3 +341,5 @@ in >> tag >> s.cadencebaseline >> s.ratemu >> s.ratevar >> s.valmu >>
 s.valvar;
 if (version >= 4) in >> s.tokensobserved;
 if (tag != strplaceholder0) return false;
+if (st) *st = s;
+} else if (version == 2) {

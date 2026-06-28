@@ -86,5 +86,3 @@ queue.push_back(e.target);
 
 
 double total = 0.0;
-for (const auto& kv : out.p)
-if (kv.second > 0.0) total += kv.second;

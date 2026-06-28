@@ -466,3 +466,8 @@ continue;
 
 auto toks = eng.tokenizer().tokenize(buf);
 
+buf.clear();
+
+
+if (!toks.empty()) {
+eng.observetyped(toks, now);
