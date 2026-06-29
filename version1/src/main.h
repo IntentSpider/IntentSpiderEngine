@@ -168,3 +168,6 @@ std::unordered_map<uint64_t, double> lastedgemass;
 std::unordered_map<uint32_t, double> lastp;
 
 std::unordered_map<uint64_t, double> preylast; 
+
+
+

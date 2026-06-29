@@ -471,3 +471,6 @@ buf.clear();
 
 if (!toks.empty()) {
 eng.observetyped(toks, now);
+eventssinceembed += staticcast<int>(toks.size());
+mayberebuild(now);
+

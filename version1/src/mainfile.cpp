@@ -777,3 +777,10 @@ if (!(in >> token >> mass)) return false;
 if (validtoken(token)) lastp[token] = mass;
 }
 
+size_t supportsz;
+if (!(in >> supportsz) || supportsz > 100000) return false;
+support.clear();
+for (size_t i = 0; i < supportsz; ++i) {
+uint32_t token;
+double t;
+size_t ctxsz;

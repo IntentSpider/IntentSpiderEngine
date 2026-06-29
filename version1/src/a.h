@@ -69,6 +69,3 @@ void shifttimestamps(double delta);
 
  private:
 const config& cfg;
-std::unordered_map<uint32_t, std::deque<selectionevent>> events;
-
-

@@ -343,3 +343,6 @@ if (version >= 4) in >> s.tokensobserved;
 if (tag != strplaceholder0) return false;
 if (st) *st = s;
 } else if (version == 2) {
+std::string tag;
+double base = 0.0;
+in >> tag >> base;

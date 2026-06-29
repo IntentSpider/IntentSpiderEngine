@@ -358,3 +358,6 @@ bool ok = true;
 for (int j = 0; j < cfg.nplateau; ++j) {
 size_t k = i - staticcast<size_t>(j);
 if (k == 0 || out.speed[k] >= cfg.epsplateau) {
+ok = false;
+break;
+}
