@@ -784,3 +784,7 @@ for (size_t i = 0; i < supportsz; ++i) {
 uint32_t token;
 double t;
 size_t ctxsz;
+if (!(in >> token >> t >> ctxsz) || ctxsz > 10000) return false;
+std::vector<uint32_t> ctx;
+
+

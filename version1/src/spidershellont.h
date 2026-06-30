@@ -45,3 +45,5 @@ class rawterminal {
 
  private:
 #ifndef _WIN32
+  termios orig{};
+

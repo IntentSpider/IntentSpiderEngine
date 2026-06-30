@@ -171,3 +171,4 @@ std::unordered_map<uint64_t, double> preylast;
 
 
 
+std::vector<applieddelta> streakdeltas;

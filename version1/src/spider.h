@@ -141,5 +141,3 @@ return adj;
 
 
 
-bool save(const std::string& path, const tokenizer& tok,
-const persistedstats& st) const;

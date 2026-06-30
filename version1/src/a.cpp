@@ -77,3 +77,6 @@ for (const auto& ev : it>second) {
 double r = std::exp(-(now - ev.t) / cfg.tau0);
 double s = jaccard(ev.ctx, ctx);
 
+
+
+total += std::pow(r, 1.0 - cfg.rho) * std::pow(s, cfg.rho);

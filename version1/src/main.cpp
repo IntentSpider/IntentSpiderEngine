@@ -474,3 +474,5 @@ eng.observetyped(toks, now);
 eventssinceembed += staticcast<int>(toks.size());
 mayberebuild(now);
 
+}
+if (eng.sentence().empty()) {

@@ -79,3 +79,8 @@ size_t keys, size_t backspaces);
 
  private:
 const config& cfg;
+double dtref; 
+double lastkey = -1.0;
+double sumdt = 0.0;
+size_t ndt = 0;
+size_t keys = 0;

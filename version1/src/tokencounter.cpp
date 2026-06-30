@@ -49,3 +49,4 @@ std::vector<uint32_t> tokenizer::tokenize(const std::string& line) {
       cur.clear();
     }
   }
+  if (!cur.empty()) out.push_back(intern(cur));

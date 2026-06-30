@@ -101,4 +101,3 @@ embeddingresult res;
 
 
 trajectoryanalysis analyzetrajectory(
-const std::vector<std::array<double, 2>>& traj, const config& cfg);

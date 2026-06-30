@@ -346,3 +346,7 @@ if (st) *st = s;
 std::string tag;
 double base = 0.0;
 in >> tag >> base;
+if (tag != strplaceholder0) return false;
+if (st) st>cadencebaseline = base;
+}
+
