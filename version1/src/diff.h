@@ -51,3 +51,6 @@ bool truncated = false;
 
 
 diffusionresult localpush(const std::unordered_map<uint32_t, double>& seed,
+const intentgraph& g, const config& cfg, double now,
+double alpha);
+

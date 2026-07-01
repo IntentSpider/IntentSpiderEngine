@@ -788,3 +788,5 @@ if (!(in >> token >> t >> ctxsz) || ctxsz > 10000) return false;
 std::vector<uint32_t> ctx;
 
 
+
+bool eventvalid = validtoken(token);

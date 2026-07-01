@@ -152,3 +152,6 @@ struct config {
   int poweriters = 300;      
   double thetahead = 0.05;   
   double epsplateau = 0.02;  
+
+
+

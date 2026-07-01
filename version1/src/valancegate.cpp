@@ -72,5 +72,3 @@ double dtavg = sumdt / staticcast<double>(ndt);
 
 dtref += cfg.dtrefema * (dtavg - dtref);
 }
-lastkey = -1.0;
-sumdt = 0.0;

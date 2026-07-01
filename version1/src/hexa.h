@@ -128,3 +128,4 @@ explicit substateclusters(const config& cfg) : cfg(cfg) {}
 
 void add(double signdev, double absdev, double kappa, double val);
 
+size_t count() const { return centroids.size(); }
