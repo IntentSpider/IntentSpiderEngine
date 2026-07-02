@@ -790,3 +790,9 @@ std::vector<uint32_t> ctx;
 
 
 bool eventvalid = validtoken(token);
+for (size_t j = 0; j < ctxsz; ++j) {
+uint32_t ctxtoken;
+if (!(in >> ctxtoken)) return false;
+eventvalid = eventvalid && validtoken(ctxtoken);
+ctx.push_back(ctxtoken);
+

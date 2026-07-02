@@ -70,5 +70,3 @@ if (ndt > 0) {
 double dtavg = sumdt / staticcast<double>(ndt);
 
 
-dtref += cfg.dtrefema * (dtavg - dtref);
-}

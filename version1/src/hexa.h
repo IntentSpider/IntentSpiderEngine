@@ -129,3 +129,5 @@ explicit substateclusters(const config& cfg) : cfg(cfg) {}
 void add(double signdev, double absdev, double kappa, double val);
 
 size_t count() const { return centroids.size(); }
+const std::vector<std::array<double, 4>>& centroids() const { return centroids; }
+const std::vector<size_t>& sizes() const { return sizes; }

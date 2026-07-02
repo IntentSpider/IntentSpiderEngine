@@ -350,3 +350,4 @@ if (tag != strplaceholder0) return false;
 if (st) st>cadencebaseline = base;
 }
 
+size_t nt = 0;

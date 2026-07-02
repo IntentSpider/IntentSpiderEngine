@@ -363,3 +363,6 @@ break;
 }
 }
 
+if (ok) out.plateaus.push_back(staticcast<int>(i));
+}
+

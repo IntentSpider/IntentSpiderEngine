@@ -78,4 +78,3 @@ double r = std::exp(-(now - ev.t) / cfg.tau0);
 double s = jaccard(ev.ctx, ctx);
 
 
-
