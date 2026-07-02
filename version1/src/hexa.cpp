@@ -137,3 +137,4 @@ d = std::sqrt(d);
 if (d < bestd) {
 bestd = d;
 best = i;
+}

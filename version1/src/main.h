@@ -172,3 +172,8 @@ std::unordered_map<uint64_t, double> preylast;
 
 
 std::vector<applieddelta> streakdeltas;
+
+
+double lastpreyactivity = -1.0;
+
+

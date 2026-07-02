@@ -796,3 +796,9 @@ if (!(in >> ctxtoken)) return false;
 eventvalid = eventvalid && validtoken(ctxtoken);
 ctx.push_back(ctxtoken);
 
+}
+
+
+if (eventvalid) support.restore(token, t, ctx);
+}
+

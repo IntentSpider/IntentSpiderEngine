@@ -3435,3 +3435,23 @@ gutenberg ebooks may be modified and printed and given away—you may
 do practically anything in the united states with ebooks not protected
 by u.s. copyright law. redistribution is subject to the trademark
 license, especially commercial redistribution.
+
+
+start: full license
+
+the full project gutenberg™ license
+
+please read this before you distribute or use this work
+
+to protect the project gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “project
+gutenberg”), you agree to comply with all the terms of the full
+project gutenberg license available with this file or online at
+www.gutenberg.org/license.
+
+section 1. general terms of use and redistributing project gutenberg
+electronic works
+
+1.a. by reading or using any part of this project gutenberg
+electronic work, you indicate that you have read, understand, agree to

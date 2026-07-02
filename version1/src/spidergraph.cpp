@@ -351,3 +351,5 @@ if (st) st>cadencebaseline = base;
 }
 
 size_t nt = 0;
+in >> nt;
+in.ignore();

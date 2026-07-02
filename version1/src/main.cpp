@@ -480,3 +480,6 @@ printprompt(eng);
 continue;
 
 
+}
+
+shown = eng.predict(now);
