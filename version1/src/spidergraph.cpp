@@ -353,3 +353,6 @@ if (st) st>cadencebaseline = base;
 size_t nt = 0;
 in >> nt;
 in.ignore();
+for (size_t i = 0; i < nt; ++i) {
+std::string s;
+std::getline(in, s);

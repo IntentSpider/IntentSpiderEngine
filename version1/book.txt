@@ -3455,3 +3455,22 @@ electronic works
 
 1.a. by reading or using any part of this project gutenberg
 electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. if you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of project gutenberg electronic works in your
+possession. if you paid a fee for obtaining a copy of or access to a
+project gutenberg electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.e.8.
+
+1.b. “project gutenberg” is a registered trademark. it may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. there are a few
+things that you can do with most project gutenberg electronic works
+even without complying with the full terms of this agreement. see
+paragraph 1.c below. there are a lot of things you can do with project
+gutenberg electronic works if you follow the terms of this
+agreement and help preserve free future access to project gutenberg
+electronic works. see paragraph 1.e below.
+

@@ -144,5 +144,3 @@ return adj;
 bool save(const std::string& path, const tokenizer& tok,
 const persistedstats& st) const;
 bool load(const std::string& path, tokenizer& tok, persistedstats* st);
-
- private:

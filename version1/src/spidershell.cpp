@@ -68,6 +68,3 @@ return r == 1 ? staticcast<int>(c) : -1;
 }
 
 double rawterminal::nowseconds() {
-using namespace std::chrono;
-
-

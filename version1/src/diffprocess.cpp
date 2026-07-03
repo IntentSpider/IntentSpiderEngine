@@ -90,3 +90,4 @@ for (const auto& kv : out.p)
 if (kv.second > 0.0) total += kv.second;
 if (total > 0.0) {
 for (const auto& kv : out.p) {
+if (kv.second <= 0.0) continue;
