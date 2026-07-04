@@ -807,3 +807,8 @@ size_t clustersz;
 
 
 
+if (!(in >> clustersz) || clustersz > 1000) return false;
+std::vector<std::array<double, 4>> centroids;
+std::vector<size_t> clustersizes;
+for (size_t i = 0; i < clustersz; ++i) {
+size_t clustercount;

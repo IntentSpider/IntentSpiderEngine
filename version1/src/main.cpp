@@ -490,3 +490,5 @@ for (size_t i = 0; i < shown.size(); ++i)
 std::cout << strplaceholder0 << (i + 1) << strplaceholder1
 << eng.tokenizer().text(shown[i].token) << strplaceholder0;
 std::cout << strplaceholder0 << shown.size() << strplaceholder1;
+} else if (!eng.debug().gated) {
+std::cout << strplaceholder0;

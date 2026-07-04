@@ -155,5 +155,3 @@ struct config {
 
 
 
-
-  int nplateau = 3;          

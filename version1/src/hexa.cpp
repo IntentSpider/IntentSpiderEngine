@@ -140,3 +140,7 @@ best = i;
 }
 }
 if (centroids.empty() || bestd > cfg.deltacluster) {
+if (staticcast<int>(centroids.size()) < cfg.maxclusters) {
+centroids.push_back(f);
+sizes.push_back(1);
+}
