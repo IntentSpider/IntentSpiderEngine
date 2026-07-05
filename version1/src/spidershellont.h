@@ -48,3 +48,5 @@ class rawterminal {
   termios orig{};
 
   bool active = false;
+#endif
+};

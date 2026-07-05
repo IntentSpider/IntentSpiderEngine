@@ -356,3 +356,6 @@ in.ignore();
 for (size_t i = 0; i < nt; ++i) {
 std::string s;
 std::getline(in, s);
+tok.intern(s);
+}
+size_t ne = 0;

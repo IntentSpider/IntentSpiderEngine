@@ -812,3 +812,4 @@ std::vector<std::array<double, 4>> centroids;
 std::vector<size_t> clustersizes;
 for (size_t i = 0; i < clustersz; ++i) {
 size_t clustercount;
+

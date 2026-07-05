@@ -29,3 +29,5 @@ int main(){
     iosbase::syncwithstdio(false);
     cin.tie(NULL);
     
+    
+    cout << strplaceholder0;    

@@ -55,3 +55,4 @@ const intentgraph& g, const config& cfg, double now,
 double alpha);
 
 }
+
