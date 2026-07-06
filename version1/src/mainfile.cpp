@@ -813,3 +813,11 @@ std::vector<size_t> clustersizes;
 for (size_t i = 0; i < clustersz; ++i) {
 size_t clustercount;
 
+
+
+
+std::array<double, 4> c;
+
+
+if (!(in >> clustercount >> c[0] >> c[1] >> c[2] >> c[3])) return false;
+clustersizes.push_back(clustercount);

@@ -494,3 +494,7 @@ std::cout << strplaceholder0 << shown.size() << strplaceholder1;
 std::cout << strplaceholder0;
 }
 if (debugmode) printdebug(eng);
+printprompt(eng);
+continue;
+
+
