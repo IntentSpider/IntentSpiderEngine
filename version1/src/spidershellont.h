@@ -47,3 +47,6 @@ class rawterminal {
 #ifndef _WIN32
   termios orig{};
 
+  bool active = false;
+#endif
+};

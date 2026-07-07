@@ -363,4 +363,3 @@ in >> ne;
 adj.clear();
 for (size_t i = 0; i < ne; ++i) {
 uint32_t u = 0, v = 0;
-edge e;

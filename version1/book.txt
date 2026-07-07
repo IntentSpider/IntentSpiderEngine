@@ -3537,3 +3537,25 @@ will be linked to the project gutenberg license for all works
 posted with the permission of the copyright holder found at the
 beginning of this work.
 
+1.e.4. do not unlink or detach or remove the full project gutenberg
+license terms from this work, or any files containing a part of this
+work or any other work associated with project gutenberg.
+
+1.e.5. do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.e.1 with
+active links or immediate access to the full terms of the project
+gutenberg license.
+
+1.e.6. you may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. however, if you provide access
+to or distribute copies of a project gutenberg work in a format
+other than “plain vanilla ascii” or other format used in the official
+version posted on the official project gutenberg website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “plain
+vanilla ascii” or other form. any alternate format must include the
+full project gutenberg license as specified in paragraph 1.e.1.
+

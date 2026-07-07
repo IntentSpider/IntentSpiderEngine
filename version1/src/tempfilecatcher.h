@@ -104,6 +104,3 @@ trajectoryanalysis analyzetrajectory(
 const std::vector<std::array<double, 2>>& traj, const config& cfg);
 
 
-
-double gaparea(const std::vector<std::array<double, 2>>& a,
- const std::vector<std::array<double, 2>>& b);

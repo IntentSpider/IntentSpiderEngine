@@ -79,3 +79,6 @@ double s = jaccard(ev.ctx, ctx);
 
 
 
+total += std::pow(r, 1.0 - cfg.rho) * std::pow(s, cfg.rho);
+}
+
