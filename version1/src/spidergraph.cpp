@@ -363,3 +363,9 @@ in >> ne;
 adj.clear();
 for (size_t i = 0; i < ne; ++i) {
 uint32_t u = 0, v = 0;
+edge e;
+if (version >= 3) {
+in >> u >> v >> e.w >> e.tf >> e.s >> e.negacc >> e.sup >> e.shock >>
+e.tw >> e.ts >> e.tsup >> e.tlast;
+
+

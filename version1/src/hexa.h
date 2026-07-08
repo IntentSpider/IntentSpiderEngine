@@ -135,3 +135,6 @@ const std::vector<size_t>& sizes() const { return sizes; }
 
 
 
+void setstate(const std::vector<std::array<double, 4>>& centroids,
+const std::vector<size_t>& sizes);
+

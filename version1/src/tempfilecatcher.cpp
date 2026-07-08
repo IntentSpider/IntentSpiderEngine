@@ -379,3 +379,7 @@ double gaparea(const std::vector<std::array<double, 2>>& a,
 
 std::vector<std::array<double, 2>> loop;
 loop.reserve(a.size() + b.size());
+for (const auto& p : a) loop.push_back(p);
+
+
+

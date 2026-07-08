@@ -824,3 +824,7 @@ clustersizes.push_back(clustercount);
 centroids.push_back(c);
 }
 clusters.setstate(centroids, clustersizes);
+} else {
+lastranked.clear();
+lastcontext.clear();
+lastedgemass.clear();

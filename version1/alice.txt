@@ -3558,3 +3558,21 @@ to the user, provide a copy, a means of exporting a copy, or a means
 of obtaining a copy upon request, of the work in its original “plain
 vanilla ascii” or other form. any alternate format must include the
 full project gutenberg license as specified in paragraph 1.e.1.
+
+1.e.7. do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any project gutenberg works
+unless you comply with paragraph 1.e.8 or 1.e.9.
+
+1.e.8. you may charge a reasonable fee for copies of or providing
+access to or distributing project gutenberg electronic works
+provided that:
+
+    • you pay a royalty fee of 20% of the gross profits you derive from
+        the use of project gutenberg works calculated using the method
+        you already use to calculate your applicable taxes. the fee is owed
+        to the owner of the project gutenberg trademark, but he has
+        agreed to donate royalties under this paragraph to the project
+        gutenberg literary archive foundation. royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. royalty
+        payments should be clearly marked as such and sent to the project
