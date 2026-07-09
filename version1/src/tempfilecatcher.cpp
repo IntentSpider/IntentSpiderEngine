@@ -383,3 +383,7 @@ for (const auto& p : a) loop.push_back(p);
 
 
 
+
+for (auto it = b.rbegin(); it != b.rend(); ++it) loop.push_back(*it);
+
+

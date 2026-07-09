@@ -144,3 +144,6 @@ if (staticcast<int>(centroids.size()) < cfg.maxclusters) {
 centroids.push_back(f);
 sizes.push_back(1);
 }
+return;
+}
+++sizes[best];

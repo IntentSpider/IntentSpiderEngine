@@ -500,3 +500,7 @@ continue;
 
 }
 
+if (key == 127 || key == 8) {
+if (!buf.empty()) {
+buf.pop_back();
+eng.onkey(now, true);

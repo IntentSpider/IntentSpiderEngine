@@ -828,3 +828,11 @@ clusters.setstate(centroids, clustersizes);
 lastranked.clear();
 lastcontext.clear();
 lastedgemass.clear();
+lastp.clear();
+
+
+
+
+support.clear();
+}
+

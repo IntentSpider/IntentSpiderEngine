@@ -3576,3 +3576,27 @@ provided that:
         within 60 days following each date on which you prepare (or are
         legally required to prepare) your periodic tax returns. royalty
         payments should be clearly marked as such and sent to the project
+        gutenberg literary archive foundation at the address specified in
+        section 4, “information about donations to the project gutenberg
+        literary archive foundation.”
+    
+    • you provide a full refund of any money paid by a user who notifies
+        you in writing (or by email) within 30 days of receipt that s/he
+        does not agree to the terms of the full project gutenberg™
+        license. you must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of project gutenberg™
+        works.
+    
+    • you provide, in accordance with paragraph 1.f.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • you comply with all other terms of this agreement for free
+        distribution of project gutenberg™ works.
+    
+
+1.e.9. if you wish to charge a fee or distribute a project
+gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing

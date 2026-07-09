@@ -93,3 +93,6 @@ for (const auto& kv : out.p) {
 if (kv.second <= 0.0) continue;
 double q = kv.second / total;
 out.entropy -= q * std::log(q);
+}
+}
+return out;

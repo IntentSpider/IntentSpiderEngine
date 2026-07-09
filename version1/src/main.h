@@ -181,3 +181,4 @@ double lastselval = 0.0;
 
 
 
+double lastshockt = -1.0e18;
