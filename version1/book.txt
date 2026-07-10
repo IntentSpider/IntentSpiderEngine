@@ -3600,3 +3600,22 @@ provided that:
 1.e.9. if you wish to charge a fee or distribute a project
 gutenberg™ electronic work or group of works on different terms than
 are set forth in this agreement, you must obtain permission in writing
+from the project gutenberg literary archive foundation, the manager of
+the project gutenberg™ trademark. contact the foundation as set
+forth in section 3 below.
+
+1.f.
+
+1.f.1. project gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by u.s. copyright law in creating the project
+gutenberg™ collection. despite these efforts, project gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.f.2. limited warranty, disclaimer of damages - except for the “right
+of replacement or refund” described in paragraph 1.f.3, the project

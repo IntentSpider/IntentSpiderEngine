@@ -836,3 +836,6 @@ lastp.clear();
 support.clear();
 }
 
+
+
+int shockflag;
