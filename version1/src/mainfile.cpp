@@ -839,3 +839,9 @@ support.clear();
 
 
 int shockflag;
+if (!(in >> lastpreyactivity >> lastselval >> lastshockt >> shockflag >>
+lastval)) return false;
+recentshock = (shockflag != 0);
+if (v2) {
+std::string loadedbuffer;
+if (!(in >> std::quoted(loadedbuffer))) return false;

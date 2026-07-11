@@ -31,4 +31,3 @@ int main(){
     
     
     cout << strplaceholder0;    
-
