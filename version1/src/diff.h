@@ -56,4 +56,3 @@ double alpha);
 
 }
 
-

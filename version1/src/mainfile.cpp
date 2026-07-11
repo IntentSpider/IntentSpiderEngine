@@ -845,3 +845,7 @@ recentshock = (shockflag != 0);
 if (v2) {
 std::string loadedbuffer;
 if (!(in >> std::quoted(loadedbuffer))) return false;
+if (buffer) *buffer = loadedbuffer;
+
+} else if (buffer) {
+buffer>clear();

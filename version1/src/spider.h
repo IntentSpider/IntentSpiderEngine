@@ -152,3 +152,6 @@ const edge* find(uint32_t u, uint32_t v) const;
 
 
 
+
+const config& cfg;
+std::unordered_map<uint32_t, std::vector<edge>> adj;
