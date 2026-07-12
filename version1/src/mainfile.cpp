@@ -849,3 +849,7 @@ if (buffer) *buffer = loadedbuffer;
 
 } else if (buffer) {
 buffer>clear();
+
+
+}
+

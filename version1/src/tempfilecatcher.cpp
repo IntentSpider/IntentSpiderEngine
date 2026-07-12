@@ -392,5 +392,3 @@ double s = 0.0;
 
 
 for (size_t i = 0; i < loop.size(); ++i) {
-const auto& p = loop[i];
-const auto& q = loop[(i + 1) % loop.size()];

@@ -96,3 +96,4 @@ out.entropy -= q * std::log(q);
 }
 }
 return out;
+}

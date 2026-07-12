@@ -3660,3 +3660,23 @@ remaining provisions.
 
 1.f.6. indemnity - you agree to indemnify and hold the foundation, the
 trademark owner, any agent or employee of the foundation, anyone
+providing copies of project gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of project gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any project gutenberg work, (b) alteration, modification, or
+additions or deletions to any project gutenberg work, and (c) any
+defect you cause.
+
+section 2. information about the mission of project gutenberg
+
+project gutenberg is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middleaged and new computers. it
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching project gutenberg’s
