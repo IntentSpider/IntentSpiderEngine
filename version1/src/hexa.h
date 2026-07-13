@@ -140,3 +140,7 @@ const std::vector<size_t>& sizes);
 
  private:
 const config& cfg;
+std::vector<std::array<double, 4>> centroids;
+std::vector<size_t> sizes;
+};
+

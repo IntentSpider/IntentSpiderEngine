@@ -516,3 +516,5 @@ continue;
 if (key >= 32 && key < 127) {
 buf.push_back(staticcast<char>(key));
 eng.onkey(now, false);
+std::cout << staticcast<char>(key) << std::flush;
+

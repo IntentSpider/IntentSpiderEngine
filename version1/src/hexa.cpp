@@ -147,3 +147,5 @@ sizes.push_back(1);
 return;
 }
 ++sizes[best];
+double lr = 1.0 / staticcast<double>(sizes[best]);
+for (int j = 0; j < 4; ++j)

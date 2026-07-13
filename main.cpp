@@ -30,4 +30,3 @@ int main(){
     cin.tie(NULL);
     
     
-    cout << strplaceholder0;    

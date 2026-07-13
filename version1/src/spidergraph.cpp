@@ -375,3 +375,8 @@ e.tw >> e.ts >> e.tsup >> e.tlast;
 in >> u >> v >> e.w >> e.tf >> e.s >> e.negacc >> e.sup >> e.tw >>
 e.ts >> e.tsup >> e.tlast;
 } else {
+in >> u >> v >> e.w >> e.tf >> e.tw >> e.tlast;
+e.ts = e.tw;
+}
+if (!in) return false;
+e.target = v;
