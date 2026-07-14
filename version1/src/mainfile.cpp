@@ -857,3 +857,6 @@ buffer>clear();
 
 if (loadedtimestampshift != 0.0) {
 for (auto& kv : preylast) kv.second += loadedtimestampshift;
+for (auto& d : streakdeltas) d.t += loadedtimestampshift;
+support.shifttimestamps(loadedtimestampshift);
+if (lastpreyactivity >= 0.0) lastpreyactivity += loadedtimestampshift;

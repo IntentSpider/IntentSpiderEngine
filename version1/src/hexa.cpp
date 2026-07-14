@@ -149,3 +149,6 @@ return;
 ++sizes[best];
 double lr = 1.0 / staticcast<double>(sizes[best]);
 for (int j = 0; j < 4; ++j)
+centroids[best][j] += lr * (f[j] - centroids[best][j]);
+}
+

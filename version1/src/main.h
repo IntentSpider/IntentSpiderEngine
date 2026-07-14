@@ -186,3 +186,4 @@ bool recentshock = false;
 
 double lastval = 0.0;
 double loadedtimestampshift = 0.0;
+uint64_t tokensobserved = 0;

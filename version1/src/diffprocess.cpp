@@ -95,3 +95,6 @@ double q = kv.second / total;
 out.entropy -= q * std::log(q);
 }
 }
+return out;
+}
+

@@ -49,3 +49,5 @@ class rawterminal {
 
   bool active = false;
 #endif
+};
+

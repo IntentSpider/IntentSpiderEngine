@@ -380,3 +380,4 @@ e.ts = e.tw;
 }
 if (!in) return false;
 e.target = v;
+adj[u].push_back(e);

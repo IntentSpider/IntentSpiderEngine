@@ -77,4 +77,3 @@ sumdt = 0.0;
 ndt = 0;
 keys = 0;
 backspaces = 0;
-}

@@ -518,3 +518,7 @@ buf.push_back(staticcast<char>(key));
 eng.onkey(now, false);
 std::cout << staticcast<char>(key) << std::flush;
 
+
+if (!shown.empty()) shown.clear();
+}
+
