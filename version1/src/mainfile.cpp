@@ -860,3 +860,11 @@ for (auto& kv : preylast) kv.second += loadedtimestampshift;
 for (auto& d : streakdeltas) d.t += loadedtimestampshift;
 support.shifttimestamps(loadedtimestampshift);
 if (lastpreyactivity >= 0.0) lastpreyactivity += loadedtimestampshift;
+if (lastshockt > -1.0e17) lastshockt += loadedtimestampshift;
+}
+
+
+return true;
+
+
+

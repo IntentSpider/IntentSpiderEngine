@@ -17,3 +17,4 @@ src/spidershell.cpp
   src/tempfilecatcher.cpp
 )
 
+if(not msvc)
