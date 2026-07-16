@@ -18,3 +18,5 @@ src/spidershell.cpp
 )
 
 if(not msvc)
+  targetcompileoptions(intentspider private -o2 -wall -wextra)
+endif()

@@ -1,3 +1,9 @@
+/* 
+Copyright (c) 2025-2026 IntentSpider Webnet. All rights reserved. 
+Copyright (c) 2008-2026 Neksha DeSilva and https://intentspider.nekshadesilva.com. All rights reserved.
+IntentSpider is the Advanced Fluid Language Web For Textual Tension and Prediction. 
+Contact - https://intentspider.nekshadesilva.com/contactform 
+*/
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -398,5 +404,8 @@ s += p[0] * q[1] - q[0] * p[1];
 }
 
 return std::fabs(s) * 0.5;
+}
+
+
 }
 
